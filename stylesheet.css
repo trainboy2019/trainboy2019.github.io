@@ -326,6 +326,10 @@ IMG.logo {
     margin-right: auto;
 }
 
+.apple {
+    color: #bdb099;   
+}
+
 .content {
     font-family: 'sfns_displayultralight', Fallback, sans-serif; 
 	margin: 0 auto;
