@@ -336,8 +336,10 @@ IMG.logo {
 	margin-top: 10px;
 	width:600px;
 	padding: 20px 10px 20px 20px;
+    
 	background: #F0F0F0;
-    border-radius: 12px;
+    border-radius: 75px;
+    text-align: center; 
     
 }
 
