@@ -514,11 +514,10 @@ ul.style3 .date
 			  -moz-box-sizing: content-box;
                 align-content: center;
                 align-items: center;
-        position: absolute;
+        position:relative
 			  box-sizing: content-box;
 			  width: 161px;
-			  margin-left: auto;
-    margin-right: auto;
+			  
 			  padding: 20px;
 			  overflow: hidden;
 			  border: none;
