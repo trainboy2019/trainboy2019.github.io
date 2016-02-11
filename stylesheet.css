@@ -512,6 +512,8 @@ ul.style3 .date
 .enjoy-css {
 			  -webkit-box-sizing: content-box;
 			  -moz-box-sizing: content-box;
+                align-content: center;
+                align-items: center;
 			  box-sizing: content-box;
 			  width: 161px;
 			  margin: 5%;

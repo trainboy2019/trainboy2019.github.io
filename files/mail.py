@@ -26,15 +26,15 @@ while True:
         print('Error')
         sys.exit('NO!')
 
-fromaddr = 'xxfreestuffforyouxx@gmail.com'
+fromaddr = ''
 print ('Who do you want to spam?')
 toaddrs = input()
 sub = 'CONGRATULATIONS YOU WIN!'
 msg = 'You won a free tree! Come to Mexico City now!'
 
 # Credentials (if needed)
-username = 'xxfreestuffforyouxx@gmail.com'
-password = 'Xx_Spambot8000_xX'
+username = 'email'
+password = 'password'
 
 passworduse=password
 

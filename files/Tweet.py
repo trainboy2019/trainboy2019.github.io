@@ -5,10 +5,10 @@ import random
 import string
  
 # Consumer keys and access tokens, used for OAuth
-consumer_key = 'MafNCTqW1NqfJdoIWjLrZo8bX'
-consumer_secret = '06Llvm29GIy4zn35Qyu2IC5kRSTXgXj0hgmJjOp9lGWbGMGiXj'
-access_token = '4828103278-mmnPPfTfHIFQdsAxgUUHsDQ5kpWRJJzwwHACJdm'
-access_token_secret = '3idCPeKJL9u3hE4FNza4dr2dbcHytKDk4HHmAmN7GEWCV'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = ''
 
 
 #print('What do you want to tweet?')
@@ -18,7 +18,7 @@ access_token_secret = '3idCPeKJL9u3hE4FNza4dr2dbcHytKDk4HHmAmN7GEWCV'
 #    sys.exit('Too Long!')
 random1 = (''.join([random.choice(string.ascii_letters + string.digits) for n in range(100)]))
 
-print('How many times do you want to tweet '+random1+'?')
+print('How many times do you want to tweet random gibberish?')
 while True:
     try:
         timestosend=int(input())
