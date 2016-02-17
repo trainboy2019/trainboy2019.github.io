@@ -201,15 +201,18 @@ div.fixed {
 	</div>
 	<!--<div class="content">
 		<h2 class="help">Hover over me!</h2>
-	</div>-->
+	</div>
 	<div class="content">
 		<a class="twitter-timeline" href="https://twitter.com/trainboy2019" data-widget-id="691853575673266178">Tweets by @trainboy2019
 		</a>
 		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+:"//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 		</script>
-	</div>
+	</div>-->
 
 	<div class="content">
+		<p>
+			Your operating system is:
+		</p>
 		<script type="text/javascript">
 		var OS_Name = navigator.appVersion;
 		if (OS_Name.indexOf("Win") != -1) {
@@ -217,15 +220,45 @@ div.fixed {
 		} else if (OS_Name.indexOf("Mac") != -1) {
 			document.write("OS X");
 		} else if (OS_Name.indexOf("X11") != -1) {
-			document.write("Unix Operating System ");
+			document.write("Unix Operating System");
 		} else if (OS_Name.indexOf("Linux") != -1) {
-			document.write("Linux Operating System ");
+			document.write("Linux Operating System");
 		} else if (OS_Name.indexOf("SunOS") != -1) {
-			document.write("Solaris Operating System ");
+			document.write("Solaris Operating System");
 		} else {
-			document.write("Unknown Operation System ");
+			document.write("Unknown Operation System");
 		}
-	</script>
+
+
+		</script>
+		</div>
+		<div class="content">
+		<script type="text/javascript">
+		    // Opera 8.0+
+			var isOpera = (!!window.opr && !!opr.addons) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
+   			 // Firefox 1.0+
+			var isFirefox = typeof InstallTrigger !== 'undefined';
+    		// At least Safari 3+: "[object HTMLElementConstructor]"
+			var isSafari = Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0;
+    		// Internet Explorer 6-11
+			var isIE = /*@cc_on!@*/false || !!document.documentMode;
+    		// Edge 20+
+			var isEdge = !isIE && !!window.StyleMedia;
+    		// Chrome 1+
+			var isChrome = !!window.chrome && !!window.chrome.webstore;
+    		// Blink engine detection
+			var isBlink = (isChrome || isOpera) && !!window.CSS;
+
+			var output = 'Let me guess what browser you are using. <br>';
+			output += 'It is ' + isFirefox + ' that you are using Firefox.' + '<br>';
+			output += 'It is ' + isChrome + ' that you are using Google Chrome.' + '<br>';
+			output += 'It is ' + isSafari + ' that you are using Safari.' + '<br>';
+			output += 'It is ' + isOpera + ' that you are using Opera.' + '<br>';
+			output += 'It is ' + isIE + ' that you are using Internet Explorer.' + '<br>';
+			output += 'It is ' + isEdge + ' that you are using Microsoft Edge.' + '<br>';
+			output += 'It is ' + isBlink + ' that you are using a browser that uses Blink.' + '<br>';
+			document.write(output);
+		</script>	
 	</div>
 
 	<div class="content">
@@ -236,20 +269,20 @@ div.fixed {
 	<div class="content">
 		<b>Download the Ike App!</b>
 		<a href="files/Ike%20App.zip">
-			<img src="https://raw.githubusercontent.com/trainboy2019/trainboy2019.github.io/master/images/IkeApp.tiff" width="100%" height="100%" alt="Test Icon"/>
+			<img src="images/IkeAppCopy.png" width="100%" height="100%" alt="Ike App"/>
 		</a>
 	</div>
 
 
 	<div class="content">
 		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
-">
-<input type="image" src="images/Donate.png"  width="75%" height="50%" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-</div>
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+			">
+			<input type="image" src="images/Donate.png"  width="75%" height="50%" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+		</form>
+	</div>
 <br />
 <br />
 <br />
