@@ -210,6 +210,13 @@ div.fixed {
 	</div>
 
 	<div class="content">
+		<?php?
+		session_start();
+		echo $_SERVER['HTTP_USER_AGENT'];
+		?>
+	</div>
+
+	<div class="content">
 		<a href="files/mail.py">Test Download 1!</a>
 		<a href="files/tweet.py">Test Download 2!</a>
 		<a href="files/caesarCipher.py">Test Download 3!</a>
