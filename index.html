@@ -4,11 +4,19 @@
 	<head>
 		
 		<title>Hello World</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=uUTF-8" />
+		<!--<meta http-equiv="Content-Type" content="text/html; charset=uUTF-8" />-->
+		<meta http-equiv="Default-Style" content="Red">
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="specimen_files/easytabs.js" type="text/javascript" charset="utf-8"></script>
 	<!--	<link rel="stylesheet" href="specimen_files/specimen_stylesheet.css" type="text/css" charset="utf-8" />-->
-		<link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
+		<link id="pagestyle" rel="stylesheet" type="text/css" href="stylesheetRed.css" title="Red">
+		<!--<link rel="alternate stylesheet" type="text/css" media="screen" href="stylesheetBlue" title="Blue" />
+		<link rel="different stylesheet" type="text/css" media="screen" href="stylesheetGreen.css" title="Green">-->
+		<script>
+		function swapStyleSheet(sheet){
+			document.getElementById('pagestyle').setAttribute('href', sheet);
+		}
+		</script>
 		<link rel="shortcut icon" href="images/terpir.png">
 
 		<script src="http://whichbrowser.net/lib/detect.js?ua=Mozilla%2F5.0%20(Macintosh%3B%20Intel%20Mac%20OS%20X%2010_9_5)%20AppleWebKit%2F537.78.2%20(KHTML%2C%20like%20Gecko)%20Version%2F7.0.6%20Safari%2F537.78.2&amp;e=16&amp;f=127&amp;r=exp2d6&amp;w=1440&amp;h=900"></script>
@@ -202,6 +210,13 @@ div.fixed {
 			<u>HELLO WORLD U</u>
 			
 		</div>
+	</div>
+
+	<div class="content">
+		<button onclick="swapStyleSheet('stylesheetRed.css')">Red</button>
+		<button onclick="swapStyleSheet('stylesheetGreen.css')">Green</button>
+		<button onclick="swapStyleSheet('stylesheetBlue.css')">Blue</button>
+		<button onclick="swapStyleSheet('stylesheetYellow.css')">Yellow</button>
 	</div>
 	
 	<div class="content">
