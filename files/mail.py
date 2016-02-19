@@ -26,7 +26,7 @@ while True:
         print('Error')
         sys.exit('NO!')
 
-fromaddr = ''
+fromaddr = 'email'
 print ('Who do you want to spam?')
 toaddrs = input()
 sub = 'CONGRATULATIONS YOU WIN!'

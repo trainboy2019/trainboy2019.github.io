@@ -251,6 +251,61 @@ div.fixed {
 		</b>
 		
 	</div>
+	
+	<div class="content">
+<script language="javascript">
+		console.log(navigator);
+		console.log(navigator.userAgent);
+		var OSName = "Unknown";
+		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_11") != -1) OSName="Mac OS X El Capitan";
+		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_10") != -1) OSName="Mac OS X Yosemite";
+		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_9") != -1) OSName="Mac OS X Mavericks";
+		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_8") != -1) OSName="Mac OS X Mountain Lion";
+		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_7") != -1) OSName="Mac OS X Lion";
+		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_6") != -1) OSName="Mac OS X Snow Leopard";
+		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_5") != -1) OSName="Mac OS X Leopard";
+		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_4") != -1) OSName="Mac OS X Tiger";
+		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_3") != -1) OSName="Mac OS X Panther";
+		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_2") != -1) OSName="Mac OS X Jaguar";
+		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_1") != -1) OSName="Mac OS X Puma";
+		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_0") != -1) OSName="Mac OS X Cheetah";
+		if (window.navigator.userAgent.indexOf("windows nt 5.1") != -1) OSName="Windows XP";
+		if (window.navigator.userAgent.indexOf("windows nt 6.0") != -1) OSName="Windows Vista";
+		if (window.navigator.userAgent.indexOf("windows nt 6.1") != -1) OSName="Windows 7";
+		if (window.navigator.userAgent.indexOf("windows nt 6.2") != -1) OSName="Windows 8";
+		if (window.navigator.userAgent.indexOf("windows nt 6.3") != -1) OSName="Windows 8.1";
+		if (window.navigator.userAgent.indexOf("windows nt 10.0") != -1) OSName="Windows 10";
+		if (window.navigator.userAgent.indexOf("X11; Linux i686; rv:10.0)") != -1) OSName="Linux";
+		if (window.navigator.userAgent.indexOf("X11; Linux x86_64; rv:10.0") != -1) OSName="Linux";
+		if (window.navigator.userAgent.indexOf("X11; Linux i686 on x86_64; rv:10.0") != -1) OSName="Linux";
+		if (window.navigator.userAgent.indexOf("Maemo; Linux armv7l; rv:10.0") != -1) OSName="Linux";
+		if (window.navigator.userAgent.indexOf("Android; Mobile; rv:30.0") != -1) OSName="Android Phone";
+		if (window.navigator.userAgent.indexOf("Android; Tablet; rv:30.0") != -1) OSName="Android Tablet";
+		if (window.navigator.userAgent.indexOf("Mobile; rv:26.0") != -1) OSName="Firefox Phone";
+		if (window.navigator.userAgent.indexOf("Tablet; rv:26.0") != -1) OSName="Firefox Tablet";
+		if (window.navigator.userAgent.indexOf("iPad; CPU OS 1") != -1) OSName="iPad iOS 1";
+		if (window.navigator.userAgent.indexOf("iPad; CPU OS 2") != -1) OSName="iPad iOS 2";
+		if (window.navigator.userAgent.indexOf("iPad; CPU OS 3") != -1) OSName="iPad iOS 3";
+		if (window.navigator.userAgent.indexOf("iPad; CPU OS 4") != -1) OSName="iPad iOS 4";
+		if (window.navigator.userAgent.indexOf("iPad; CPU OS 5") != -1) OSName="iPad iOS 5";
+		if (window.navigator.userAgent.indexOf("iPad; CPU OS 6") != -1) OSName="iPad iOS 6";
+		if (window.navigator.userAgent.indexOf("iPad; CPU OS 7") != -1) OSName="iPad iOS 7";
+		if (window.navigator.userAgent.indexOf("iPad; CPU OS 8") != -1) OSName="iPad iOS 8";
+		if (window.navigator.userAgent.indexOf("iPad; CPU OS 9") != -1) OSName="iPad iOS 9";
+		if (window.navigator.userAgent.indexOf("iPhone; CPU OS 1") != -1) OSName="iPhone iOS 1";
+		if (window.navigator.userAgent.indexOf("iPhone; CPU OS 2") != -1) OSName="iPhone iOS 2";
+		if (window.navigator.userAgent.indexOf("iPhone; CPU OS 3") != -1) OSName="iPhone iOS 3";
+		if (window.navigator.userAgent.indexOf("iPhone; CPU OS 4") != -1) OSName="iPhone iOS 4";
+		if (window.navigator.userAgent.indexOf("iPhone; CPU OS 5") != -1) OSName="iPhone iOS 5";
+		if (window.navigator.userAgent.indexOf("iPhone; CPU OS 6") != -1) OSName="iPhone iOS 6";
+		if (window.navigator.userAgent.indexOf("iPhone; CPU OS 7") != -1) OSName="iPhone iOS 7";
+		if (window.navigator.userAgent.indexOf("iPhone; CPU OS 8") != -1) OSName="iPhone iOS 8";
+		if (window.navigator.userAgent.indexOf("iPhone; CPU OS 9") != -1) OSName="iPhone iOS 9";
+			
+	document.write(OSName)
+</script>
+
+	</div>
 
 	<div class="content">
 		<p class="tab blink">This is an example of blinking text using CSS.</p>
@@ -262,7 +317,7 @@ div.fixed {
 		<!---<iframe src="https://quizlet.com/117737272/test/embed" height="410" width="300%" style="border:0"></iframe>
 		<hr />-->
 		<script type="text/javascript"> Cufon.now(); </script>
-		<script language="javascript">
+		<script language="javascript", style="text-align: center">
 			var popupWindow = null;
 			function centeredPopup(url,winName,w,h,scroll)
 			{
@@ -301,13 +356,13 @@ div.fixed {
 		if (OS_Name.indexOf("Win") != -1) {
 			document.write("Windows");
 		} else if (OS_Name.indexOf("Mac") != -1) {
-			document.write("OS X");
+			document.write("Mac OS X");
 		} else if (OS_Name.indexOf("X11") != -1) {
-			document.write("Unix Operating System");
+			document.write("Unix");
 		} else if (OS_Name.indexOf("Linux") != -1) {
-			document.write("Linux Operating System");
+			document.write("Linux");
 		} else if (OS_Name.indexOf("SunOS") != -1) {
-			document.write("Solaris Operating System");
+			document.write("Solaris");
 		} else {
 			document.write("Unknown Operation System");
 		}
