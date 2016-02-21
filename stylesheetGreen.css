@@ -628,7 +628,7 @@ ul.style3 .date
     height: 2.55556em;
     margin: 0 auto;
     background: #F2F2F2;
-    background: rgba(240, 240, 240, 0.9);
+    background: rgba(240, 240, 240, 0.8);
     font-size: 18px;
     z-index: 9999;
 }
