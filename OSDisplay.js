@@ -28,12 +28,12 @@ console.log(navigator);
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10.0") != -1) OSName="Mac OS X Cheetah";
 
 
-		if (window.navigator.userAgent.indexOf("windows nt 5.1") != -1) OSName="Windows XP";
-		if (window.navigator.userAgent.indexOf("windows nt 6.0") != -1) OSName="Windows Vista";
-		if (window.navigator.userAgent.indexOf("windows nt 6.1") != -1) OSName="Windows 7";
-		if (window.navigator.userAgent.indexOf("windows nt 6.2") != -1) OSName="Windows 8";
-		if (window.navigator.userAgent.indexOf("windows nt 6.3") != -1) OSName="Windows 8.1";
-		if (window.navigator.userAgent.indexOf("windows nt 10.0") != -1) OSName="Windows 10";
+		if (window.navigator.userAgent.indexOf("Windows NT 5.1") != -1) OSName="Windows XP";
+		if (window.navigator.userAgent.indexOf("Windows NT 6.0") != -1) OSName="Windows Vista";
+		if (window.navigator.userAgent.indexOf("Windows NT 6.1") != -1) OSName="Windows 7";
+		if (window.navigator.userAgent.indexOf("Windows NT 6.2") != -1) OSName="Windows 8";
+		if (window.navigator.userAgent.indexOf("Windows NT 6.3") != -1) OSName="Windows 8.1";
+		if (window.navigator.userAgent.indexOf("Windows NT 10.0") != -1) OSName="Windows 10";
 		if (window.navigator.userAgent.indexOf("X11; Linux i686; rv:10.0)") != -1) OSName="Linux";
 		if (window.navigator.userAgent.indexOf("X11; Linux x86_64; rv:10.0") != -1) OSName="Linux";
 		if (window.navigator.userAgent.indexOf("X11; Linux i686 on x86_64; rv:10.0") != -1) OSName="Linux";
