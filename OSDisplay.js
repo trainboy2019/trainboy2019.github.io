@@ -28,6 +28,7 @@ console.log(navigator);
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10.0") != -1) OSName="Mac OS X Cheetah";
 
 
+		// if (window.navigator.userAgent.indexOf/IEMobile/i.test) != -1) OSName="Android Phone";
 		if (window.navigator.userAgent.indexOf("Windows NT 5.1") != -1) OSName="Windows XP";
 		if (window.navigator.userAgent.indexOf("Windows NT 6.0") != -1) OSName="Windows Vista";
 		if (window.navigator.userAgent.indexOf("Windows NT 6.1") != -1) OSName="Windows 7";

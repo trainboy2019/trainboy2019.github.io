@@ -636,6 +636,7 @@ ul.style3 .date
 .sticky {
   background-color: #9cfb44;
   background-image: linear-gradient(to left, #9cfb44, #48fc31);
+    padding-left: 1%;
 }
 
 
