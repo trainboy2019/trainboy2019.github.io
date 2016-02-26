@@ -1,23 +1,25 @@
 <?php
-//open up the log file
-$file = fopen(‘log.html’, ‘a’);
+$ipaddress = $_SERVER[‘REMOTE_ADDR’];
+$page = “http://{$_SERVER[‘HTTP_HOST’]}{$_SERVER[‘PHP_SELF’]}”;
+$page .= iif(!empty($_SERVER[‘QUERY_STRING’]), “?{$_SERVER[‘QUERY_STRING’]}”, “”);
+$referrer = $_SERVER[‘HTTP_REFERER’];
+$datetime = mktime();
+$useragent = $_SERVER[‘HTTP_USER_AGENT’];
+$remotehost = @getHostByAddr($ipaddress);
 
-//write the time of access
 
-$time = date(‘H:i dS F’);
-fwrite($file, ‘<b>Time:</b> $time<br/>’ );
+$logline = $ipaddress . ‘|’ . $referrer . ‘|’ . $datetime . ‘|’ . $useragent . ‘|’ . $remotehost . ‘|’ . $page . “\n”;
 
-//write the users IP address
-fwrite( $file, ‘<b>Ip Address:</b> $REMOTE_ADDR<br/>’);
 
-//write out the page that sent them here
-fwrite($file, ‘<b>Referer:</b> $HTTP_REFFERER<br/>’);
+$logfile = ‘files/log.txt’;
 
-//write the users browser details
+if (!$handle = fopen($logfile, ‘a+’)) {
+die(“Failed to open log file”);
+}
 
-fwrite( $file, ‘<b>Browser:</b> $HTTP_USER_AGENT<hr/>’);
+if (fwrite($handle, $logline) === FALSE) {
+die(“Failed to write to log file”);
+}
 
-//and finial, close the log file
-fclose( $file );
-
+fclose($handle);
 ?>
