@@ -36,7 +36,8 @@ console.log(navigator);
   //     			OSName="Android Phone Version "+androidversion;
   // 			}
 		// }
-		// if (window.navigator.userAgent.indexOf/IEMobile/i.test) != -1) OSName="Android Phone";
+		if (window.navigator.userAgent.indexOf("Linux; Android 4.4.2") != -1) OSName="Android Phone";
+		//if (window.navigator.userAgent.match(/Android/i) ) OSName="Android"
 		if (window.navigator.userAgent.indexOf("Windows NT 5.1") != -1) OSName="Windows XP";
 		if (window.navigator.userAgent.indexOf("Windows NT 6.0") != -1) OSName="Windows Vista";
 		if (window.navigator.userAgent.indexOf("Windows NT 6.1") != -1) OSName="Windows 7";
