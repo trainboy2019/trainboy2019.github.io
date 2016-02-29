@@ -28,6 +28,14 @@ console.log(navigator);
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10.0") != -1) OSName="Mac OS X Cheetah";
 
 
+		// if( ua.indexOf("Android") >= 0 )
+		// {
+  // 			var androidversion = parseFloat(ua.slice(ua.indexOf("Android")+8)); 
+  // 			if (androidversion < 2.3)
+  // 			{
+  //     			OSName="Android Phone Version "+androidversion;
+  // 			}
+		// }
 		// if (window.navigator.userAgent.indexOf/IEMobile/i.test) != -1) OSName="Android Phone";
 		if (window.navigator.userAgent.indexOf("Windows NT 5.1") != -1) OSName="Windows XP";
 		if (window.navigator.userAgent.indexOf("Windows NT 6.0") != -1) OSName="Windows Vista";

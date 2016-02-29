@@ -614,13 +614,12 @@ ul.style3 .date
 
 
 .orange-cover {
-  background-color: #a2fa43;
-  background-image: linear-gradient(to left, #a2fa43, #e5fc30);
-  width:100%;
-  height:46px;
-  margin-top:-46px;
+    background-color: #c2fa35;
+    background-image: linear-gradient(to left, #c2fa35, #e5fc30);
+    width: 100%;
+    height: 46px;
+    margin-top: -46px;
 }
-
 
 /* GLOBALHEADER */
 .globalheader {
@@ -634,8 +633,8 @@ ul.style3 .date
 }
 
 .sticky {
-  background-color: #a2fa43;
-  background-image: linear-gradient(to left, #a2fa43, #e5fc30);
+    background-color: #c2fa35;
+    background-image: linear-gradient(to left, #c2fa35, #e5fc30);
     padding-left: 1%;
 }
 
