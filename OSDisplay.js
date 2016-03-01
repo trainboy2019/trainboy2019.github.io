@@ -3,6 +3,7 @@ console.log(navigator);
 		var OSName = "Unknown";
 		var isAndroid ="false"
 		var isMobile=""
+		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_12") != -1) OSName="Mac OS X Fuji";
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_11") != -1) OSName="Mac OS X El Capitan";
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_10") != -1) OSName="Mac OS X Yosemite";
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_9") != -1) OSName="Mac OS X Mavericks";
@@ -16,6 +17,7 @@ console.log(navigator);
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_1") != -1) OSName="Mac OS X Puma";
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_0") != -1) OSName="Mac OS X Cheetah";
 
+		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10.12") != -1) OSName="Mac OS X Fuji";
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10.11") != -1) OSName="Mac OS X El Capitan";
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10.10") != -1) OSName="Mac OS X Yosemite";
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10.9") != -1) OSName="Mac OS X Mavericks";
@@ -79,7 +81,6 @@ console.log(navigator);
 		if (window.navigator.userAgent.indexOf("iPad; CPU iPad OS 1_7 like Mac OS X") != -1) OSName="iPad iOS 1.7";
 		if (window.navigator.userAgent.indexOf("iPad; CPU iPad OS 1_8 like Mac OS X") != -1) OSName="iPad iOS 1.8";
 		if (window.navigator.userAgent.indexOf("iPad; CPU iPad OS 1_9 like Mac OS X") != -1) OSName="iPad iOS 1.9";
-
 
 		if (window.navigator.userAgent.indexOf("iPad; CPU iPad OS 2_0 like Mac OS X") != -1) OSName="iPad iOS 2.0";
 		if (window.navigator.userAgent.indexOf("iPad; CPU iPad OS 2_1 like Mac OS X") != -1) OSName="iPad iOS 2.1";
@@ -180,7 +181,6 @@ console.log(navigator);
 		if (window.navigator.userAgent.indexOf("iPod; CPU iPod OS 1_8 like Mac OS X") != -1) OSName="iPod iOS 1.8";
 		if (window.navigator.userAgent.indexOf("iPod; CPU iPod OS 1_9 like Mac OS X") != -1) OSName="iPod iOS 1.9";
 
-
 		if (window.navigator.userAgent.indexOf("iPod; CPU iPod OS 2_0 like Mac OS X") != -1) OSName="iPod iOS 2.0";
 		if (window.navigator.userAgent.indexOf("iPod; CPU iPod OS 2_1 like Mac OS X") != -1) OSName="iPod iOS 2.1";
 		if (window.navigator.userAgent.indexOf("iPod; CPU iPod OS 2_2 like Mac OS X") != -1) OSName="iPod iOS 2.2";
@@ -269,6 +269,8 @@ console.log(navigator);
 		if (window.navigator.userAgent.indexOf("iPod; CPU iPod OS 9_8 like Mac OS X") != -1) OSName="iPod iOS 9.8";
 		if (window.navigator.userAgent.indexOf("iPod; CPU iPod OS 9_9 like Mac OS X") != -1) OSName="iPod iOS 9.9";
 
+
+
 		if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS 1_0 like Mac OS X") != -1) OSName="iPhone iOS 1.0";
 		if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS 1_1 like Mac OS X") != -1) OSName="iPhone iOS 1.1";
 		if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS 1_2 like Mac OS X") != -1) OSName="iPhone iOS 1.2";
@@ -279,7 +281,6 @@ console.log(navigator);
 		if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS 1_7 like Mac OS X") != -1) OSName="iPhone iOS 1.7";
 		if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS 1_8 like Mac OS X") != -1) OSName="iPhone iOS 1.8";
 		if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS 1_9 like Mac OS X") != -1) OSName="iPhone iOS 1.9";
-
 
 		if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS 2_0 like Mac OS X") != -1) OSName="iPhone iOS 2.0";
 		if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS 2_1 like Mac OS X") != -1) OSName="iPhone iOS 2.1";
@@ -371,13 +372,6 @@ console.log(navigator);
 
 
 
-
-
-
-
-
-
-
 		if (window.navigator.userAgent.indexOf("iPad; CPU iPad OS 1.0 like Mac OS X") != -1) OSName="iPad iOS 1.0";
 		if (window.navigator.userAgent.indexOf("iPad; CPU iPad OS 1.1 like Mac OS X") != -1) OSName="iPad iOS 1.1";
 		if (window.navigator.userAgent.indexOf("iPad; CPU iPad OS 1.2 like Mac OS X") != -1) OSName="iPad iOS 1.2";
@@ -388,7 +382,6 @@ console.log(navigator);
 		if (window.navigator.userAgent.indexOf("iPad; CPU iPad OS 1.7 like Mac OS X") != -1) OSName="iPad iOS 1.7";
 		if (window.navigator.userAgent.indexOf("iPad; CPU iPad OS 1.8 like Mac OS X") != -1) OSName="iPad iOS 1.8";
 		if (window.navigator.userAgent.indexOf("iPad; CPU iPad OS 1.9 like Mac OS X") != -1) OSName="iPad iOS 1.9";
-
 
 		if (window.navigator.userAgent.indexOf("iPad; CPU iPad OS 2.0 like Mac OS X") != -1) OSName="iPad iOS 2.0";
 		if (window.navigator.userAgent.indexOf("iPad; CPU iPad OS 2.1 like Mac OS X") != -1) OSName="iPad iOS 2.1";
@@ -489,7 +482,6 @@ console.log(navigator);
 		if (window.navigator.userAgent.indexOf("iPod; CPU iPod OS 1.8 like Mac OS X") != -1) OSName="iPod iOS 1.8";
 		if (window.navigator.userAgent.indexOf("iPod; CPU iPod OS 1.9 like Mac OS X") != -1) OSName="iPod iOS 1.9";
 
-
 		if (window.navigator.userAgent.indexOf("iPod; CPU iPod OS 2.0 like Mac OS X") != -1) OSName="iPod iOS 2.0";
 		if (window.navigator.userAgent.indexOf("iPod; CPU iPod OS 2.1 like Mac OS X") != -1) OSName="iPod iOS 2.1";
 		if (window.navigator.userAgent.indexOf("iPod; CPU iPod OS 2.2 like Mac OS X") != -1) OSName="iPod iOS 2.2";
@@ -589,7 +581,6 @@ console.log(navigator);
 		if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS 1.8 like Mac OS X") != -1) OSName="iPhone iOS 1.8";
 		if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS 1.9 like Mac OS X") != -1) OSName="iPhone iOS 1.9";
 
-
 		if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS 2.0 like Mac OS X") != -1) OSName="iPhone iOS 2.0";
 		if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS 2.1 like Mac OS X") != -1) OSName="iPhone iOS 2.1";
 		if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS 2.2 like Mac OS X") != -1) OSName="iPhone iOS 2.2";
@@ -678,9 +669,6 @@ console.log(navigator);
 		if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS 9.8 like Mac OS X") != -1) OSName="iPhone iOS 9.8";
 		if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS 9.9 like Mac OS X") != -1) OSName="iPhone iOS 9.9";
 
-		if(isAndroid=="true"){
-			if(window.navigator.userAgent.indexOf("Mobile") != -1) isMobile="Phone"
-		}
 
 
 			
