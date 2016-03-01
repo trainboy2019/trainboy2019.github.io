@@ -1,6 +1,8 @@
 console.log(navigator);
 		console.log(navigator.userAgent);
 		var OSName = "Unknown";
+		var isAndroid ="false"
+		var isMobile=""
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_11") != -1) OSName="Mac OS X El Capitan";
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_10") != -1) OSName="Mac OS X Yosemite";
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_9") != -1) OSName="Mac OS X Mavericks";
@@ -36,7 +38,19 @@ console.log(navigator);
   //     			OSName="Android Phone Version "+androidversion;
   // 			}
 		// }
-		if (window.navigator.userAgent.indexOf("Linux; Android 4.4.2") != -1) OSName="Android Phone";
+
+		if (window.navigator.userAgent.indexOf("Linux; Android 0") != -1) OSName="Android 0";
+		if (window.navigator.userAgent.indexOf("Linux; Android 1") != -1) OSName="Android 1";
+		if (window.navigator.userAgent.indexOf("Linux; Android 2") != -1) OSName="Android 2";
+		if (window.navigator.userAgent.indexOf("Linux; Android 3") != -1) OSName="Android 3";
+		if (window.navigator.userAgent.indexOf("Linux; Android 4") != -1) OSName="Android 4";
+		if (window.navigator.userAgent.indexOf("Linux; Android 5") != -1) OSName="Android 5";
+		if (window.navigator.userAgent.indexOf("Linux; Android 6") != -1) OSName="Android 6";
+		if (window.navigator.userAgent.indexOf("Linux; Android 7") != -1) OSName="Android 7";
+		if (window.navigator.userAgent.indexOf("Linux; Android 8") != -1) OSName="Android 8";
+		if (window.navigator.userAgent.indexOf("Linux; Android 9") != -1) OSName="Android 9";
+
+
 		//if (window.navigator.userAgent.match(/Android/i) ) OSName="Android"
 		if (window.navigator.userAgent.indexOf("Windows NT 5.1") != -1) OSName="Windows XP";
 		if (window.navigator.userAgent.indexOf("Windows NT 6.0") != -1) OSName="Windows Vista";
@@ -663,5 +677,11 @@ console.log(navigator);
 		if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS 9.7 like Mac OS X") != -1) OSName="iPhone iOS 9.7";
 		if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS 9.8 like Mac OS X") != -1) OSName="iPhone iOS 9.8";
 		if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS 9.9 like Mac OS X") != -1) OSName="iPhone iOS 9.9";
+
+		if(isAndroid=="true"){
+			if(window.navigator.userAgent.indexOf("Mobile") != -1) isMobile="Phone"
+		}
+
+
 			
 	document.write(OSName)
