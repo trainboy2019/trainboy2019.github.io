@@ -187,6 +187,18 @@
 
 }
 
+.papa {
+  width: 750px;
+}
+
+.mama {
+  width: 500px; 
+}
+
+.baby {
+  width: 250px; 
+}
+
 
 html, body {
   height: 100%;
