@@ -40,6 +40,8 @@ console.log(navigator);
   //     			OSName="Android Phone Version "+androidversion;
   // 			}
 		// }
+		
+		
 
 		if (window.navigator.userAgent.indexOf("Linux; Android 0") != -1) OSName="Android Astro Boy";
 		if (window.navigator.userAgent.indexOf("Linux; Android 1.0") != -1) OSName="Android Blender";
@@ -885,7 +887,47 @@ console.log(navigator);
 		if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS 9.8 like Mac OS X") != -1) OSName="iPhone iOS 9.8";
 		if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS 9.9 like Mac OS X") != -1) OSName="iPhone iOS 9.9";
 
+		if (window.navigator.userAgent.indexOf("BlackBerry;") != -1) OSName="BlackBerry";
+		if (window.navigator.userAgent.indexOf("BlackBerry; U; BlackBerry 8100") != -1) OSName="BlackBerry 4.5";
+		if (window.navigator.userAgent.indexOf("BlackBerry; U; BlackBerry 8800") != -1) OSName="BlackBerry 4.5";
+		if (window.navigator.userAgent.indexOf("BlackBerry; U; BlackBerry 8300") != -1) OSName="BlackBerry Curve 4.5";
+		if (window.navigator.userAgent.indexOf("BlackBerry; U; BlackBerry 8310") != -1) OSName="BlackBerry Curve 4.5";
+		if (window.navigator.userAgent.indexOf("BlackBerry; U; BlackBerry 8320") != -1) OSName="BlackBerry Curve 4.5";
+		if (window.navigator.userAgent.indexOf("BlackBerry; U; BlackBerry 8330") != -1) OSName="BlackBerry Curve 5.0";
+		if (window.navigator.userAgent.indexOf("BlackBerry; U; BlackBerry 8350") != -1) OSName="BlackBerry Curve 5.0";
+		if (window.navigator.userAgent.indexOf("BlackBerry; U; BlackBerry 8530") != -1) OSName="BlackBerry Curve 5.0";
+		if (window.navigator.userAgent.indexOf("BlackBerry; U; BlackBerry 8900") != -1) OSName="BlackBerry Curve 5.0";
+		if (window.navigator.userAgent.indexOf("BlackBerry; U; BlackBerry 9000") != -1) OSName="BlackBerry Bold 5.0";
+		if (window.navigator.userAgent.indexOf("BlackBerry; U; BlackBerry 9650") != -1) OSName="BlackBerry Bold 6.0";
+		if (window.navigator.userAgent.indexOf("BlackBerry; U; BlackBerry 9700") != -1) OSName="BlackBerry Bold 6.0";
+		if (window.navigator.userAgent.indexOf("BlackBerry; U; BlackBerry 9780") != -1) OSName="BlackBerry Bold 6.0";
+		if (window.navigator.userAgent.indexOf("BlackBerry; U; BlackBerry 9300") != -1) OSName="BlackBerry Curve 6.0";
+		if (window.navigator.userAgent.indexOf("BlackBerry; U; BlackBerry 9330") != -1) OSName="BlackBerry Curve 6.0";
+		if (window.navigator.userAgent.indexOf("BlackBerry; U; BlackBerry 9100") != -1) OSName="BlackBerry Pearl 6.0";
+		if (window.navigator.userAgent.indexOf("BlackBerry; U; BlackBerry 9105") != -1) OSName="BlackBerry Pearl 6.0";
+		if (window.navigator.userAgent.indexOf("BlackBerry; U; BlackBerry 9670") != -1) OSName="BlackBerry Style 6.0";
+		if (window.navigator.userAgent.indexOf("BlackBerry; U; BlackBerry 9800") != -1) OSName="BlackBerry Torch 6.0";
+		if (window.navigator.userAgent.indexOf("BlackBerry; U; BlackBerry 9790") != -1) OSName="BlackBerry Bold 7";
+		if (window.navigator.userAgent.indexOf("BlackBerry; U; BlackBerry 9900") != -1) OSName="BlackBerry Bold 7";
+		if (window.navigator.userAgent.indexOf("BlackBerry; U; BlackBerry 9930") != -1) OSName="BlackBerry Bold 7";
+		if (window.navigator.userAgent.indexOf("BlackBerry; U; BlackBerry 9310") != -1) OSName="BlackBerry Curve 7";
+		if (window.navigator.userAgent.indexOf("BlackBerry; U; BlackBerry 9315") != -1) OSName="BlackBerry Curve 7";
+		if (window.navigator.userAgent.indexOf("BlackBerry; U; BlackBerry 9350") != -1) OSName="BlackBerry Curve 7";
+		if (window.navigator.userAgent.indexOf("BlackBerry; U; BlackBerry 9360") != -1) OSName="BlackBerry Curve 7";
+		if (window.navigator.userAgent.indexOf("BlackBerry; U; BlackBerry 9370") != -1) OSName="BlackBerry Curve 7";
+		if (window.navigator.userAgent.indexOf("BlackBerry; U; BlackBerry 9380") != -1) OSName="BlackBerry Curve 7";
+		if (window.navigator.userAgent.indexOf("BlackBerry; U; BlackBerry 9220") != -1) OSName="BlackBerry Curve 7";
+		if (window.navigator.userAgent.indexOf("BlackBerry; U; BlackBerry 9320") != -1) OSName="BlackBerry Curve 7";
+		if (window.navigator.userAgent.indexOf("BlackBerry; U; BlackBerry 9810") != -1) OSName="BlackBerry Torch 7";
+		if (window.navigator.userAgent.indexOf("BlackBerry; U; BlackBerry 9850") != -1) OSName="BlackBerry Torch 7";
+		if (window.navigator.userAgent.indexOf("BlackBerry; U; BlackBerry 9860") != -1) OSName="BlackBerry Torch 7";
+		if (window.navigator.userAgent.indexOf("BlackBerry; U; BlackBerry 9720") != -1) OSName="BlackBerry 7";
 
+		if (window.navigator.userAgent.indexOf("Compatible; MSIE 6.0; Windows NT 5.1 T-01A_6.5; Windows Phone 6.5") != -1) OSName="Windows Phone 6.5";
+		if (window.navigator.userAgent.indexOf("compatible; MSIE 9.0; Windows Phone OS 7.1;") != -1) OSName="Windows Phone 7.1";
+		if (window.navigator.userAgent.indexOf("compatible; MSIE 9.0; Windows Phone OS 7.5;") != -1) OSName="Windows Phone 7.5";
+		if (window.navigator.userAgent.indexOf("compatible; MSIE 7.0; Windows Phone OS 7.0;") != -1) OSName="Windows Phone 7";
+		if (window.navigator.userAgent.indexOf("compatible; MSIE 10.0; Windows Phone 8.0;") != -1) OSName="Windows Phone 8";
 
 			
 	document.write(OSName)
