@@ -1143,7 +1143,7 @@ console.log(navigator);
 		if (window.navigator.userAgent.indexOf("BlackBerry; I; BlackBerry 9105") != -1) OSName="BlackBerry Pearl 6.0";
 		if (window.navigator.userAgent.indexOf("BlackBerry; I; BlackBerry 9670") != -1) OSName="BlackBerry Style 6.0";
 		if (window.navigator.userAgent.indexOf("BlackBerry; I; BlackBerry 9800") != -1) OSName="BlackBerry Torch 6.0";
-		
+
 		if (window.navigator.userAgent.indexOf("BlackBerry; I; BlackBerry 9790") != -1) OSName="BlackBerry Bold 7";
 		if (window.navigator.userAgent.indexOf("BlackBerry; I; BlackBerry 9900") != -1) OSName="BlackBerry Bold 7";
 		if (window.navigator.userAgent.indexOf("BlackBerry; I; BlackBerry 9930") != -1) OSName="BlackBerry Bold 7";
@@ -1166,5 +1166,7 @@ console.log(navigator);
 		if (window.navigator.userAgent.indexOf("compatible; MSIE 7.0; Windows Phone OS 7.0;") != -1) OSName="Windows Phone 7";
 		if (window.navigator.userAgent.indexOf("compatible; MSIE 10.0; Windows Phone 8.0;") != -1) OSName="Windows Phone 8";
 
+
+		if (window.navigator.userAgent.indexOf("X11; CrOS") != -1) OSName="Chrome OS";
 			
 	document.write(OSName)
