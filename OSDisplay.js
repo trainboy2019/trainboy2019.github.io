@@ -1166,9 +1166,9 @@ console.log(navigator);
 		if (window.navigator.userAgent.indexOf("compatible; MSIE 7.0; Windows Phone OS 7.0;") != -1) OSName="Windows Phone 7";
 		if (window.navigator.userAgent.indexOf("compatible; MSIE 10.0; Windows Phone 8.0;") != -1) OSName="Windows Phone 8";
 
-		if (window.navigator.userAgent.indexOf("New Nintendo 3DS") != -1) OSName="New Nintendo 3DS";
-
 		if (window.navigator.userAgent.indexOf("Nintendo 3DS") != -1) OSName="Nintendo 3DS";
+
+		if (window.navigator.userAgent.indexOf("New Nintendo 3DS") != -1) OSName="New Nintendo 3DS";
 
 		if (window.navigator.userAgent.indexOf("Nintendo WiiU") != -1) OSName="Nintendo Wii U";
 
