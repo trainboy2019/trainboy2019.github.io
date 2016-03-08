@@ -336,7 +336,7 @@ IMG.logo {
 	margin-top: 10px;
 	width:600px;
 	padding: 20px 10px 20px 20px;
-    
+    opacity: 0;
 	background: #F0F0F0;
     border-radius: 75px;
     text-align: center; 
@@ -630,12 +630,14 @@ ul.style3 .date
     background: rgba(240, 240, 240, 0.8);
     font-size: 18px;
     z-index: 9999;
+    opacity: 0;
 }
 
 .sticky {
     background-color: #05d0fb;
     background-image: linear-gradient(to left, #05d0fb, #31fcfc);
     padding-left: 1%;
+    opacity: 0;
 }
 
 
