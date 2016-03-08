@@ -6,16 +6,19 @@
 		<title>Hello World</title>
 		<!--<meta http-equiv="Content-Type" content="text/html; charset=uUTF-8" />-->
 		<meta http-equiv="Default-Style" content="Red">
-		<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="jquery-2.2.1.js" type="text/javascript" charset="utf-8"></script>
+		
+		<!--<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js" type="text/javascript" charset="utf-8"></script>-->
 		<script type="text/javascript" src = "jquery.cre-animate.js"></script>
 		
 
 <script>
 $(document).ready(function(){
-    $("button").click(function(){
+    $("#colorbutton").click(function(){
         $("#div1").fadeToggle("fast");
         $("#div2").fadeToggle();
         $("#div3").fadeToggle("slow");
+
     });
 });
 </script>
@@ -23,13 +26,91 @@ $(document).ready(function(){
 
 
 <script>
+var t = 250;
+$(document).ready(function(){
+    $("#1").animate({ 
+    	
+        'opacity': '1'
+    },t);
+    $("#2").delay(t).animate({ 
+    	
+        'opacity': '1'
+    },t);
+    $("#3").delay(t*2).animate({ 
+    	
+        'opacity': '1'
+    },t);
+    $("#4").delay(t*3).animate({ 
+    	
+        'opacity': '1'
+    },t);
+    $("#5").delay(t*4).animate({ 
+    	
+        'opacity': '1'
+    },t);
+    $("#6").delay(t*5).animate({ 
+    	
+        'opacity': '1'
+    },t);
+    $("#7").delay(t*6).animate({ 
+    	
+        'opacity': '1'
+    },t);
+    $("#8").delay(t*7).animate({ 
+    	
+        'opacity': '1'
+    },t);
+    $("#9").delay(t*8).animate({ 
+    	
+        'opacity': '1'
+    },t);
+    $("#10").delay(t*9).animate({ 
+    	
+        'opacity': '1'
+    },t);
+    $("#11").delay(t*10).animate({ 
+    	
+        'opacity': '1'
+    },t);
+    $("#12").delay(t*11).animate({ 
+    	
+        'opacity': '1'
+    },t);
+    $("#13").delay(t*12).animate({ 
+    	
+        'opacity': '1'
+    },t);
+    $("#14").delay(t*13).animate({ 
+    	
+        'opacity': '1'
+    },t);
+    $("#15").delay(t*14).animate({ 
+    	
+        'opacity': '1'
+    },t);
+    $("#16").delay(t*15).animate({ 
+    	
+        'opacity': '1'
+    },t);
+    $("#17").delay(t*16).animate({ 
+    	
+        'opacity': '1'
+    },t);
+    $("#18").delay(t*17).animate({ 
+    	
+        'opacity': '1'
+    },t);
+});
+</script>
+
+<!--<script>
 $(document).ready(function(){
     $("*").animate({ 
         //'font-size' : '36',
         'opacity': '1'
-    },1500);
+    },1125);
 });
-</script>
+</script>-->
 		<!-- <script src="specimen_files/easytabs.js" type="text/javascript" charset="utf-8"></script> -->
 	<!--	<link rel="stylesheet" href="specimen_files/specimen_stylesheet.css" type="text/css" charset="utf-8" />-->
 		<link id="pagestyle" rel="stylesheet" type="text/css" href="stylesheetRed.css" title="Red">
@@ -212,6 +293,7 @@ die(“Failed to write to log file”);
 
 fclose($handle);
 ?>
+</php>
 
 
 	<!-- <body class="imageBox" onload="alertUser('Welcome to this AMAZING web page!')"> -->
@@ -220,7 +302,9 @@ fclose($handle);
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script type="text/javascript" src="arrow200.js"></script>
 
-
+<script>
+	console.log(1234567890*9876543210);
+	</script>
 
 
 <div class="globalheader">
@@ -251,11 +335,12 @@ fclose($handle);
 	
 <br />
 
+
 <script language="JavaScript type="text/javascript"src=files/logger.php"></script>
 <!-- <script type="text/javascript" src="http://javascripthost.com/scripts/logupdate.js"></script> -->
 
 
-	<div class="content">
+	<div class="content" id="1">
 		<div id="header">
 			<h1>HELLO <span class="red">WORLD</span> H1</h1>
 			<h2>HELLO WORLD H2</h2>
@@ -273,7 +358,7 @@ fclose($handle);
 		</div>
 	</div>
 
-	<div class="content">
+	<div class="content" id="2">
 		<button onclick="swapStyleSheet('stylesheetRed.css')">Red</button>
 		<button onclick="swapStyleSheet('stylesheetGreen.css')">Green</button>
 		<button onclick="swapStyleSheet('stylesheetBlue.css')">Blue</button>
@@ -282,24 +367,24 @@ fclose($handle);
 		<button onclick="swapStyleSheet('stylesheetMagenta.css')">Magenta</button>
 	</div>
 	
-	<div class="content">
+	<div class="content"id="3">
 		<p style="text-align:center;"><span style="font-family:Helvetica;font-size:14px;font-style:normal;font-weight:normal;text-decoration:blink;text-transform:none;color:9900FF;">Herp</span>
 		</p>
 		
 	</div>
-	<div class="content">
+	<div class="content"id="4">
 		<p id="demo"></p>
 		<script src="output.js"></script>
 	</div>
-	<div class="content">
+	<div class="content"id="5">
 		<a href="http://www.google.com">CLONK HRER!</a>
 	</div>
-	<div class="content">
+	<div class="content"id="6">
 		<a href="http://www.abc.xyz">
 			<img src="images/TestIcon.png" width="100%" height="100%" alt="Test Icon"/>
 		</a>
 	</div>
-	<div class="content">
+	<div class="content"id="7">
 		<ul>
 			<li>1</li>
 			<li>2</li>
@@ -311,16 +396,18 @@ fclose($handle);
 		</ol>
 	</div>
 
-	<div class="content">
 
-		<button>Click to fade in boxes</button><br><br>
+
+	<div class="content"id="8">
+
+		<button id="colorbutton">Click to fade in boxes</button><br><br>
 
 <div id="div1" style="width:80px;height:80px;display:none;background-color:gold;margin-left:10px;"></div><br>
 <div id="div2" style="width:80px;height:80px;display:none;background-color:mediumspringgreen;margin-left:10px;"></div><br>
 <div id="div3" style="width:80px;height:80px;display:none;background-color:firebrick;margin-left:10px;"></div>
 
 	</div>
-	<div class="content">
+	<div class="content"id="9">
 
 
 		<b class="apple">
@@ -329,35 +416,17 @@ fclose($handle);
 		
 	</div>
 	
-	<div class="content">
+	<div class="content"id="10">
 <script src="OSDisplay.js"></script>
 
 	</div>
 
-	<div class="content">
+	<div class="content"id="11">
 		<p class="tab blink">This is an example of blinking text using CSS.</p>
 	</div>
-	<!--<div class="content">
-		<div style="position:relative;left:50px;background-color:yellow;width:90px;">
-			This div has relative positioning.
-		</div>-->
-		<!---<iframe src="https://quizlet.com/117737272/test/embed" height="410" width="300%" style="border:0"></iframe>
-		<hr />--><!-- 
-		<script type="text/javascript"> Cufon.now(); </script> -->
-		<script language="javascript", style="text-align: center">
-			var popupWindow = null;
-			function centeredPopup(url,winName,w,h,scroll)
-			{
-				LeftPosition = (screen.width) ? (screen.width-w)/2 : 0;
-				TopPosition = (screen.height) ? (screen.height-h)/2 : 0;
-				settings =
-				'height='+h+',width='+w+',top='+TopPosition+',left='+LeftPosition+',scrollbars='+scroll+',resizable'
-				popupWindow = window.open(url,winName,settings)
-			}
-		</script>
-	</div>
 	
-	<div class="content">
+	
+	<div class="content"id="12">
 		<p>
 		</p>
 		<div class="enjoy-css">Enjoy</div>
@@ -376,7 +445,7 @@ fclose($handle);
 	</div>-->
 
 	
-		<div class="content">
+		<div class="content"id="13">
 		<script type="text/javascript">
 		    // Opera 8.0+
 			var isOpera = (!!window.opr && !!opr.addons) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
@@ -405,7 +474,7 @@ fclose($handle);
 		</script>	
 	</div>
 
-	<div class="content">
+	<div class="content"id="14">
 	<img class="papa" src="images/resources-swift.svg">
 	<br />
 	<img class="mama" src="images/resources-swift.svg">
@@ -413,12 +482,32 @@ fclose($handle);
 	<img class="baby" src="images/resources-swift.svg">
 	</div>
 
-	<div class="content">
+	<div class="content"id="15">
+		<audio id="myAudio"
+ <source src="files/test.mp3"
+         type='audio/mp3'>
+ 
+ Your user agent does not support the HTML5 Audio element.
+</audio>
+<button type="button" onclick="aud_play_pause()">Play/Pause</button>
+<script>
+function aud_play_pause() {
+  var myAudio = document.getElementById("myAudio");
+  if (myAudio.paused) {
+    myAudio.play();
+  } else {
+    myAudio.pause();
+  }
+}
+</script>
+	</div>
+
+	<div class="content"id="16">
 		<a href="files/mail.py">Test Download 1!</a>
 		<a href="files/tweet.py">Test Download 2!</a>
 		<a href="files/caesarCipher.py">Test Download 3!</a>
 	</div>
-	<div class="content">
+	<div class="content"id="17">
 		<b>Download the Ike App!</b>
 		<a href="files/Ike%20App.zip">
 			<img src="images/IkeAppCopy.png" width="100%" height="100%" alt="Ike App"/>
@@ -426,7 +515,7 @@ fclose($handle);
 	</div>
 
 
-	<div class="content">
+	<div class="content"id="18">
 		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 			<input type="hidden" name="cmd" value="_s-xclick">
 			<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
@@ -449,6 +538,7 @@ fclose($handle);
 	<div class"sticky">
 
 	</div>-->
+	
 	
 
 		<div id="footer" class="container">

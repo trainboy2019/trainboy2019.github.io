@@ -631,14 +631,14 @@ ul.style3 .date
     background: rgba(240, 240, 240, 0.8);
     font-size: 18px;
     z-index: 9999;
-    opacity: 0;
+    
 }
 
 .sticky {
   background-color: #FB9C44;
   background-image: linear-gradient(to left, #FB9C44, #FC4831);
     padding-left: 1%;
-    opacity: 0;
+    
 }
 
 

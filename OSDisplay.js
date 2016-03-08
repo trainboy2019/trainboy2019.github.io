@@ -441,8 +441,9 @@ console.log(navigator);
 		if (window.navigator.userAgent.indexOf("X11; Linux i686 on x86_64; rv:10.0") != -1) OSName="Linux";
 		if (window.navigator.userAgent.indexOf("Maemo; Linux armv7l; rv:10.0") != -1) OSName="Linux";
 		if (window.navigator.userAgent.indexOf("Android; Mobile; rv:30.0") != -1) OSName="Android Phone";
-		if (window.navigator.userAgent.indexOf("Linux; Android 6.0.1; Nexus 5X Build MMB29M") != -1) OSName="Android Phone";
-		if (window.navigator.userAgent.indexOf("Linux; Android 6_0_1; Nexus 5X Build MMB29M") != -1) OSName="Android Phone";
+		//Easter Egg for Mason
+		if (window.navigator.userAgent.indexOf("Linux; Android 6.0.1; Nexus 5X Build MMB29M") != -1) OSName="Hi Mason";
+		if (window.navigator.userAgent.indexOf("Linux; Android 6_0_1; Nexus 5X Build MMB29M") != -1) OSName="Hi Mason";
 		if (window.navigator.userAgent.indexOf("Android; Tablet; rv:30.0") != -1) OSName="Android Tablet";
 		if (window.navigator.userAgent.indexOf("Mobile; rv:26.0") != -1) OSName="Firefox Phone";
 		if (window.navigator.userAgent.indexOf("Tablet; rv:26.0") != -1) OSName="Firefox Tablet";
