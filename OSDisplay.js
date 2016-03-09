@@ -1179,7 +1179,7 @@ console.log(navigator);
 
 		if (window.navigator.userAgent.indexOf("Windows NT 10.0; Win64; x64; Xbox; Xbox One") != -1) OSName="XBox One";
 
-		if (window.navigator.userAgent.indexOf("Nintendo DS") != -1) OSName="Nintendo DS";
+		if (window.navigator.userAgent.indexOf("Nintendo DSi") != -1) OSName="Nintendo DSi";
 
 		if (window.navigator.userAgent.indexOf("X11; CrOS") != -1) OSName="Chrome OS";
 			
