@@ -368,6 +368,7 @@ fclose($handle);
 		<button onclick="swapStyleSheet('stylesheetYellow.css')">Yellow</button>
 		<button onclick="swapStyleSheet('stylesheetCyan.css')">Cyan</button>
 		<button onclick="swapStyleSheet('stylesheetMagenta.css')">Magenta</button>
+		<button onclick="swapStyleSheet('stylesheetSecret.css')" style="opacity: 0"></button>
 	</div>
 	
 	<div class="content"id="3">
@@ -420,8 +421,9 @@ fclose($handle);
 	</div>
 	
 	<div class="content"id="10">
+	<p>
 <script src="OSDisplay.js"></script>
-
+	</p>
 	</div>
 
 	<div class="content"id="11">
@@ -449,6 +451,7 @@ fclose($handle);
 
 	
 		<div class="content"id="13">
+		<p>
 		<script type="text/javascript">
 		    // Opera 8.0+
 			var isOpera = (!!window.opr && !!opr.addons) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
@@ -465,6 +468,7 @@ fclose($handle);
     		// Blink engine detection
 			var isBlink = (isChrome || isOpera) && !!window.CSS;
 
+
 			var output = 'Let me guess what browser you are using. <br>' + '<br>';
 			output += 'It is ' + isFirefox + ' that you are using Firefox.' + '<br>' + '<br>';
 			output += 'It is ' + isChrome + ' that you are using Google Chrome.' + '<br>' + '<br>';
@@ -474,7 +478,9 @@ fclose($handle);
 			output += 'It is ' + isEdge + ' that you are using Microsoft Edge.' + '<br>' + '<br>';
 			//output += 'It is ' + isBlink + ' that you are using a browser that uses Blink.' + '<br>' + '<br>';
 			document.write(output);
+			
 		</script>	
+		</p>
 	</div>
 
 	<div class="content"id="14">
@@ -486,6 +492,7 @@ fclose($handle);
 	</div>
 
 	<div class="content"id="15">
+	
 		<audio id="myAudio"
  <source src="files/test.mp3"
          type='audio/mp3'>
@@ -503,7 +510,7 @@ function aud_play_pause() {
   }
 }
 </script>
-
+	
 	</div>
 
 	<div class="content"id="16">
@@ -512,7 +519,7 @@ function aud_play_pause() {
 		<a href="files/caesarCipher.py">Test Download 3!</a>
 	</div>
 	<div class="content"id="17">
-		<b>Download the Ike App!</b>
+		<p><b>Download the Ike App!</b></p>
 		<a href="files/Ike%20App.zip">
 			<img src="images/IkeAppCopy.png" width="100%" height="100%" alt="Ike App"/>
 		</a>
