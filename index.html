@@ -571,16 +571,20 @@ function aud_play_pause() {
 
 <script>
 if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X")){
-	document.getElementById("ad").src=""
+	document.getElementById("ad").src="";
+	document.write("OSName");
 }
 else if (window.navigator.userAgent.indexOf("iPhone")) {
-	document.getElementById("ad").src=""
+	document.getElementById("ad").src="";
+	document.write("OSName1");
 }
 else if (window.navigator.userAgent.indexOf("iPod")) {
-	document.getElementById("ad").src=""
+	document.getElementById("ad").src="";
+	document.write("OSName2");
 }
 else if (window.navigator.userAgent.indexOf("iPad")) {
-	document.getElementById("ad").src=""
+	document.getElementById("ad").src="";
+	document.write("OSName3");
 }
 else{
 	
