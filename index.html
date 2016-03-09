@@ -604,41 +604,59 @@ function aud_play_pause() {
 	<p>Test</p>
 <script>
 if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X")){
-	document.getElementById("19").write("OSName2")
-	$("#ad").animate({ 
+	document.getElementById("19").write("OSName")
+	var t = 250;
+$(document).ready(function(){
+    
+    $("#ad").delay(t).animate({ 
     	
         'opacity': '0'
     },t);
+});
+
 	document.write("OSName");
 }
 else if (window.navigator.userAgent.indexOf("iPhone")) {
 	document.getElementById("ad").src="";
 	document.write("OSName1");
-	$("#ad").animate({ 
+	var t = 250;
+$(document).ready(function(){
+    
+    $("#ad").delay(t).animate({ 
     	
         'opacity': '0'
     },t);
+});
 }
 else if (window.navigator.userAgent.indexOf("iPod")) {
 	document.getElementById("ad").src="";
 	document.getElementById("19").write("OSName2")
-	$("#ad").animate({ 
+	var t = 250;
+$(document).ready(function(){
+    
+    $("#ad").delay(t).animate({ 
     	
         'opacity': '0'
     },t);
+});
 }
 else if (window.navigator.userAgent.indexOf("iPad")) {
 	document.getElementById("ad").src="";
-	document.getElementById("19").write("OSName2"
-	$("#ad").animate({ 
+	document.getElementById("19").write("OSName2")
+	var t = 250;
+$(document).ready(function(){
+    
+    $("#ad").delay(t).animate({ 
     	
         'opacity': '0'
     },t);
+});
 }
 else{
 	
 }
 </script>
+<b>HH</b>
 </div>
 
 	</body>
