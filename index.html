@@ -539,8 +539,29 @@ function aud_play_pause() {
 <br />
 <br />
 <br />
-<div align="left">
+<script>
+if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X")){
+	document.getElementById("ad").src=""
+}
+else if (window.navigator.userAgent.indexOf("iPhone")) {
+	document.getElementById("ad").src=""
+}
+else if (window.navigator.userAgent.indexOf("iPod")) {
+	document.getElementById("ad").src=""
+}
+else if (window.navigator.userAgent.indexOf("iPad")) {
+	document.getElementById("ad").src=""
+}
+else{
+	
+}
+</script>
+
+<div id="ad" align="left">
+
+
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Test -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -560,6 +581,8 @@ function aud_play_pause() {
   ga('create', 'UA-74894555-1', 'auto');
   ga('send', 'pageview');
 
+</script>
+}
 </script>
 
 	<!--<div class="globalHeader">
