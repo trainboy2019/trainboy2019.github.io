@@ -23,6 +23,48 @@ $(document).ready(function(){
 });
 </script>
 
+<script>
+$(document).ready(function () {
+
+	// if user clicked on button, the overlay layer or the dialogbox, close the dialog	
+	$('a.btn-ok, #dialog-overlay, #dialog-box').click(function () {		
+		$('#dialog-overlay, #dialog-box').hide();		
+		return false;
+	});
+	
+	// if user resize the window, call the same function again
+	// to make sure the overlay fills the screen and dialogbox aligned to center	
+	$(window).resize(function () {
+		
+		//only do it if the dialog box is not hidden
+		if (!$('#dialog-box').is(':hidden')) popup();		
+	});	
+	
+	
+});
+
+//Popup dialog
+function popup(message) {
+		
+	// get the screen height and width  
+	var maskHeight = $(document).height();  
+	var maskWidth = $(window).width();
+	
+	// calculate the values for center alignment
+	var dialogTop =  (maskHeight/3) - ($('#dialog-box').height());  
+	var dialogLeft = (maskWidth/2) - ($('#dialog-box').width()/2); 
+	
+	// assign values to the overlay and dialog box
+	$('#dialog-overlay').css({height:maskHeight, width:maskWidth}).show();
+	$('#dialog-box').css({top:dialogTop, left:dialogLeft}).show();
+	
+	// display the message
+	$('#dialog-message').html(message);
+			
+}
+
+</script>
+
 
 
 <script>
@@ -97,6 +139,10 @@ $(document).ready(function(){
         'opacity': '1'
     },t);
     $("#18").delay(t*17).animate({ 
+    	
+        'opacity': '1'
+    },t);
+    $("#19").delay(t*18).animate({ 
     	
         'opacity': '1'
     },t);
@@ -500,8 +546,8 @@ fclose($handle);
 	<div class="content"id="15">
 	
 		<audio id="myAudio"
- <source src="files/test.mp3"
-         type='audio/mp3'>
+ <source src="files/terp.aif"
+         type='audio/aif'>
  
  Your user agent does not support the HTML5 Audio element.
 </audio>
@@ -519,12 +565,15 @@ function aud_play_pause() {
 	
 	</div>
 
-	<div class="content"id="16">
+
+	</div>
+
+	<div class="content"id="17">
 		<a href="files/mail.py">Test Download 1!</a>
 		<a href="files/tweet.py">Test Download 2!</a>
 		<a href="files/caesarCipher.py">Test Download 3!</a>
 	</div>
-	<div class="content"id="17">
+	<div class="content"id="18">
 		<p><b>Download the Ike App!</b></p>
 		<a href="files/Ike%20App.zip">
 			<img src="images/IkeAppCopy.png" width="100%" height="100%" alt="Ike App"/>
@@ -532,7 +581,7 @@ function aud_play_pause() {
 	</div>
 
 
-	<div class="content"id="18">
+	<div class="content"id="19">
 		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 			<input type="hidden" name="cmd" value="_s-xclick">
 			<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
@@ -574,7 +623,7 @@ function aud_play_pause() {
 
 </div>
 	
-
+</div>
 
 	<!--<div class="globalHeader">
 

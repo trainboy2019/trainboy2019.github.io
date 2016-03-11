@@ -1,0 +1,50 @@
+<!-- IMPORTANT NOTE: This file is licensed only for use in providing the iCloud service,
+    or any part thereof, and is subject to the iCloud Terms and Conditions. You may not
+    port this file to another platform without Apple's written consent. -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        
+        <meta name="description" content="Store all your photos and videos with iCloud and access them anytime from your iOS devices and the web.">
+        
+        <title>iCloud Photos</title>
+        
+        <script>
+        (function() {
+            var cssList;
+            if (window.devicePixelRatio > 1) {
+                cssList = ["../../16A84/en-us/css-combined@2x.css"];
+            } else {
+                cssList = ["../../16A84/en-us/css-combined.css"];
+            }
+
+            var cssListLength = cssList.length,
+                head = document.getElementsByTagName("head")[0];
+            for (var i = 0; i < cssListLength; i++) {
+                var link = document.createElement("link");
+                link.rel = "stylesheet";
+                link.type = "text/css";
+                link.href = cssList[i];
+                head.appendChild(link);
+            }
+
+            window.__CW_PATH_PREFIX = "../../16A84/en-us/";
+            window.__CW_BUILD_INFO = {"images1x":["../../16A84/en-us/sprite-0.png"],"images2x":["../../16A84/en-us/sprite-0@2x.png"],"buildNumber":"16A84","locale":"en-us"};
+        })();
+
+        </script>
+    </head>
+    <body>
+        
+        
+            <script src="../../16A84/en-us/javascript.js"></script>
+        
+        <script type="text/javascript" charset="utf-8">
+            main();
+        </script>
+    </body>
+</html>
+
