@@ -77,7 +77,7 @@ console.log(navigator);
 		if (window.navigator.userAgent.indexOf("Linux; Android 4.9") != -1) OSName="Android KitKat";
 		if (window.navigator.userAgent.indexOf("Linux; Android 5") != -1) OSName="Android Lolipop";
 		if (window.navigator.userAgent.indexOf("Linux; Android 6") != -1) OSName="Android Marshmallow";
-		if (window.navigator.userAgent.indexOf("Linux; Android 7") != -1) OSName="Android 7";
+		if (window.navigator.userAgent.indexOf("Linux; Android 7") != -1) OSName="Android Nougat";
 		if (window.navigator.userAgent.indexOf("Linux; Android 8") != -1) OSName="Android 8";
 		if (window.navigator.userAgent.indexOf("Linux; Android 9") != -1) OSName="Android 9";
 
@@ -116,7 +116,7 @@ console.log(navigator);
 		if (window.navigator.userAgent.indexOf("Linux; N; Android 4.9") != -1) OSName="Android KitKat";
 		if (window.navigator.userAgent.indexOf("Linux; N; Android 5") != -1) OSName="Android Lolipop";
 		if (window.navigator.userAgent.indexOf("Linux; N; Android 6") != -1) OSName="Android Marshmallow";
-		if (window.navigator.userAgent.indexOf("Linux; N; Android 7") != -1) OSName="Android 7";
+		if (window.navigator.userAgent.indexOf("Linux; N; Android 7") != -1) OSName="Android Nougat";
 		if (window.navigator.userAgent.indexOf("Linux; N; Android 8") != -1) OSName="Android 8";
 		if (window.navigator.userAgent.indexOf("Linux; N; Android 9") != -1) OSName="Android 9";
 
@@ -154,7 +154,7 @@ console.log(navigator);
 		if (window.navigator.userAgent.indexOf("Linux; I; Android 4.9") != -1) OSName="Android KitKat";
 		if (window.navigator.userAgent.indexOf("Linux; I; Android 5") != -1) OSName="Android Lolipop";
 		if (window.navigator.userAgent.indexOf("Linux; I; Android 6") != -1) OSName="Android Marshmallow";
-		if (window.navigator.userAgent.indexOf("Linux; I; Android 7") != -1) OSName="Android 7";
+		if (window.navigator.userAgent.indexOf("Linux; I; Android 7") != -1) OSName="Android Nougat";
 		if (window.navigator.userAgent.indexOf("Linux; I; Android 8") != -1) OSName="Android 8";
 		if (window.navigator.userAgent.indexOf("Linux; I; Android 9") != -1) OSName="Android 9";
 
@@ -193,7 +193,7 @@ console.log(navigator);
 		if (window.navigator.userAgent.indexOf("Linux; U; Android 4.9") != -1) OSName="Android KitKat";
 		if (window.navigator.userAgent.indexOf("Linux; U; Android 5") != -1) OSName="Android Lolipop";
 		if (window.navigator.userAgent.indexOf("Linux; U; Android 6") != -1) OSName="Android Marshmallow";
-		if (window.navigator.userAgent.indexOf("Linux; U; Android 7") != -1) OSName="Android 7";
+		if (window.navigator.userAgent.indexOf("Linux; U; Android 7") != -1) OSName="Android Nougat";
 		if (window.navigator.userAgent.indexOf("Linux; U; Android 8") != -1) OSName="Android 8";
 		if (window.navigator.userAgent.indexOf("Linux; U; Android 9") != -1) OSName="Android 9";
 
@@ -231,7 +231,7 @@ console.log(navigator);
 		if (window.navigator.userAgent.indexOf("Linux; CPU; Android 4.9") != -1) OSName="Android KitKat";
 		if (window.navigator.userAgent.indexOf("Linux; CPU; Android 5") != -1) OSName="Android Lolipop";
 		if (window.navigator.userAgent.indexOf("Linux; CPU; Android 6") != -1) OSName="Android Marshmallow";
-		if (window.navigator.userAgent.indexOf("Linux; CPU; Android 7") != -1) OSName="Android 7";
+		if (window.navigator.userAgent.indexOf("Linux; CPU; Android 7") != -1) OSName="Android Nougat";
 		if (window.navigator.userAgent.indexOf("Linux; CPU; Android 8") != -1) OSName="Android 8";
 		if (window.navigator.userAgent.indexOf("Linux; CPU; Android 9") != -1) OSName="Android 9";
 
@@ -271,7 +271,7 @@ console.log(navigator);
 		if (window.navigator.userAgent.indexOf("Linux; Android 4_9") != -1) OSName="Android KitKat";
 		if (window.navigator.userAgent.indexOf("Linux; Android 5") != -1) OSName="Android Lolipop";
 		if (window.navigator.userAgent.indexOf("Linux; Android 6") != -1) OSName="Android Marshmallow";
-		if (window.navigator.userAgent.indexOf("Linux; Android 7") != -1) OSName="Android 7";
+		if (window.navigator.userAgent.indexOf("Linux; Android 7") != -1) OSName="Android Nougat";
 		if (window.navigator.userAgent.indexOf("Linux; Android 8") != -1) OSName="Android 8";
 		if (window.navigator.userAgent.indexOf("Linux; Android 9") != -1) OSName="Android 9";
 
@@ -309,7 +309,7 @@ console.log(navigator);
 		if (window.navigator.userAgent.indexOf("Linux; U; Android 4_9") != -1) OSName="Android KitKat";
 		if (window.navigator.userAgent.indexOf("Linux; U; Android 5") != -1) OSName="Android Lolipop";
 		if (window.navigator.userAgent.indexOf("Linux; U; Android 6") != -1) OSName="Android Marshmallow";
-		if (window.navigator.userAgent.indexOf("Linux; U; Android 7") != -1) OSName="Android 7";
+		if (window.navigator.userAgent.indexOf("Linux; U; Android 7") != -1) OSName="Android Nougat";
 		if (window.navigator.userAgent.indexOf("Linux; U; Android 8") != -1) OSName="Android 8";
 		if (window.navigator.userAgent.indexOf("Linux; U; Android 9") != -1) OSName="Android 9";
 
@@ -348,7 +348,7 @@ console.log(navigator);
 		if (window.navigator.userAgent.indexOf("Linux; N; Android 4_9") != -1) OSName="Android KitKat";
 		if (window.navigator.userAgent.indexOf("Linux; N; Android 5") != -1) OSName="Android Lolipop";
 		if (window.navigator.userAgent.indexOf("Linux; N; Android 6") != -1) OSName="Android Marshmallow";
-		if (window.navigator.userAgent.indexOf("Linux; N; Android 7") != -1) OSName="Android 7";
+		if (window.navigator.userAgent.indexOf("Linux; N; Android 7") != -1) OSName="Android Nougat";
 		if (window.navigator.userAgent.indexOf("Linux; N; Android 8") != -1) OSName="Android 8";
 		if (window.navigator.userAgent.indexOf("Linux; N; Android 9") != -1) OSName="Android 9";
 
@@ -386,7 +386,7 @@ console.log(navigator);
 		if (window.navigator.userAgent.indexOf("Linux; I; Android 4_9") != -1) OSName="Android KitKat";
 		if (window.navigator.userAgent.indexOf("Linux; I; Android 5") != -1) OSName="Android Lolipop";
 		if (window.navigator.userAgent.indexOf("Linux; I; Android 6") != -1) OSName="Android Marshmallow";
-		if (window.navigator.userAgent.indexOf("Linux; I; Android 7") != -1) OSName="Android 7";
+		if (window.navigator.userAgent.indexOf("Linux; I; Android 7") != -1) OSName="Android Nougat";
 		if (window.navigator.userAgent.indexOf("Linux; I; Android 8") != -1) OSName="Android 8";
 		if (window.navigator.userAgent.indexOf("Linux; I; Android 9") != -1) OSName="Android 9";
 
@@ -424,7 +424,7 @@ console.log(navigator);
 		if (window.navigator.userAgent.indexOf("Linux; CPU; Android 4_9") != -1) OSName="Android KitKat";
 		if (window.navigator.userAgent.indexOf("Linux; CPU; Android 5") != -1) OSName="Android Lolipop";
 		if (window.navigator.userAgent.indexOf("Linux; CPU; Android 6") != -1) OSName="Android Marshmallow";
-		if (window.navigator.userAgent.indexOf("Linux; CPU; Android 7") != -1) OSName="Android 7";
+		if (window.navigator.userAgent.indexOf("Linux; CPU; Android 7") != -1) OSName="Android Nougat";
 		if (window.navigator.userAgent.indexOf("Linux; CPU; Android 8") != -1) OSName="Android 8";
 		if (window.navigator.userAgent.indexOf("Linux; CPU; Android 9") != -1) OSName="Android 9";
 
