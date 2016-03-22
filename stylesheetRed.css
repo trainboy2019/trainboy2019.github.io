@@ -343,6 +343,8 @@ IMG.logo {
 	background: #F0F0F0;
     border-radius: 75px;
     text-align: center; 
+    -webkit-backdrop-filter: blur(5px); /* Chrome, Safari, Opera */
+    backdrop-filter: blur(5px);
     
 }
 
@@ -1028,4 +1030,3 @@ div.overlay {
     opacity: 0.5;
     filter: alpha(opacity = 50); /* required for opacity to work in IE */
 }
-
