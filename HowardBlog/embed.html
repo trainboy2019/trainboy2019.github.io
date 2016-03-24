@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="initial-scale=1" />
+		<title>PhotoSnack Album</title>
+		<style>
+			html,body{margin:0;padding:0;overflow:hidden;background-color:transparent;width:100%;height:100%;min-width:100%;min-height:100%;}::-moz-selection{color:#fff}::selection{color:#fff}
+		</style>
+		<script type="text/javascript" src="Scripts/postmessage.min.gz.js"></script>
+		<script type="text/javascript" src="Scripts/jquery-1.8.2.min.gz.js"></script>
+		<script type="text/javascript" src="Scripts/EmbedCanvas.min.gz.js?v1.7"></script>
+		<script>
+			var GET={},ERR={INVALID_HASH:"Invalid hash",INVALID_URL:"?hash=ptklrijc4&t=1458672097",FATAL_ERROR:"An error has occured",NOT_ON_IE8:"Our widgets don't work on IE8. So sorry about that! Please upgrade to the latest version of IE or use a different browser."};function showMessage(a){document.body.innerHTML=a}function detectIE8(a,b){return-1<a.search("msie 8")||-1<b.search("msie 8")}
+$(document).ready(function(){var a,b;if(location.search){a=location.search.substr(1).split("&");for(i in a)b=a[i].split("=",2),GET[b[0]]=decodeURIComponent(b[1]);if(GET.hash)if(detectIE8(navigator.userAgent.toLowerCase(),navigator.appVersion.toLowerCase()))showMessage(ERR.NOT_ON_IE8);else try{$("#psContainer").PhotoSnackEmbedCanvas({hash_id:GET.hash,t:GET.t?GET.t:0,watermark:"false"===GET.watermark?!0:!1})}catch(c){showMessage(ERR.FATAL_ERROR+" :: "+c)}else showMessage(ERR.INVALID_HASH)}else showMessage(ERR.INVALID_URL)});
+		</script>
+	</head>
+	<body>
+		<div id="psContainer"></div>
+	</body>
+</html>
