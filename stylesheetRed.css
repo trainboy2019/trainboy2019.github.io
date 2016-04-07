@@ -202,6 +202,15 @@ body {
 	font-size: 10.5pt;
 	background-color: #ff4848;
 	color: #404040;
+    
+}
+
+force {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    color: #000;
+    background: #000;
 }
 
 
@@ -343,8 +352,12 @@ IMG.logo {
 	background: #F0F0F0;
     border-radius: 75px;
     text-align: center; 
-    -webkit-backdrop-filter: blur(5px); /* Chrome, Safari, Opera */
+/*
+    -webkit-backdrop-filter: blur(5px);  Chrome, Safari, Opera 
     backdrop-filter: blur(5px);
+*/
+    -webkit-transition: opacity 2s cubic-bezier(.85,.17,.19,.89);
+  transition: opacity 2s cubic-bezier(.85,.17,.19,.89);
     
 }
 
@@ -362,7 +375,8 @@ IMG.logo {
 }
 
 #footer {
-	overflow: hidden;
+	overflow: visible;
+    box-shadow: 0px 500px 0px 500px #000000;
     font-family: 'sfns_displayultralight', Fallback, sans-serif; 
 	margin: 5px auto 0 auto;
 	padding: 10px -100px 0;
@@ -378,6 +392,18 @@ IMG.logo {
 }
 
 #footer a {
+
+text-decoration: none;
+-o-transition: color 0.2s linear;
+-moz-transition: color 0.2s linear;
+-khtml-transition: color 0.2s linear;
+-webkit-transition: color 0.2s linear;
+-ms-transition: color 0.2s linear;
+transition: color 0.2s linear;
+}
+
+#footer a:hover {
+color: #55acee;
 }
 
 ul.style2 {
