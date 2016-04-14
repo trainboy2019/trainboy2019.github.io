@@ -1026,3 +1026,7 @@ input[type='text']::-ms-clear {
     opacity: 0;
 }
 
+#blur-overlay {
+    -webkit-filter: blur(5px);
+    outline: #000000 solid thin;
+}

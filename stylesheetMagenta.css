@@ -1033,8 +1033,9 @@ input[type='text']::-ms-clear {
     opacity: 0;
 }
 
-.blur-overlay {
-    background: rgba(0, 0, 0, 0.1)
+#blur-overlay {
+    -webkit-filter: blur(5px);
+    outline: #000000 solid thin;
 }
 
 div.overlay {

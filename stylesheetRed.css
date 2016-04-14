@@ -395,6 +395,7 @@ IMG.logo {
 #footer a {
 
 text-decoration: none;
+text-align: center;
 -o-transition: color 0.2s linear;
 -moz-transition: color 0.2s linear;
 -khtml-transition: color 0.2s linear;
@@ -403,8 +404,19 @@ text-decoration: none;
 transition: color 0.2s linear;
 }
 
+/*
 #footer a:hover {
 color: #55acee;
+}
+*/
+#footer.twitter a:hover{
+    color: #55acee;
+    align-content: center;
+}
+
+#footer.instagram a:hover{
+    color: #3f729b;
+    align-content: center;
 }
 
 ul.style2 {
@@ -1044,8 +1056,16 @@ input[type='text']::-ms-clear {
     opacity: 0;
 }
 
-.blur-overlay {
-    -webkit-filter: blur(5px);
+#blur2 {
+    outline: #000000 solid thin;
+    border-radius: 75px;
+}
+
+#blur-overlay {
+    backdrop-filter: blur(5 px); 
+    
+/*    -webkit-filter: blur(5px);*/
+    
 }
 
 div.overlay {
