@@ -1086,6 +1086,37 @@ input[type='text']::-ms-clear {
     opacity: 0;
 }
 
+
+/* LOGO OVERRIDES */
+
+.wwdc-logo {
+	display:inline-block;
+	width: 166px;
+	height: 27px;
+	position:relative;
+	top:7px;
+	background-image: url("https://devimages.apple.com.edgekey.net/wwdc/images/wwdc16-logo.png");
+	background-repeat: no-repeat;
+	background-size: 166px 27px;
+}
+
+@media all and (max-width: 767px) {
+	.wwdc-logo {
+		width: 140px;
+		height: 23px;
+		top: 6px;
+		background-size: 140px 23px;
+	}
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+	.wwdc-logo { background-image: url("https://devimages.apple.com.edgekey.net/wwdc/images/wwdc16-logo_2x.png");}
+}
+
+
+
+
+
 #blur2 {
 /*    outline: rgba(0,0,0,50) solid thin;*/
 /*
@@ -1099,6 +1130,7 @@ input[type='text']::-ms-clear {
     
     width: 100%;
     -webkit-filter: blur(25px);
+    
     
 }
 

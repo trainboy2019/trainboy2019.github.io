@@ -439,10 +439,10 @@ console.log(navigator);
 		if (window.navigator.userAgent.indexOf("Windows NT 6.2") != -1) OSName="Windows 8";
 		if (window.navigator.userAgent.indexOf("Windows NT 6.3") != -1) OSName="Windows 8.1";
 		if (window.navigator.userAgent.indexOf("Windows NT 10.0") != -1) OSName="Windows 10";
-		if (window.navigator.userAgent.indexOf("X11; Linux i686; rv:10.0)") != -1) OSName="Linux";
-		if (window.navigator.userAgent.indexOf("X11; Linux x86_64; rv:10.0") != -1) OSName="Linux";
-		if (window.navigator.userAgent.indexOf("X11; Linux i686 on x86_64; rv:10.0") != -1) OSName="Linux";
-		if (window.navigator.userAgent.indexOf("Maemo; Linux armv7l; rv:10.0") != -1) OSName="Linux";
+		if (window.navigator.userAgent.indexOf("X11; Linux") != -1) OSName="Linux";
+//		if (window.navigator.userAgent.indexOf("X11; Linux x86_64; rv:10.0") != -1) OSName="Linux";
+//		if (window.navigator.userAgent.indexOf("X11; Linux i686 on x86_64; rv:10.0") != -1) OSName="Linux";
+		if (window.navigator.userAgent.indexOf("Maemo;") != -1) OSName="Linux";
 		if (window.navigator.userAgent.indexOf("Android; Mobile; rv:30.0") != -1) OSName="Android Phone";
 		//Easter Egg for Mason
 		if (window.navigator.userAgent.indexOf("Linux; Android 6.0.1; Nexus 5X Build MMB29M") != -1) OSName="Hi Mason";
