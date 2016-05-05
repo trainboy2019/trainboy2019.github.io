@@ -188,20 +188,59 @@
 }
 
 
-html, body {
-  height: 100%;
-  width: 100%;
+html {
+
+  height: auto;
+  width: auto;
   padding: 0;
   margin: 0;
+
+  
+  background-color: #000;
 }
 
+
 body {
+    
+
+	height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    
+
+	font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+	font-size: 10.5pt;
+	background-color: #55acee;
+    
+	color: #404040;
+/*
+    background: -webkit-linear-gradient(0deg, rgb(0,0,0) 0, rgb(255,72,72) 1%), rgba(0,0,0,100);
+			  background: -moz-linear-gradient(0deg, rgb(0,0,0) 0, rgb(255,72,72) 1%), rgba(0,0,0,0);
+			  background: linear-gradient(0deg, rgb(0,0,0) 0, rgb(255,72,72) 1%), rgba(0,0,0,0);
+*/
+    
+}
+
+
+.background {
+    
 	margin: 0px;
 	padding: 0px;
 	font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
 	font-size: 10.5pt;
-	background-color: #4848ff;
+	background-color: #55acee;
 	color: #404040;
+    
+    
+}
+
+force {
+    position: absolute;
+    width: 100%;
+    bottom: -10px;
+    color: #000;
+    background: #000;
 }
 
 
@@ -330,6 +369,9 @@ IMG.logo {
     color: #bdb099;   
 }
 
+
+
+
 .content {
     font-family: 'sfns_displayultralight', Fallback, sans-serif; 
 	margin: 0 auto;
@@ -340,6 +382,13 @@ IMG.logo {
 	background: #F0F0F0;
     border-radius: 75px;
     text-align: center; 
+/*
+    -webkit-backdrop-filter: blur(5px);  Chrome, Safari, Opera 
+    backdrop-filter: blur(5px);
+*/
+    -webkit-transition: opacity 2s cubic-bezier(.85,.17,.19,.89);
+    
+  transition: opacity 2s cubic-bezier(.85,.17,.19,.89);
     
 }
 
@@ -361,10 +410,11 @@ IMG.logo {
     box-shadow: 0px 500px 0px 500px #000000;
     font-family: 'sfns_displayultralight', Fallback, sans-serif; 
 	margin: 5px auto 0 auto;
-	padding: 10px 0px 0;
+	padding: 10px -100px 0;
 	background: #000;
 	width:auto;
 	height: 55px;
+    
 }
 
 #footer p {
@@ -376,6 +426,7 @@ IMG.logo {
 #footer a {
 
 text-decoration: none;
+text-align: center;
 -o-transition: color 0.2s linear;
 -moz-transition: color 0.2s linear;
 -khtml-transition: color 0.2s linear;
@@ -384,8 +435,19 @@ text-decoration: none;
 transition: color 0.2s linear;
 }
 
+/*
 #footer a:hover {
 color: #55acee;
+}
+*/
+#footer.twitter a:hover{
+    color: #55acee;
+    align-content: center;
+}
+
+#footer.instagram a:hover{
+    color: #3f729b;
+    align-content: center;
 }
 
 ul.style2 {
@@ -541,9 +603,9 @@ ul.style3 .date
 			  text-align: center;
 			  -o-text-overflow: ellipsis;
 			  text-overflow: ellipsis;
-			  background: -webkit-linear-gradient(-225deg, rgb(124,124,255) 0, rgb(1,1,255) 100%), rgba(0,0,0,0);
-			  background: -moz-linear-gradient(315deg, rgb(124,124,255) 0, rgb(1,1,255) 100%), rgba(0,0,0,0);
-			  background: linear-gradient(315deg, rgb(124,124,255) 0, rgb(1,1,255) 100%), rgba(0,0,0,0);
+			  background: -webkit-linear-gradient(-225deg, rgb(85,172,238) 0, rgb(1,1,255) 100%), rgba(0,0,0,0);
+			  background: -moz-linear-gradient(315deg, rgb(85,172,238) 0, rgb(1,1,255) 100%), rgba(0,0,0,0);
+			  background: linear-gradient(315deg, rgb(85,172,238) 0, rgb(1,1,255) 100%);
 			  background-position: 10% 10%;
 			  -webkit-background-origin: padding-box;
 			  background-origin: padding-box;
@@ -627,8 +689,8 @@ ul.style3 .date
 
 
 .orange-cover {
-  background-color: #449cfb;
-  background-image: linear-gradient(to left, #449cfb, #3148fc);
+  background-color: #51f8f8;
+  background-image: linear-gradient(to left, #51f8f8, #52acf7);
   width:100%;
   height:46px;
   margin-top:-46px;
@@ -641,23 +703,18 @@ ul.style3 .date
     height: 2.55556em;
     margin: 0 auto;
     background: #F2F2F2;
-    background: rgba(240, 240, 240, 0.9);
+    background: rgba(240, 240, 240, 0.8);
     font-size: 18px;
     z-index: 9999;
     
 }
 
 .sticky {
-  background-color: #449cfb;
-  background-image: linear-gradient(to left, #449cfb, #3148fc);
+  background-color: #51f8f8;
+  background-image: linear-gradient(to left, #51f8f8, #52acf7);
     padding-left: 1%;
     
 }
-
-
-
-
-
 
 
 
@@ -673,6 +730,10 @@ ul.style3 .date
 .baby {
   width: 250px; 
 }
+
+
+
+
 
 
 
@@ -1026,7 +1087,60 @@ input[type='text']::-ms-clear {
     opacity: 0;
 }
 
+
+/* LOGO OVERRIDES */
+
+.wwdc-logo {
+	display:inline-block;
+	width: 166px;
+	height: 27px;
+	position:relative;
+	top:7px;
+	background-image: url("https://devimages.apple.com.edgekey.net/wwdc/images/wwdc16-logo.png");
+	background-repeat: no-repeat;
+	background-size: 166px 27px;
+}
+
+@media all and (max-width: 767px) {
+	.wwdc-logo {
+		width: 140px;
+		height: 23px;
+		top: 6px;
+		background-size: 140px 23px;
+	}
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+	.wwdc-logo { background-image: url("https://devimages.apple.com.edgekey.net/wwdc/images/wwdc16-logo_2x.png");}
+}
+
+
+
+
+
+#blur2 {
+/*    outline: rgba(0,0,0,50) solid thin;*/
+/*
+    border-radius: 75px;
+    background-color: rgba(255, 255, 255, 3);
+*/
+}
+
 #blur-overlay {
-    -webkit-filter: blur(5px);
-    outline: #000000 solid thin;
+/*    backdrop-filter: blur(5 px); */
+    
+    width: 100%;
+    -webkit-filter: blur(25px);
+    
+    
+}
+
+div.overlay {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.5;
+    filter: alpha(opacity = 50); /* required for opacity to work in IE */
 }

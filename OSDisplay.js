@@ -9639,6 +9639,8 @@ if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".
 
 		if (window.navigator.userAgent.indexOf("New Nintendo 3DS") != -1) OSName="New Nintendo 3DS";
 
+		if (window.navigator.userAgent.indexOf("Nintendo Wii") != -1) OSName="Nintendo Wii";
+
 		if (window.navigator.userAgent.indexOf("Nintendo WiiU") != -1) OSName="Nintendo Wii U";
 
 		if (window.navigator.userAgent.indexOf("PlayStation 4") != -1) OSName="PlayStation 4";
