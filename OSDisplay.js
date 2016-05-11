@@ -9635,6 +9635,8 @@ if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".
 		if (window.navigator.userAgent.indexOf("compatible; MSIE 7.0; Windows Phone OS 7.0;") != -1) OSName="Windows Phone 7";
 		if (window.navigator.userAgent.indexOf("compatible; MSIE 10.0; Windows Phone 8.0;") != -1) OSName="Windows Phone 8";
 
+		if (window.navigator.userAgent.indexOf("GoogleTV") != -1) OSName="Google TV";
+
 		if (window.navigator.userAgent.indexOf("Nintendo 3DS") != -1) OSName="Nintendo 3DS";
 
 		if (window.navigator.userAgent.indexOf("New Nintendo 3DS") != -1) OSName="New Nintendo 3DS";
@@ -9646,6 +9648,22 @@ if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".
 		if (window.navigator.userAgent.indexOf("PlayStation 4") != -1) OSName="PlayStation 4";
 
 		if (window.navigator.userAgent.indexOf("PLAYSTATION 3") != -1) OSName="PlayStation 3";
+
+		if (window.navigator.userAgent.indexOf("Xbox") != -1) OSName="XBox 360";
+
+		if (window.navigator.userAgent.indexOf("OUYA") != -1) OSName="OUYA";
+
+		if (window.navigator.userAgent.indexOf("PlayStation Vita") != -1) OSName="PlayStation Vita";
+
+		if (window.navigator.userAgent.indexOf("PlayStation Portable") != -1) OSName="PlayStation Portable";
+
+		if (window.navigator.userAgent.indexOf("Viera") != -1) OSName="Panasonic Viera";
+
+		if (window.navigator.userAgent.indexOf("X11; Linux armv7l") != -1) OSName="Vizio Co-Star";
+
+		if (window.navigator.userAgent.indexOf("Apple TV") != -1) OSName="Apple TV";
+
+		if (window.navigator.userAgent.indexOf("CrKey") != -1) OSName="Google Chromecast";
 
 		if (window.navigator.userAgent.indexOf("Windows NT 10.0; Win64; x64; Xbox; Xbox One") != -1) OSName="XBox One";
 
