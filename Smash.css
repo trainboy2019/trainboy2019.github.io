@@ -1,0 +1,1041 @@
+.content {
+    
+	margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+  
+}
+
+
+/*
+=====================================================================
+*
+*    Villager
+*
+* ===================================================================
+*/
+.bgColorvillager {
+	background: #3BAC6C;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+
+
+/*
+=====================================================================
+*
+*    Megaman
+*
+* ===================================================================
+*/
+.bgColormegaman {
+	background: #75C2E3;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+
+
+/*
+=====================================================================
+*
+*    wii_fit_trainer
+*
+* ===================================================================
+*/
+.bgColorwiifittrainer {
+	background: #86D776;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+
+/*
+=====================================================================
+*
+*    donkey_kong
+*
+* ===================================================================
+*/
+.bgColordonkeykong {
+	background: #FEDA00;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+
+/*
+=====================================================================
+*
+*    fox
+*
+* ===================================================================
+*/
+.bgColorfox {
+	background: #036AC9;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+
+/*
+=====================================================================
+*
+*    kirby
+*
+* ===================================================================
+*/
+.bgColorkirby {
+	background: #FBBEC3;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+
+/*
+=====================================================================
+*
+*    Bowser
+*
+* ===================================================================
+*/
+.bgColorbowser {
+	background: #32765C;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+
+/*
+=====================================================================
+*
+*    link
+*
+* ===================================================================
+*/
+.bgColorlink {
+	background: #BED163;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+
+/*
+=====================================================================
+*
+*    mario
+*
+* ===================================================================
+*/
+.bgColormario {
+	background: #E03038;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+
+/*
+=====================================================================
+*
+*    pikachu
+*
+* ===================================================================
+*/
+.bgColorpikachu {
+	background: #FFC000;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+
+
+/*
+=====================================================================
+*
+*    pit
+*
+* ===================================================================
+*/
+.bgColorpit {
+	background: #7BB5D5;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+/*
+=====================================================================
+*
+*    samus
+*
+* ===================================================================
+*/
+.bgColorsamus {
+	background: #333F58;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+/*
+=====================================================================
+*
+*    pikmin
+*
+* ===================================================================
+*/
+
+.bgColorpikmin {
+	background: #BDEF9E;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+/*
+=====================================================================
+*
+*    luigi
+*
+* ===================================================================
+*/
+
+.bgColorluigi {
+	background: #41A732;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+/*
+=====================================================================
+*
+*    peach
+*
+* ===================================================================
+*/
+
+.bgColorpeach {
+	background: #FEC6F3;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+/*
+=====================================================================
+*
+*    toon link
+*
+* ===================================================================
+*/
+
+.bgColortoonlink {
+	background: #95D642;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+
+/*
+=====================================================================
+*
+*    sonic
+*
+* ===================================================================
+*/
+
+.bgColorsonic {
+	background: #579DF2;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+
+/*
+=====================================================================
+*
+*    marth
+*
+* ===================================================================
+*/
+
+.bgColormarth {
+	background: #3EAACC;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+
+/*
+=====================================================================
+*
+*    Rosalina
+*
+* ===================================================================
+*/
+.bgColorrosalina {
+	background: #89E0D5;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+
+
+/*
+=====================================================================
+*
+*    zelda
+*
+* ===================================================================
+*/
+
+.bgColorzelda {
+	background: #AA74BA;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+
+/*
+=====================================================================
+*
+*    dedede
+*
+* ===================================================================
+*/
+
+.bgColordedede {
+	background: #FFE966;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+
+/*
+=====================================================================
+*
+*    lucario
+*
+* ===================================================================
+*/
+
+.bgColorlucario {
+	background: #AEE4FF;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+
+/*
+=====================================================================
+*
+*    little_mac
+*
+* ===================================================================
+*/
+.bgColorlittlemac {
+	background: #39775A;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+
+/*
+=====================================================================
+*
+*    diddy_kong
+*
+* ===================================================================
+*/
+
+.bgColordiddykong {
+	background: #F24D49;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+
+/*
+=====================================================================
+*
+*    zerosuit_samus
+*
+* ===================================================================
+*/
+
+.bgColorzerosuitsamus {
+	background: #005AAA;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+
+
+/*
+=====================================================================
+*
+*    sheik
+*
+* ===================================================================
+*/
+
+.bgColorsheik {
+	background: #7371D8;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+
+
+/*
+=====================================================================
+*
+*    yoshi
+*
+* ===================================================================
+*/
+
+.bgColoryoshi {
+	background: #68D154;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+
+/*
+=====================================================================
+*
+*    charizard
+*
+* ===================================================================
+*/
+
+.bgColorcharizard {
+	background: #F26B0F;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+
+/*
+=====================================================================
+*
+*    Greninja
+*
+* ===================================================================
+*/
+.bgColorgreninja {
+	background: #4875AA;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+
+/*
+=====================================================================
+*
+*    ike
+*
+* ===================================================================
+*/
+
+.bgColorike {
+	background: #c44737;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+
+/*
+=====================================================================
+*
+*    mii_fighter
+*
+* ===================================================================
+*/
+
+.bgColormiifighter {
+	background: #5CC1E6;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+/*
+=====================================================================
+*
+*    palutena
+*
+* ===================================================================
+*/
+
+.bgColorpalutena {
+	background: #74E8BF;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+
+/*
+=====================================================================
+*
+*    pac-man
+*
+* ===================================================================
+*/
+
+.bgColorpacman {
+	background: #F9B038;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+	/*
+=====================================================================
+*
+*    captain_falcon
+*
+* ===================================================================
+*/
+
+.bgColorcaptainfalcon {
+	background: #9088e2;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+	/*
+=====================================================================
+*
+*    lucina
+*
+* ===================================================================
+*/
+
+.bgColorlucina {
+	background: #74a7ca;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+
+
+	/*
+=====================================================================
+*
+*    robin
+*
+* ===================================================================
+*/
+
+.bgColorrobin {
+	background: #ce82de;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+
+/*
+=====================================================================
+*
+*    metaknight
+*
+* ===================================================================
+*/
+
+.bgColormetaknight {
+	background: #2d3d7a;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+
+/*
+=====================================================================
+*
+*    shulk
+*
+* ===================================================================
+*/
+
+.bgColorshulk {
+	background: #e55b79;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+/*
+=====================================================================
+*
+*    mewtwo
+*
+* ===================================================================
+*/
+
+.bgColormewtwo {
+	background: #8054c3;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+
+/*
+=====================================================================
+*
+*    lucas
+*
+* ===================================================================
+*/
+.bgColorlucas {
+	background: #F05F1B;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+
+/*
+=====================================================================
+*
+*    roy
+*
+* ===================================================================
+*/
+.bgColorroy {
+	background: #5CB94D;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+
+/*
+=====================================================================
+*
+*    ryu
+*
+* ===================================================================
+*/
+.bgColorryu {
+	background: #E04447;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+
+/*
+=====================================================================
+*
+*    Cloud
+*
+* ===================================================================
+*/
+.bgColorcloud {
+    background: #179884;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+/*
+=====================================================================
+*
+*    Bayonetta
+*
+* ===================================================================
+*/
+.bgColorbayonetta {
+    background:#a69fe5;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+/*
+=====================================================================
+*
+*    Corrin
+*
+* ===================================================================
+*/
+.bgColorcorrin {
+    background: #4ba9c3;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+/*
+=====================================================================
+*
+*    Ness
+*
+* ===================================================================
+*/
+
+.bgColorness {
+	background: #f02d33;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+/*
+=====================================================================
+*
+*    Falco
+*
+* ===================================================================
+*/
+
+.bgColorfalco {
+	background: #52b2e4;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+/*
+=====================================================================
+*
+*    Wario
+*
+* ===================================================================
+*/
+
+.bgColorwario {
+	background: #fecb4c;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+	/*
+=====================================================================
+*
+*    Dark Pit
+*
+* ===================================================================
+*/
+
+.bgColordarkpit {
+	background: #af6ceb;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+/*
+=====================================================================
+*
+*    Dr. Mario
+*
+* ===================================================================
+*/
+
+.bgColordrmario {
+	background: #f96269;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+/*
+=====================================================================
+*
+*    R.O.B.
+*
+* ===================================================================
+*/
+
+.bgColorrob {
+	background: #b2b9bf;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+	/*
+=====================================================================
+*
+*    Ganondorf
+*
+* ===================================================================
+*/
+
+.bgColorganondorf {
+	background: #7e7999;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+
+/*
+=====================================================================
+*
+*    Bowser Jr.
+*
+* ===================================================================
+*/
+
+.bgColorbowserjr {
+	background: #cfce37;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+
+	/*
+=====================================================================
+*
+*    Mr. Game & Watch
+*
+* ===================================================================
+*/
+
+.bgColormrgameandwatch {
+	background: #a6a390;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+
+/*
+=====================================================================
+*
+*    Duck Hunt
+*
+* ===================================================================
+*/
+
+.bgColorduckhunt {
+	background: #945b33;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+
+	/*
+=====================================================================
+*
+*    Jigglypuff
+*
+* ===================================================================
+*/
+
+.bgColorjigglypuff {
+	background: #f283ec;
+    margin: 0 auto;
+	margin-top: 10px;
+	width:600px;
+	padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center; 
+}
+
+
+
