@@ -1,12 +1,206 @@
+@font-face {
+    font-family: 'sfns_displayultralight';
+    src: url('system_san_francisco_display_ultralight-webfont.eot');
+    src: url('system_san_francisco_display_ultralight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('system_san_francisco_display_ultralight-webfont.woff2') format('woff2'),
+         url('system_san_francisco_display_ultralight-webfont.woff') format('woff'),
+         url('system_san_francisco_display_ultralight-webfont.ttf') format('truetype'),
+         url('system_san_francisco_display_ultralight-webfont.svg#sfns_displayultralight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'sfns_textitalic';
+    src: url('system_san_francisco_text_regularitalic-webfont.eot');
+    src: url('system_san_francisco_text_regularitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('system_san_francisco_text_regularitalic-webfont.woff2') format('woff2'),
+         url('system_san_francisco_text_regularitalic-webfont.woff') format('woff'),
+         url('system_san_francisco_text_regularitalic-webfont.ttf') format('truetype'),
+         url('system_san_francisco_text_regularitalic-webfont.svg#sfns_textitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'system_fontregular';
+    src: url('sfnstext-regular-webfont.eot');
+    src: url('sfnstext-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sfnstext-regular-webfont.woff2') format('woff2'),
+         url('sfnstext-regular-webfont.woff') format('woff'),
+         url('sfnstext-regular-webfont.ttf') format('truetype'),
+         url('sfnstext-regular-webfont.svg#system_fontregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'system_fontitalic';
+    src: url('sfnstext-regularitalic-webfont.eot');
+    src: url('sfnstext-regularitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sfnstext-regularitalic-webfont.woff2') format('woff2'),
+         url('sfnstext-regularitalic-webfont.woff') format('woff'),
+         url('sfnstext-regularitalic-webfont.ttf') format('truetype'),
+         url('sfnstext-regularitalic-webfont.svg#system_fontitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'system_fontsemibold';
+    src: url('sfnstext-semibold-webfont.eot');
+    src: url('sfnstext-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sfnstext-semibold-webfont.woff2') format('woff2'),
+         url('sfnstext-semibold-webfont.woff') format('woff'),
+         url('sfnstext-semibold-webfont.ttf') format('truetype'),
+         url('sfnstext-semibold-webfont.svg#system_fontsemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'system_fontsemibold_italic';
+    src: url('sfnstext-semibolditalic-webfont.eot');
+    src: url('sfnstext-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sfnstext-semibolditalic-webfont.woff2') format('woff2'),
+         url('sfnstext-semibolditalic-webfont.woff') format('woff'),
+         url('sfnstext-semibolditalic-webfont.ttf') format('truetype'),
+         url('sfnstext-semibolditalic-webfont.svg#system_fontsemibold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'sfns_displaybold';
+    src: url('system_san_francisco_display_bold-webfont.eot');
+    src: url('system_san_francisco_display_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('system_san_francisco_display_bold-webfont.woff2') format('woff2'),
+         url('system_san_francisco_display_bold-webfont.woff') format('woff'),
+         url('system_san_francisco_display_bold-webfont.ttf') format('truetype'),
+         url('system_san_francisco_display_bold-webfont.svg#sfns_displaybold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'sfns_displaythin';
+    src: url('system_san_francisco_display_thin-webfont.eot');
+    src: url('system_san_francisco_display_thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('system_san_francisco_display_thin-webfont.woff2') format('woff2'),
+         url('system_san_francisco_display_thin-webfont.woff') format('woff'),
+         url('system_san_francisco_display_thin-webfont.ttf') format('truetype'),
+         url('system_san_francisco_display_thin-webfont.svg#sfns_displaythin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'sfns_textbold_italic';
+    src: url('system_san_francisco_text_bolditalic-webfont.eot');
+    src: url('system_san_francisco_text_bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('system_san_francisco_text_bolditalic-webfont.woff2') format('woff2'),
+         url('system_san_francisco_text_bolditalic-webfont.woff') format('woff'),
+         url('system_san_francisco_text_bolditalic-webfont.ttf') format('truetype'),
+         url('system_san_francisco_text_bolditalic-webfont.svg#sfns_textbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'sfns_textmediump4';
+    src: url('system_san_francisco_text_medium-webfont.eot');
+    src: url('system_san_francisco_text_medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('system_san_francisco_text_medium-webfont.woff2') format('woff2'),
+         url('system_san_francisco_text_medium-webfont.woff') format('woff'),
+         url('system_san_francisco_text_medium-webfont.ttf') format('truetype'),
+         url('system_san_francisco_text_medium-webfont.svg#sfns_textmediump4') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'sfns_textmedium_italic';
+    src: url('system_san_francisco_text_mediumitalic-webfont.eot');
+    src: url('system_san_francisco_text_mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('system_san_francisco_text_mediumitalic-webfont.woff2') format('woff2'),
+         url('system_san_francisco_text_mediumitalic-webfont.woff') format('woff'),
+         url('system_san_francisco_text_mediumitalic-webfont.ttf') format('truetype'),
+         url('system_san_francisco_text_mediumitalic-webfont.svg#sfns_textmedium_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'sfns_textitalic';
+    src: url('system_san_francisco_text_regularitalic-webfont.eot');
+    src: url('system_san_francisco_text_regularitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('system_san_francisco_text_regularitalic-webfont.woff2') format('woff2'),
+         url('system_san_francisco_text_regularitalic-webfont.woff') format('woff'),
+         url('system_san_francisco_text_regularitalic-webfont.ttf') format('truetype'),
+         url('system_san_francisco_text_regularitalic-webfont.svg#sfns_textitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+p {
+    font-family: 'system_fontregular', Fallback, sans-serif;
+}
+
 .content {
     
-	margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin: 0 auto;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
-  
+  color: rgba(255,255,255,0.5);
 }
 
 
@@ -17,15 +211,20 @@
 *
 * ===================================================================
 */
-.bgColorvillager {
-	background: #3BAC6C;
+.villager {
+background: #3BAC6C;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
+
+
+    
+
 
 
 
@@ -36,14 +235,15 @@
 *
 * ===================================================================
 */
-.bgColormegaman {
-	background: #75C2E3;
+.megaman {
+background: #75C2E3;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 
@@ -55,14 +255,15 @@
 *
 * ===================================================================
 */
-.bgColorwiifittrainer {
-	background: #86D776;
+.wiifittrainer {
+background: #86D776;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 
@@ -73,14 +274,15 @@
 *
 * ===================================================================
 */
-.bgColordonkeykong {
-	background: #FEDA00;
+.donkeykong {
+background: #FEDA00;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 
@@ -91,14 +293,15 @@
 *
 * ===================================================================
 */
-.bgColorfox {
-	background: #036AC9;
+.fox {
+background: #036AC9;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 
@@ -109,14 +312,15 @@
 *
 * ===================================================================
 */
-.bgColorkirby {
-	background: #FBBEC3;
+.kirby {
+background: #FBBEC3;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 
@@ -127,14 +331,15 @@
 *
 * ===================================================================
 */
-.bgColorbowser {
-	background: #32765C;
+.bowser {
+background: #32765C;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 
@@ -145,14 +350,15 @@
 *
 * ===================================================================
 */
-.bgColorlink {
-	background: #BED163;
+.link {
+background: #BED163;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 
@@ -163,14 +369,15 @@
 *
 * ===================================================================
 */
-.bgColormario {
-	background: #E03038;
+.mario {
+background: #E03038;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 
@@ -181,14 +388,15 @@
 *
 * ===================================================================
 */
-.bgColorpikachu {
-	background: #FFC000;
+.pikachu {
+background: #FFC000;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 
@@ -200,14 +408,15 @@
 *
 * ===================================================================
 */
-.bgColorpit {
-	background: #7BB5D5;
+.pit {
+background: #7BB5D5;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 /*
@@ -217,14 +426,15 @@
 *
 * ===================================================================
 */
-.bgColorsamus {
-	background: #333F58;
+.samus {
+background: #333F58;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 /*
@@ -235,14 +445,15 @@
 * ===================================================================
 */
 
-.bgColorpikmin {
-	background: #BDEF9E;
+.pikmin {
+background: #BDEF9E;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 /*
@@ -253,14 +464,15 @@
 * ===================================================================
 */
 
-.bgColorluigi {
-	background: #41A732;
+.luigi {
+background: #41A732;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 /*
@@ -271,14 +483,15 @@
 * ===================================================================
 */
 
-.bgColorpeach {
-	background: #FEC6F3;
+.peach {
+background: #FEC6F3;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 /*
@@ -289,14 +502,15 @@
 * ===================================================================
 */
 
-.bgColortoonlink {
-	background: #95D642;
+.toonlink {
+background: #95D642;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 
@@ -308,14 +522,15 @@
 * ===================================================================
 */
 
-.bgColorsonic {
-	background: #579DF2;
+.sonic {
+background: #579DF2;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 
@@ -327,14 +542,15 @@
 * ===================================================================
 */
 
-.bgColormarth {
-	background: #3EAACC;
+.marth {
+background: #3EAACC;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 
@@ -345,14 +561,15 @@
 *
 * ===================================================================
 */
-.bgColorrosalina {
-	background: #89E0D5;
+.rosalina {
+background: #89E0D5;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 
@@ -365,14 +582,15 @@
 * ===================================================================
 */
 
-.bgColorzelda {
-	background: #AA74BA;
+.zelda {
+background: #AA74BA;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 
@@ -384,14 +602,15 @@
 * ===================================================================
 */
 
-.bgColordedede {
-	background: #FFE966;
+.dedede {
+background: #FFE966;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 
@@ -403,14 +622,15 @@
 * ===================================================================
 */
 
-.bgColorlucario {
-	background: #AEE4FF;
+.lucario {
+background: #AEE4FF;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 
@@ -421,14 +641,15 @@
 *
 * ===================================================================
 */
-.bgColorlittlemac {
-	background: #39775A;
+.littlemac {
+background: #39775A;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 
@@ -440,14 +661,15 @@
 * ===================================================================
 */
 
-.bgColordiddykong {
-	background: #F24D49;
+.diddykong {
+background: #F24D49;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 
@@ -459,14 +681,15 @@
 * ===================================================================
 */
 
-.bgColorzerosuitsamus {
-	background: #005AAA;
+.zerosuitsamus {
+background: #005AAA;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 
@@ -479,14 +702,15 @@
 * ===================================================================
 */
 
-.bgColorsheik {
-	background: #7371D8;
+.sheik {
+background: #7371D8;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 
@@ -499,14 +723,15 @@
 * ===================================================================
 */
 
-.bgColoryoshi {
-	background: #68D154;
+.yoshi {
+background: #68D154;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 
@@ -518,14 +743,15 @@
 * ===================================================================
 */
 
-.bgColorcharizard {
-	background: #F26B0F;
+.charizard {
+background: #F26B0F;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 
@@ -536,14 +762,15 @@
 *
 * ===================================================================
 */
-.bgColorgreninja {
-	background: #4875AA;
+.greninja {
+background: #4875AA;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 
@@ -555,14 +782,15 @@
 * ===================================================================
 */
 
-.bgColorike {
-	background: #c44737;
+.ike {
+background: #c44737;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 
@@ -574,14 +802,15 @@
 * ===================================================================
 */
 
-.bgColormiifighter {
-	background: #5CC1E6;
+.miifighter {
+background: #5CC1E6;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 /*
@@ -592,14 +821,15 @@
 * ===================================================================
 */
 
-.bgColorpalutena {
-	background: #74E8BF;
+.palutena {
+background: #74E8BF;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 
@@ -611,17 +841,18 @@
 * ===================================================================
 */
 
-.bgColorpacman {
-	background: #F9B038;
+.pacman {
+background: #F9B038;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
-	/*
+/*
 =====================================================================
 *
 *    captain_falcon
@@ -629,17 +860,18 @@
 * ===================================================================
 */
 
-.bgColorcaptainfalcon {
-	background: #9088e2;
+.captainfalcon {
+background: #9088e2;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
-	/*
+/*
 =====================================================================
 *
 *    lucina
@@ -647,19 +879,20 @@
 * ===================================================================
 */
 
-.bgColorlucina {
-	background: #74a7ca;
+.lucina {
+background: #74a7ca;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 
 
-	/*
+/*
 =====================================================================
 *
 *    robin
@@ -667,14 +900,15 @@
 * ===================================================================
 */
 
-.bgColorrobin {
-	background: #ce82de;
+.robin {
+background: #ce82de;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 
@@ -686,14 +920,15 @@
 * ===================================================================
 */
 
-.bgColormetaknight {
-	background: #2d3d7a;
+.metaknight {
+background: #2d3d7a;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 
@@ -705,14 +940,15 @@
 * ===================================================================
 */
 
-.bgColorshulk {
-	background: #e55b79;
+.shulk {
+background: #e55b79;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 /*
@@ -723,14 +959,15 @@
 * ===================================================================
 */
 
-.bgColormewtwo {
-	background: #8054c3;
+.mewtwo {
+background: #8054c3;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 
@@ -741,14 +978,15 @@
 *
 * ===================================================================
 */
-.bgColorlucas {
-	background: #F05F1B;
+.lucas {
+background: #F05F1B;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 
@@ -759,14 +997,15 @@
 *
 * ===================================================================
 */
-.bgColorroy {
-	background: #5CB94D;
+.roy {
+background: #5CB94D;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 
@@ -777,14 +1016,15 @@
 *
 * ===================================================================
 */
-.bgColorryu {
-	background: #E04447;
+.ryu {
+background: #E04447;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 
@@ -795,14 +1035,15 @@
 *
 * ===================================================================
 */
-.bgColorcloud {
+.cloud {
     background: #179884;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 /*
 =====================================================================
@@ -811,14 +1052,15 @@
 *
 * ===================================================================
 */
-.bgColorbayonetta {
+.bayonetta {
     background:#a69fe5;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 /*
 =====================================================================
@@ -827,14 +1069,15 @@
 *
 * ===================================================================
 */
-.bgColorcorrin {
+.corrin {
     background: #4ba9c3;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 /*
@@ -845,14 +1088,15 @@
 * ===================================================================
 */
 
-.bgColorness {
-	background: #f02d33;
+.ness {
+background: #f02d33;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 /*
@@ -863,14 +1107,15 @@
 * ===================================================================
 */
 
-.bgColorfalco {
-	background: #52b2e4;
+.falco {
+background: #52b2e4;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 /*
@@ -881,16 +1126,17 @@
 * ===================================================================
 */
 
-.bgColorwario {
-	background: #fecb4c;
+.wario {
+background: #fecb4c;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
-	/*
+/*
 =====================================================================
 *
 *    Dark Pit
@@ -898,14 +1144,15 @@
 * ===================================================================
 */
 
-.bgColordarkpit {
-	background: #af6ceb;
+.darkpit {
+background: #af6ceb;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 /*
@@ -916,14 +1163,15 @@
 * ===================================================================
 */
 
-.bgColordrmario {
-	background: #f96269;
+.drmario {
+background: #f96269;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 /*
 =====================================================================
@@ -933,17 +1181,18 @@
 * ===================================================================
 */
 
-.bgColorrob {
-	background: #b2b9bf;
+.rob {
+background: #b2b9bf;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
-	/*
+/*
 =====================================================================
 *
 *    Ganondorf
@@ -951,14 +1200,15 @@
 * ===================================================================
 */
 
-.bgColorganondorf {
-	background: #7e7999;
+.ganondorf {
+background: #7e7999;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 
@@ -970,18 +1220,19 @@
 * ===================================================================
 */
 
-.bgColorbowserjr {
-	background: #cfce37;
+.bowserjr {
+background: #cfce37;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 
-	/*
+/*
 =====================================================================
 *
 *    Mr. Game & Watch
@@ -989,14 +1240,15 @@
 * ===================================================================
 */
 
-.bgColormrgameandwatch {
-	background: #a6a390;
+.mrgameandwatch {
+background: #a6a390;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 
@@ -1008,18 +1260,19 @@
 * ===================================================================
 */
 
-.bgColorduckhunt {
-	background: #945b33;
+.duckhunt {
+background: #945b33;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
 
 
-	/*
+/*
 =====================================================================
 *
 *    Jigglypuff
@@ -1027,15 +1280,15 @@
 * ===================================================================
 */
 
-.bgColorjigglypuff {
-	background: #f283ec;
+.jigglypuff {
+background: #f283ec;
     margin: 0 auto;
-	margin-top: 10px;
-	width:600px;
-	padding: 20px 10px 20px 20px;
+margin-top: 10px;
+width:600px;
+padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
+    color: rgba(255,255,255,0.5);
 }
-
 
 
