@@ -187,6 +187,12 @@
 
 }
 
+html{
+    background-color: #666666;
+}
+body{
+    background-color: #666666;
+}
 
 p {
     font-family: 'system_fontregular', Fallback, sans-serif;
@@ -244,6 +250,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 
@@ -264,6 +272,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 
@@ -283,6 +293,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 
@@ -302,6 +314,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 
@@ -321,6 +335,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 
@@ -340,6 +356,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 
@@ -359,6 +377,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 
@@ -378,6 +398,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 
@@ -397,6 +419,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 
@@ -417,6 +441,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 /*
@@ -435,6 +461,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 /*
@@ -454,6 +482,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 /*
@@ -473,6 +503,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 /*
@@ -492,6 +524,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 /*
@@ -511,6 +545,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 
@@ -531,6 +567,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 
@@ -551,6 +589,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 
@@ -570,6 +610,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 
@@ -591,6 +633,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 
@@ -611,6 +655,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 
@@ -631,6 +677,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 
@@ -650,6 +698,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 
@@ -670,6 +720,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 
@@ -690,6 +742,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 
@@ -711,6 +765,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 
@@ -732,6 +788,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 
@@ -752,6 +810,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 
@@ -771,6 +831,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 
@@ -791,6 +853,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 
@@ -811,6 +875,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 /*
@@ -830,6 +896,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 
@@ -850,6 +918,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 /*
@@ -869,6 +939,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 /*
@@ -888,6 +960,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 
@@ -909,6 +983,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 
@@ -929,6 +1005,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 
@@ -949,6 +1027,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 /*
@@ -968,6 +1048,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 
@@ -987,6 +1069,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 
@@ -1006,6 +1090,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 
@@ -1025,6 +1111,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 
@@ -1044,6 +1132,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 /*
 =====================================================================
@@ -1061,6 +1151,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 /*
 =====================================================================
@@ -1078,6 +1170,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 /*
@@ -1097,6 +1191,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 /*
@@ -1116,6 +1212,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 /*
@@ -1135,6 +1233,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 /*
 =====================================================================
@@ -1153,6 +1253,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 /*
@@ -1172,6 +1274,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 /*
 =====================================================================
@@ -1190,6 +1294,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 /*
@@ -1209,6 +1315,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 
@@ -1229,6 +1337,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 
@@ -1249,6 +1359,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 
@@ -1269,6 +1381,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 
@@ -1289,6 +1403,8 @@ padding: 20px 10px 20px 20px;
     border-radius: 75px;
     text-align: center; 
     color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    outline-color: white;
 }
 
 
