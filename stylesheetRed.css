@@ -195,8 +195,11 @@ html {
   padding: 0;
   margin: 0;
 
-  
-  background-color: #000;
+  background: #f2dfce; /* Old browsers */
+  background: -moz-linear-gradient(left, #f2dfce 0%, #f2ceca 100%);
+    background: -webkit-linear-gradient(left, #f2dfce 0%, #f2ceca 100%);
+    background: linear-gradient(to left, #f2dfce 0%, #f2ceca 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2dfce', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
 }
 
 
@@ -211,7 +214,14 @@ body {
 
 	font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
 	font-size: 10.5pt;
-	background-color: #ff4848;
+    /*	background-color: #ff4848;*/
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff4848+0,ff4848+99,000000+100 */
+    background: #ff4848; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ff4848 0%, #ff4848 99%, #000000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #ff4848 0%,#ff4848 99%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #ff4848 0%,#ff4848 99%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff4848', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+
     
 	color: #404040;
 /*
@@ -407,7 +417,7 @@ IMG.logo {
 
 #footer {
 	overflow: hidden;
-    box-shadow: 0px 500px 0px 500px #000000;
+    box-shadow: 0px 500px 0px 500px #000; 
     font-family: 'sfns_displayultralight', Fallback, sans-serif; 
 	margin: 5px auto 0 auto;
 	padding: 10px -100px 0;
