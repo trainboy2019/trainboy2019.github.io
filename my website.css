@@ -1,0 +1,9 @@
+h1{color:green;} 
+body{
+background-repeat: no-repeat;}
+a:link {color:red;}
+a:visited{color:blue;}
+a:active{color:purple;}
+a:hover{color:green;}
+.line1{color:yellow;}
+.line2{color:red;}
