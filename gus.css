@@ -1,4 +1,4 @@
-@import url(//fonts.googleapis.com/css?family=Roboto:700,400,300,100);
+@import url(https://fonts.googleapis.com/css?family=Orbitron:500,900|Catamaran:700,500,400
 .pokemon-gus-container div, .pokemon-gus-container span, .pokemon-gus-container applet,
 .pokemon-gus-container object, .pokemon-gus-container iframe, .pokemon-gus-container h1,
 .pokemon-gus-container h2, .pokemon-gus-container h3, .pokemon-gus-container h4,
@@ -136,7 +136,7 @@
 }
 
 .pokemon-gus-container #gus-modal h6, .pokemon-gus-container #gus-pokemon-center-modal h6 {
-    font-family: "Roboto", arial, sans-serif;
+    font-family: "Catamaran", arial, sans-serif;
     font-weight: 300;
     color: #fff;
     font-size: 225%;
@@ -157,7 +157,7 @@
 .pokemon-gus-container #gus-modal .externalLink h6, .pokemon-gus-container #gus-modal .centerLink h6,
 .pokemon-gus-container #gus-pokemon-center-modal .externalLink h6,
 .pokemon-gus-container #gus-pokemon-center-modal .centerLink h6 {
-    font-family: "Roboto", arial, sans-serif;
+    font-family: "Catamaran", arial, sans-serif;
     font-weight: 300;
     color: #616161;
     font-size: 178%;
@@ -177,7 +177,7 @@
 .pokemon-gus-container #gus-pokemon-center-modal .centerLink p {
     color: #616161;
     float: left;
-    font-family: "Roboto", arial, sans-serif;
+    font-family: "Catamaran", arial, sans-serif;
     display: block;
     margin: 15px 30px 20px 275px;
     font-size: 87.5%;
@@ -223,7 +223,7 @@
     padding: 0.75em 1.25em 0.675em;
     vertical-align: middle;
     text-align: center;
-    font-family: "Roboto", arial, sans-serif;
+    font-family: "Catamaran", arial, sans-serif;
     font-weight: 400
 }
 
@@ -367,7 +367,7 @@
 
     .pokemon-gus-container ul.auth a {
         color: #919191;
-        font-family: "Roboto", arial, sans-serif;
+        font-family: "Catamaran", arial, sans-serif;
         font-size: 11px;
         line-height: 1.5
     }
@@ -377,7 +377,7 @@
     }
 
     .pokemon-gus-container ul.auth li.user.profile a {
-        font-family: "Roboto", arial, sans-serif;
+        font-family: "Catamaran", arial, sans-serif;
         font-width: 700
     }
 
@@ -516,7 +516,7 @@
 
     .pokemon-gus-container .flyout-auth {
         background-color: #313131;
-        font-family: "Roboto", arial, sans-serif;
+        font-family: "Catamaran", arial, sans-serif;
         font-size: 16px
     }
 
@@ -529,7 +529,7 @@
     }
 
     .pokemon-gus-container .flyout-auth li.user.profile {
-        font-family: "Roboto", arial, sans-serif;
+        font-family: "Catamaran", arial, sans-serif;
         background-color: #616161
     }
 
@@ -543,7 +543,7 @@
     }
 
     .pokemon-gus-container .flyout-auth li.user.signin {
-        font-family: "Roboto", arial, sans-serif;
+        font-family: "Catamaran", arial, sans-serif;
         background-color: #4dad5b
     }
 
