@@ -758,9 +758,19 @@ function aud_play_pause() {
 	</div>
 
 	<div class="content" id="19">
-		<p id="rotate">
-			Hello
-		</p>
+	<script type="text/javascript">
+		function getPokemon() {
+			var pokemon = document.getElementById("myText").value
+			var xhr = new XMLHttpRequest();
+			xhr.open("GET", "http://pokeapi.co/api/v2/pokemon/"+pokemon, false);
+			xhr.send();
+
+			console.log(xhr.status);
+			console.log(xhr.statusText);
+		}
+	</script>
+	<input type="text" id="myText" value="Pokemon Name or #">
+	<button onclick="getPokemon()">Get data</button>
 	</div>
 
 	<div class="content"id="20">
