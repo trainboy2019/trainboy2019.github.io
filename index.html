@@ -762,7 +762,7 @@ function aud_play_pause() {
 		function getPokemon() {
 			var pokemon = document.getElementById("myText").value
 			var xhr = new XMLHttpRequest();
-			xhr.open("GET", "http://pokeapi.co/api/v2/pokemon/"+pokemon, false);
+			xhr.open("GET", "http://pokeapi.co/api/v2/pokemon/"+pokemon, true);
 			xhr.send();
 
 			console.log(xhr.status);
