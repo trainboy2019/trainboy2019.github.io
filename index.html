@@ -11,10 +11,28 @@
 		
 		<!--<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js" type="text/javascript" charset="utf-8"></script>-->
 		<script type="text/javascript" src = "jquery.cre-animate.js"></script>
+		<script type="text/javascript">function discord() {
+	var Discordie = require("discordie");
+	var Events = Discordie.Events;
+
+	var client = new Discordie();
+
+	client.connect({ token: "werwe" });
+
+	client.Dispatcher.on(Events.GATEWAY_READY, e => {
+	  console.log("Connected as: " + client.User.username);
+	});
+
+	client.Dispatcher.on(Events.MESSAGE_CREATE, e => {
+	  if (e.message.content == "ping")
+	    e.message.channel.sendMessage("pong");
+	});
+}</script>
 
 
 		<!-- This is what you need -->
   <script src="sweetalert-dev.js"></script>
+  <script type="text/javascript" src="discord.js"></script>
   <link rel="stylesheet" href="sweetalert.css">
   <!--.......................-->
 		
@@ -758,19 +776,49 @@ function aud_play_pause() {
 	</div>
 
 	<div class="content" id="19">
-	<script type="text/javascript">
-		function getPokemon() {
-			var pokemon = document.getElementById("myText").value
-			var xhr = new XMLHttpRequest();
-			xhr.open("GET", "http://pokeapi.co/api/v2/pokemon/"+pokemon, true);
-			xhr.send();
+	<script>
 
-			console.log(xhr.status);
-			console.log(xhr.statusText);
-		}
-	</script>
-	<input type="text" id="myText" value="Pokemon Name or #">
-	<button onclick="getPokemon()">Get data</button>
+    function update (call) {
+
+        jQuery('#interactive').val(call);
+        interactive_call();
+    }
+
+    function interactive_call() {
+
+        var content = jQuery('#interactive').val() || 'pokemon/1';;
+
+        var call_url = 'http://pokeapi.co/api/v2/pokemon/' + content;
+
+        jQuery.ajax({
+
+            dataType: 'json',
+            url: call_url,
+            context: document.body
+
+        }).complete( function(data) {
+
+            if(data['status'] == 200){
+
+                var d = jQuery.parseJSON(data['responseText']);
+                jQuery('#interactive_name').html(d['name']);
+                jQuery('#interactive_output').text(JSON.stringify(d, null, '\t'));
+
+            } else if (data['status'] == 404) {
+
+                jQuery('#interactive_output').text(data['status'] + ' ' + data['statusText']);
+            }
+        });
+    }
+    console.log(context);
+</script>
+
+
+
+
+
+
+		<!-- <script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script> -->
 	</div>
 
 	<div class="content"id="20">
