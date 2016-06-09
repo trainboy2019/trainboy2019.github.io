@@ -202,6 +202,7 @@ html {
     background-image: linear-gradient(to left, #f2dfce 0%, #f2ceca 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2dfce', endColorstr='#f2ceca',GradientType=0 ); /* IE6-9 */
     
+    
 }
 
 
@@ -224,6 +225,7 @@ body {
     background: linear-gradient(to bottom,  #ff4848 0%,#ff4848 99%,#000000 100%);
     background-image: linear-gradient(to bottom,  #ff4848 0%,#ff4848 99%,#000000 100%);/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff4848', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+    
     
     
 
@@ -745,6 +747,7 @@ box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25);
     -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25);
 -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25);
 box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25);
+    -webkit-animation: hue 2s infinite linear;
     
 }
 
@@ -1368,4 +1371,74 @@ div.overlay {
     background-color:rgba(153,153,153,0.40);
 	
 	
+}
+
+
+.site_title {
+    color: #f35626;
+    background-image: -webkit-linear-gradient(0deg,#f35626,#feab3a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 60s infinite linear;
+  }
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
+
+.blur {
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+}
+
+.brightness {
+    -webkit-filter: brightness(0.30);
+    filter: brightness(0.30);
+}
+
+.contrast {
+    -webkit-filter: contrast(180%);
+    filter: contrast(180%);
+}
+
+.grayscale {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.huerotate {
+    -webkit-filter: hue-rotate(180deg);
+    filter: hue-rotate(180deg);
+}
+
+.invert {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.opacity {
+    -webkit-filter: opacity(50%);
+    filter: opacity(50%);
+}
+
+.saturate {
+    -webkit-filter: saturate(7);
+    filter: saturate(7);
+}
+
+.sepia {
+    -webkit-filter: sepia(100%);
+    filter: sepia(100%);
+}
+
+.shadow {
+    -webkit-filter: drop-shadow(8px 8px 10px green);
+    filter: drop-shadow(8px 8px 10px green);
 }
