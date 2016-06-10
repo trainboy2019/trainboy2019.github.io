@@ -406,9 +406,10 @@ box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25);
     -webkit-backdrop-filter: blur(5px);  Chrome, Safari, Opera 
     backdrop-filter: blur(5px);
 */
-    -webkit-transition: opacity 2s cubic-bezier(.85,.17,.19,.89);
+/*    -webkit-transition: opacity 2s cubic-bezier(.85,.17,.19,.89);*/
+    -webkit-transition: opacity 2s ease;
     
-  transition: opacity 2s cubic-bezier(.85,.17,.19,.89);
+/*  transition: opacity 2s cubic-bezier(.85,.17,.19,.89);*/
     
 }
 
@@ -740,7 +741,7 @@ box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25);
     
 }
 
-.sticky {
+.stickyL {
   background-color: #FB9C44;
   background-image: linear-gradient(to left, #FB9C44, #FC4831);
     padding-left: 1%;
@@ -1343,6 +1344,12 @@ div.overlay {
 
 .as-violator-alt {
     background: transparent;
+    border-color: #79a21c;
+    color: #79a21c
+}
+
+.as-violator-alt-2 {
+    background: transparent;
     border-color: #f46c0e;
     color: #f46c0e
 }
@@ -1441,4 +1448,42 @@ div.overlay {
 .shadow {
     -webkit-filter: drop-shadow(8px 8px 10px green);
     filter: drop-shadow(8px 8px 10px green);
+}
+
+.sticky {
+    padding: 0.5ex;
+    width: 98.885%;
+/*    background-color: #F0F0F0;*/
+/*    color: #fff;*/
+    font-size: 2em;
+/*    border-radius: 75px;*/
+}
+
+.sticky.stick {
+    width: 98.885%;
+    margin-top: 0 !important;
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+/*    border-radius: 0 0 75px 75px;*/
+}
+
+.color {
+    padding: 0.5ex;
+    width: 98.885%;
+    background-color: #F0F0F0;
+    color: #000;
+    font-size: 2em;
+    -webkit-filter: opacity(50%);
+    filter: opacity(50%);
+    -webkit-transition:-webkit-filter 0.4s ease-in-out;
+/*    border-radius: 75px;*/
+}
+
+.color.night {
+    
+    -webkit-filter: invert(100%);
+    -webkit-filter: opacity(50%);
+/*    filter: invert(100%);*/
+/*    border-radius: 0 0 75px 75px;*/
 }

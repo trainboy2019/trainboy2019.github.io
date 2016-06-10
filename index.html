@@ -11,6 +11,7 @@
 		
 		<!--<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js" type="text/javascript" charset="utf-8"></script>-->
 		<script type="text/javascript" src = "jquery.cre-animate.js"></script>
+		<!-- <script type="text/javascript" src = "sticky.js"></script> -->
 		<script type="text/javascript">function discord() {
 	var Discordie = require("discordie");
 	var Events = Discordie.Events;
@@ -96,11 +97,11 @@ function popup(message) {
 <script src="velocity.ui.js"></script>
 <script src="velocity.ui.min.js"></script>
 <script>
-var t = 75;
+var t = 50;
 $(document).ready(function(){
     $("#1").animate({ 
    
-        'opacity': '1'
+       'opacity': '1'
     },t);
     $("#2").delay(t).animate({ 
    
@@ -268,6 +269,34 @@ $(document).ready(function(){
     // },t);
 });
 </script>
+
+<!-- <script>
+var t = 500;
+$(document).ready(function(){
+    $("#1").toggleClass("contFix");
+    $("#2").delay(t*1).toggleClass("contFix");
+    $("#3").delay(t*2).toggleClass("contFix");
+    $("#4").delay(t*3).toggleClass("contFix");
+    $("#5").delay(t*4).toggleClass("contFix");
+    $("#6").delay(t*5).toggleClass("contFix");
+    $("#7").delay(t*6).toggleClass("contFix");
+    $("#8").delay(t*7).toggleClass("contFix");
+    $("#9").delay(t*8).toggleClass("contFix");
+    $("#10").delay(t*9).toggleClass("contFix");
+    $("#11").delay(t*10).toggleClass("contFix");
+    $("#12").delay(t*11).toggleClass("contFix");
+    $("#13").delay(t*12).toggleClass("contFix");
+    $("#14").delay(t*13).toggleClass("contFix");
+    $("#15").delay(t*14).toggleClass("contFix");
+    $("#16").delay(t*15).toggleClass("contFix");
+    $("#17").delay(t*16).toggleClass("contFix");
+    $("#18").delay(t*17).toggleClass("contFix");
+    $("#19").delay(t*18).toggleClass("contFix");
+    $("#20").delay(t*19).toggleClass("contFix");
+    $("#21").delay(t*20).toggleClass("contFix");
+    $("#22").delay(t*21).toggleClass("contFix");
+});
+</script> -->
 
 <!--<script>
 $(document).ready(function(){
@@ -510,7 +539,7 @@ fclose($handle);
 
 </div>
 <div class="fake-shadow"></div>
-<div class="sticky" style="color: white;">
+<div class="stickyL" style="color: white;">
 <!-- <div class="wwdc-logo"></div> -->
 <br />
 
@@ -699,6 +728,18 @@ fclose($handle);
 		</script>	
 		</p>
 	</div>
+
+
+
+
+
+	<!-- <div id="sticky-anchor"></div> -->
+
+<!-- <div class="sticky color">This will stay at top of page</div> -->
+
+
+
+
 	<div class="content" id="14">
 		<p>Click the button to get your coordinates.</p>
 
@@ -725,7 +766,7 @@ function showPosition(position) {
 </script>
 
 	</div>
-
+<!-- <div id="color-anchor-top"></div> -->
 	<div class="content"id="15">
 	
 	<script src="LangDisplay.js">
@@ -741,7 +782,7 @@ function showPosition(position) {
 
 </script>
 </div>
-
+<!-- <div id="color-anchor-bottom"></div> -->
 	<div class="content"id="17">
 	<img class="papa" src="images/resources-swift.svg">
 	<br />
