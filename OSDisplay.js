@@ -18,7 +18,7 @@ console.log(navigator);
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_9") != -1) OSName="Mac OS X Mavericks";
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_10") != -1) OSName="Mac OS X Yosemite";
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_11;") != -1) OSName="Mac OS X El Capitan";
-		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_12") != -1) OSName="Mac OS X Fuji";
+		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_12") != -1) OSName="macOS Sierra";
 		
 
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10.0") != -1) OSName="Mac OS X Cheetah";
@@ -33,7 +33,7 @@ console.log(navigator);
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10.9") != -1) OSName="Mac OS X Mavericks";
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10.10") != -1) OSName="Mac OS X Yosemite";
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10.11;") != -1) OSName="Mac OS X El Capitan";
-		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10.12") != -1) OSName="Mac OS X Fuji";
+		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10.12") != -1) OSName="macOS Sierra";
 
 
 		// if( ua.indexOf("Android") >= 0 )
@@ -9377,7 +9377,7 @@ if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".
 iOS1="10";
 iOS2="0";
 
-if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+" like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2;
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+" like macOS") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2;
 if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".0 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".0";
 if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".1 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".1";
 if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".2 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".2";
