@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<?php
+			$json = file_get_contents('https://api.twitter.com/1.1/friends/ids.json?cursor=-1&screen_name=trainboy2019&count=5000'); // this WILL do an http request for you
+			$data = json_decode($json);
+			echo $data->{'token'};
+		?>
+	</body
+</html

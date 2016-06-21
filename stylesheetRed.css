@@ -386,9 +386,6 @@ IMG.logo {
     color: #bdb099;   
 }
 
-
-
-
 .content {
     font-family: 'sfns_displayultralight', Fallback, sans-serif; 
 	margin: 0 auto;
@@ -412,6 +409,35 @@ box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25);
 /*  transition: opacity 2s cubic-bezier(.85,.17,.19,.89);*/
     
 }
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+    .content {
+    font-family: 'sfns_displayultralight', Fallback, sans-serif; 
+	margin: 0 auto;
+	margin-top: 10px;
+	width:85%;
+	padding: 20px 10px 20px 20px;
+    opacity: 0;
+	background: #F0F0F0;
+    border-radius: 75px;
+    text-align: center; 
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25);
+-moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25);
+box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25);
+/*
+    -webkit-backdrop-filter: blur(5px);  Chrome, Safari, Opera 
+    backdrop-filter: blur(5px);
+*/
+/*    -webkit-transition: opacity 2s cubic-bezier(.85,.17,.19,.89);*/
+    -webkit-transition: opacity 2s ease;
+    
+/*  transition: opacity 2s cubic-bezier(.85,.17,.19,.89);*/
+    
+}
+}
+
 
 .content h2 a
 {
@@ -748,7 +774,7 @@ box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25);
     -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25);
 -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25);
 box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25);
-    -webkit-animation: hue 2s infinite linear;
+    -webkit-animation: hue 300s infinite linear;
     
 }
 
@@ -1486,4 +1512,14 @@ div.overlay {
     -webkit-filter: opacity(50%);
 /*    filter: invert(100%);*/
 /*    border-radius: 0 0 75px 75px;*/
+}
+
+
+.break {
+ background-image: url("images/texture.png") ;
+    position: fixed;
+    color: #000;
+    width: 100%;
+/*    height 100px;*/
+    opacity: 1;
 }

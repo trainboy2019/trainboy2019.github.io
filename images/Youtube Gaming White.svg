@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) by Toomai Glittershine for SmashWiki -->
+<svg viewBox="0 0 32 32" preserveAspectRatio="xMidYMid meet" class="style-scope iron-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g fill-rule="evenodd" transform="translate(0.000000, 6.000000)" class="style-scope iron-icon">
+        
+        <path d="M24,0 L32,4 L24,8 L24,0 Z" fill="#FFFFFF" class="style-scope iron-icon"></path>
+        <path d="M24,0 L32,4 L31.2,4.4 L24,0 Z" opacity="0.1" class="style-scope iron-icon"></path>
+        <path d="M16,4 L24,8 L16,12 L16,4 Z M16,4 L8,8 L16,12 L16,4 Z" opacity="0.4" class="style-scope iron-icon"></path>
+        <path d="M24,8 L32,12 L24,16 L24,8 Z" opacity="0.4" class="style-scope iron-icon"></path>
+        <path d="M0,0 L8,4 L0,8 L0,0 Z" opacity="0.4" transform="translate(4.000000, 4.000000) scale(-1, 1) translate(-4.000000, -4.000000) " class="style-scope iron-icon"></path>
+        <path d="M8,0 L16,4 L8,8 L8,0 Z" opacity="0.3" class="style-scope iron-icon"></path>
+        <path d="M16,0 L24,4 L16,8 L16,0 Z" opacity="0.3" transform="translate(20.000000, 4.000000) scale(-1, 1) translate(-20.000000, -4.000000) " class="style-scope iron-icon"></path>
+        <path d="M24,4 L32,8 L24,12 L24,4 Z" opacity="0.3" transform="translate(28.000000, 8.000000) scale(-1, 1) translate(-28.000000, -8.000000) " class="style-scope iron-icon"></path>
+        <path d="M8,8 L0,12 L8,16 L8,8 Z" opacity="0.6" class="style-scope iron-icon"></path>
+        <path d="M8,12 L16,16 L8,20 L8,12 Z" opacity="0.6" transform="translate(12.000000, 16.000000) scale(-1, 1) translate(-12.000000, -16.000000) " class="style-scope iron-icon"></path>
+        <path d="M8,8 L16,12 L8,16 L8,8 Z" opacity="0.5" class="style-scope iron-icon"></path>
+        <path d="M0,4 L8,8 L0,12 L0,4 Z" opacity="0.5" class="style-scope iron-icon"></path>
+        <path d="M16,12 L24,16 L16,20 L16,12 Z M24,8 L16,12 L24,16 L24,8 Z" opacity="0.5" class="style-scope iron-icon"></path>
+      </g></svg>

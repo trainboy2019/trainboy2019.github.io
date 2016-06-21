@@ -1,0 +1,18 @@
+<svg viewBox="0 0 32 32" preserveAspectRatio="xMidYMid meet" class="style-scope iron-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g fill-rule="evenodd" transform="translate(0.000000, 6.000000)" class="style-scope iron-icon">
+        
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="90.5095881%" id="COLORED_LINEAR_GRADIENT_" class="style-scope iron-icon">
+            <stop stop-color="#E6E6E6" offset="0%" class="style-scope iron-icon"></stop>
+            <stop stop-color="#F3F3F3" offset="100%" class="style-scope iron-icon"></stop>
+        </linearGradient>
+        <path d="M24,0 L16,4 L8,0 L1.11022302e-17,4 L1.11022302e-17,12 L16,20 L32,12 L32,4 L24,0 Z" fill="#E33129" class="style-scope iron-icon"></path>
+        <path d="M24,0 L32,4 L24,8 L24,0 Z" fill="#FFFFFF" class="style-scope iron-icon"></path>
+        <path d="M24,0 L32,4 L31.2,4.4 L24,0 Z" fill="url(#COLORED_LINEAR_GRADIENT_)" class="style-scope iron-icon"></path>
+        <path d="M16,4 L24,8 L16,12 L16,4 Z M16,4 L8,8 L16,12 L16,4 Z" fill="#C8322A" class="style-scope iron-icon"></path>
+        <path d="M24,8 L32,12 L24,16 L24,8 Z" fill="#C8322A" class="style-scope iron-icon"></path>
+        <path d="M0,0 L8,4 L0,8 L0,0 Z" fill="#C8322A" transform="translate(4.000000, 4.000000) scale(-1, 1) translate(-4.000000, -4.000000) " class="style-scope iron-icon"></path>
+        <path d="M8,8 L0,12 L8,16 L8,8 Z" fill="#92322E" class="style-scope iron-icon"></path>
+        <path d="M8,12 L16,16 L8,20 L8,12 Z" fill="#92322E" transform="translate(12.000000, 16.000000) scale(-1, 1) translate(-12.000000, -16.000000) " class="style-scope iron-icon"></path>
+        <path d="M8,8 L16,12 L8,16 L8,8 Z" fill="#AD322C" class="style-scope iron-icon"></path>
+        <path d="M0,4 L8,8 L0,12 L0,4 Z" fill="#AD322C" class="style-scope iron-icon"></path>
+        <path d="M16,12 L24,16 L16,20 L16,12 Z M24,8 L16,12 L24,16 L24,8 Z" fill="#AD322C" class="style-scope iron-icon"></path>
+      </g></svg>
