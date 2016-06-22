@@ -436,6 +436,64 @@ box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25);
 /*  transition: opacity 2s cubic-bezier(.85,.17,.19,.89);*/
     
 }
+    
+html {
+
+  height: auto;
+  width: auto;
+  padding: 0;
+  margin: 0;
+
+  background: #f2dfce; /* Old browsers */
+  background: -moz-linear-gradient(to left, #f2dfce 0%, #f2ceca 100%);
+    background: -webkit-linear-gradient(to left, #f2dfce 0%, #f2ceca 100%);
+    background: linear-gradient(to left, #f2dfce 0%, #f2ceca 100%);
+    background-image: linear-gradient(to left, #f2dfce 0%, #f2ceca 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2dfce', endColorstr='#f2ceca',GradientType=0 ); /* IE6-9 */
+    
+    
+}
+
+
+body {
+    
+
+	height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    
+
+	font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+	font-size: 20.5pt;
+    /*	background-color: #ff4848;*/
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff4848+0,ff4848+99,000000+100 */
+    background: #ff4848; /* Old browsers */
+    background: -moz-linear-gradient(to top,  #ff4848 0%, #ff4848 99%, #000000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(to top,  #ff4848 0%,#ff4848 99%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #ff4848 0%,#ff4848 99%,#000000 100%);
+    background-image: linear-gradient(to bottom,  #ff4848 0%,#ff4848 99%,#000000 100%);/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff4848', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+    
+    
+    
+
+    
+	color: #404040;
+/*
+    background: -webkit-linear-gradient(0deg, rgb(0,0,0) 0, rgb(255,72,72) 1%), rgba(0,0,0,100);
+			  background: -moz-linear-gradient(0deg, rgb(0,0,0) 0, rgb(255,72,72) 1%), rgba(0,0,0,0);
+			  background: linear-gradient(0deg, rgb(0,0,0) 0, rgb(255,72,72) 1%), rgba(0,0,0,0);
+*/
+    
+}
+    
+#footer p {
+    font-family: 'sfns_displayultralight', Fallback, sans-serif; 
+	text-align: center;
+	font-size: 32px;
+}
+    
 }
 
 
