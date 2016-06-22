@@ -410,6 +410,39 @@ box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25);
     
 }
 
+
+
+#footer {
+	overflow: hidden;
+    box-shadow: 0px 500px 0px 500px #000; 
+    font-family: 'sfns_displayultralight', Fallback, sans-serif; 
+	margin: 5px auto 0 auto;
+	padding: 10px -100px 0;
+	background: #000;
+	width:auto;
+	height: 80px;
+    
+    
+}
+
+#footer p {
+    font-family: 'sfns_displayultralight', Fallback, sans-serif; 
+	text-align: center;
+	font-size: 16px;
+}
+
+#footer a {
+
+text-decoration: none;
+text-align: center;
+-o-transition: color 0.2s linear;
+-moz-transition: color 0.2s linear;
+-khtml-transition: color 0.2s linear;
+-webkit-transition: color 0.2s linear;
+-ms-transition: color 0.2s linear;
+transition: color 0.2s linear;
+}
+
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 667px) { 
@@ -516,36 +549,7 @@ body {
 }
 */
 
-#footer {
-	overflow: hidden;
-    box-shadow: 0px 500px 0px 500px #000; 
-    font-family: 'sfns_displayultralight', Fallback, sans-serif; 
-	margin: 5px auto 0 auto;
-	padding: 10px -100px 0;
-	background: #000;
-	width:auto;
-	height: 80px;
-    
-    
-}
 
-#footer p {
-    font-family: 'sfns_displayultralight', Fallback, sans-serif; 
-	text-align: center;
-	font-size: 16px;
-}
-
-#footer a {
-
-text-decoration: none;
-text-align: center;
--o-transition: color 0.2s linear;
--moz-transition: color 0.2s linear;
--khtml-transition: color 0.2s linear;
--webkit-transition: color 0.2s linear;
--ms-transition: color 0.2s linear;
-transition: color 0.2s linear;
-}
 
 /*
 #footer a:hover {
