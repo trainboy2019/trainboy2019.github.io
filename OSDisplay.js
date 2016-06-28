@@ -6,6 +6,9 @@ console.log(navigator);
 		var iOS3 = "Hello";
 		var isAndroid ="false"
 		var isMobile=""
+		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_10") != -1) OSName="Mac OS X Yosemite";
+		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_12") != -1) OSName="macOS Sierra";
+		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_11") != -1) OSName="Mac OS X El Capitan";
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_0") != -1) OSName="Mac OS X Cheetah";
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_1") != -1) OSName="Mac OS X Puma";
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_2") != -1) OSName="Mac OS X Jaguar";
@@ -16,12 +19,16 @@ console.log(navigator);
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_7") != -1) OSName="Mac OS X Lion";
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_8") != -1) OSName="Mac OS X Mountain Lion";
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_9") != -1) OSName="Mac OS X Mavericks";
-		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_10") != -1) OSName="Mac OS X Yosemite";
-		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_11;") != -1) OSName="Mac OS X El Capitan";
-		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_12") != -1) OSName="macOS Sierra";
 		if (window.navigator.userAgent.indexOf("macOS") != -1) OSName="macOS Sierra";
+
+		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_10") != -1) OSName="Mac OS X Yosemite";
+		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_12") != -1) OSName="macOS Sierra";
+		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_11") != -1) OSName="Mac OS X El Capitan";
 		
 
+		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10.10") != -1) OSName="Mac OS X Yosemite";
+		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10.11") != -1) OSName="Mac OS X El Capitan";
+		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10.12") != -1) OSName="macOS Sierra";
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10.0") != -1) OSName="Mac OS X Cheetah";
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10.1") != -1) OSName="Mac OS X Puma";
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10.2") != -1) OSName="Mac OS X Jaguar";
@@ -33,7 +40,7 @@ console.log(navigator);
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10.8") != -1) OSName="Mac OS X Mountain Lion";
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10.9") != -1) OSName="Mac OS X Mavericks";
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10.10") != -1) OSName="Mac OS X Yosemite";
-		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10.11;") != -1) OSName="Mac OS X El Capitan";
+		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10.11") != -1) OSName="Mac OS X El Capitan";
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10.12") != -1) OSName="macOS Sierra";
 
 
