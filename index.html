@@ -8,7 +8,9 @@
 		 <meta name="robots" content="nofollow" />
 		<meta http-equiv="Default-Style" content="Red">
 		<script src="jquery-2.2.1.js" type="text/javascript" charset="utf-8"></script>
-		
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 		<!--<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js" type="text/javascript" charset="utf-8"></script>-->
 		<script type="text/javascript" src = "jquery.cre-animate.js"></script>
 		<!-- <script type="text/javascript" src = "sticky.js"></script> -->
@@ -40,7 +42,7 @@
 
 <script>
 $(document).ready(function(){
-    $("#colorbutton").click(function(){
+    $("#download-button").click(function(){
         $("#div1").fadeToggle("fast");
         $("#div2").fadeToggle();
         $("#div3").fadeToggle("slow");
@@ -560,7 +562,7 @@ fclose($handle);
 
 	<div class="content" id="1">
 		<div id="header">
-			<h1>HELLO <span class="red">WORLD</span> H1</h1>
+			<h1>HELLO WORLD H1</h1>
 			<h2>HELLO WORLD H2</h2>
 			<h3>HELLO WORLD H3</h3>
 			<h4>HELLO WORLD H4</h4>
@@ -649,7 +651,7 @@ fclose($handle);
 
 	<div class="content"id="8">
 
-		<div class="googleButton" id="colorbutton">Click to fade in boxes</div><br><br>
+        <a class="btn-floating btn-large waves-effect waves-light red " id="download-button"><i class="material-icons">add</i></a><br><br>
 
 <div id="div1" style="width:80px;height:80px;display:none;background-color:gold;margin-left:10px;"></div><br>
 <div id="div2" style="width:80px;height:80px;display:none;background-color:mediumspringgreen;margin-left:10px;"></div><br>
