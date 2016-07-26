@@ -1,0 +1,32 @@
+<html>
+<head>
+<style type="text/css">
+	span.highlight{
+   background:#F60;
+    padding:5px;
+    display:inline-block;
+    color:#FFF;
+}
+
+p{
+   font-family:Verdana;   
+}
+</style>
+</head>
+<body>
+<script type="text/javascript">
+jQuery.fn.highlight = function (str, className) {    
+    var regex = new RegExp(str, "gi");
+
+    return this.each(function () {
+        this.innerHTML = this.innerHTML.replace(regex, function(matched) {return "<span class=\"" + className + "\">" + matched + "</span>";});
+    });
+};
+
+$("p").highlight("Z","highlight");
+</script>
+<p>
+    Let's go Zapata let's do it for the revolution, Zapatistas!!!   
+</p>
+</body>
+</html
