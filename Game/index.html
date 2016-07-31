@@ -607,7 +607,8 @@ var Clarity = function () {
         can_jump: true
     };
 
-    
+    window.onkeydown = this.keydown.bind(this);
+    window.onkeyup   = this.keyup.bind(this);
 };
 
 Clarity.prototype.error = function (message) {
@@ -976,11 +977,9 @@ Clarity.prototype.update_player = function () {
     }
 
     if (this.key.right) {
-    	//context.rotate(2 * Math.PI / 180);
+
         if (this.player.vel.x < this.current_map.vel_limit.x)
             this.player.vel.x += this.current_map.movement_speed.left;
-
-			
     }
 
     this.move_player();
@@ -997,9 +996,7 @@ Clarity.prototype.draw_player = function (context) {
         this.player.loc.y + this.tile_size / 2 - this.camera.y,
         this.tile_size / 2 - 1,
         0,
-        Math.PI * -0.5
-
-        
+        Math.PI * 2
     );
 
     context.fill();
@@ -1053,6 +1050,17 @@ var Loop = function() {
 };
 
 Loop();
+
+
+
+
+
+
+
+
+
+
+
 	</script>
 </canvas>
 
