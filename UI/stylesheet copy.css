@@ -250,7 +250,6 @@ button.btn-floating {
     display: block;
     width: 100%;
     line-height: 32px;
-    z-index: 99999;
 }
 
 .header-title {
@@ -326,7 +325,7 @@ a {
     -webkit-transform: translate3D(0, -5px, 0);
     transform: translate3D(0, -5px, 0);
     position: relative;
-/*    z-index: 3*/
+    z-index: 3
 }
 
 .released {

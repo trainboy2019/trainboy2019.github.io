@@ -19,7 +19,7 @@ console.log(navigator);
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_7") != -1) OSName="Mac OS X Lion";
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_8") != -1) OSName="Mac OS X Mountain Lion";
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_9") != -1) OSName="Mac OS X Mavericks";
-		if (window.navigator.userAgent.indexOf("macOS") != -1) OSName="macOS Sierra";
+		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_12") != -1) OSName="macOS Sierra";
 
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_10") != -1) OSName="Mac OS X Yosemite";
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_12") != -1) OSName="macOS Sierra";
