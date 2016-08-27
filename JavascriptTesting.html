@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	
+</head>
+<body id="1">
+<script type="text/javascript">
+  function myKeyPress(e){
+    var keynum;
+
+    if(window.event) { // IE                    
+      keynum = e.keyCode;
+    } else if(e.which){ // Netscape/Firefox/Opera                   
+      keynum = e.which;
+    }
+    
+    document.write('<form><input type="text" onkeypress="return myKeyPress(event)" /></form><br />'+String.fromCharCode(keynum)+', '+keynum);
+  }
+</script>
+<form>
+  <input type="text" onkeypress="return myKeyPress(event)" />
+</form>
+<span>
+
+</span>
+
+</body>
+</html>
