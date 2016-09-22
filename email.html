@@ -1,0 +1,545 @@
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+<title>Customer Mail Service</title>
+<script type="text/javascript" src="passwordPopup.js"></script>
+<script type="text/Javascript">
+	function showOutputText(tab) {
+		document.getElementById("outputTabText").className = "selected";
+		if(document.getElementById("outputTabHTML"))
+			document.getElementById("outputTabHTML").className = "";
+		if(document.getElementById("outputTabWatchHTML"))
+		    document.getElementById("outputTabWatchHTML").className = "";
+		if(document.getElementById("outputTabAttachmentv"))
+			document.getElementById("outputTabAttachment").className = "";
+		toggleLayer('textForm', 'htmlForm', 'watchHtmlForm', 'attachmentForm');
+	}
+	function showOutputHTML(tab) {
+		if(document.getElementById("outputTabText"))
+		    document.getElementById("outputTabText").className = "";
+		if(document.getElementById("outputTabHTML"))
+		    document.getElementById("outputTabHTML").className = "selected";
+		if(document.getElementById("outputTabWatchHTML"))
+		    document.getElementById("outputTabWatchHTML").className = "";
+		if(document.getElementById("outputTabAttachment"))
+			document.getElementById("outputTabAttachment").className = "";
+		toggleLayer('htmlForm', 'watchHtmlForm', 'textForm', 'attachmentForm');
+	}
+	function showOutputWatchHTML(tab) {
+		if(document.getElementById("outputTabText"))
+			document.getElementById("outputTabText").className = "";
+		if(document.getElementById("outputTabHTML"))
+			document.getElementById("outputTabHTML").className = "";
+		if(document.getElementById("outputTabWatchHTML"))
+		    document.getElementById("outputTabWatchHTML").className = "selected";
+		if(document.getElementById("outputTabAttachment"))
+			document.getElementById("outputTabAttachment").className = "";
+		toggleLayer('watchHtmlForm', 'htmlForm', 'textForm', 'attachmentForm');
+	}
+	function showOutputAttachment(tab) {
+		if(document.getElementById("outputTabText"))
+			document.getElementById("outputTabText").className = "";
+		if(document.getElementById("outputTabHTML"))
+			document.getElementById("outputTabHTML").className = "";
+		if(document.getElementById("outputTabWatchHTML"))
+		    document.getElementById("outputTabWatchHTML").className = "";
+		if(document.getElementById("outputTabAttachment"))
+			document.getElementById("outputTabAttachment").className = "selected";
+		toggleLayer('attachmentForm', 'htmlForm', 'watchHtmlForm', 'textForm');
+	}
+	function toggleLayer(firstLayer, secondlayer, thirdlayer, fourthlayer) {
+		var elem1, elem2, elem3, elem4, vis1, vis2, vis3, vis4;
+		elem1 = document.getElementById(firstLayer);
+		elem2 = document.getElementById(secondlayer);
+		elem3 = document.getElementById(thirdlayer);
+		elem4 = document.getElementById(fourthlayer);
+		vis1 = elem1.style;
+		vis2 = elem2.style;
+		vis3 = elem3.style;
+		vis4 = elem4.style;
+		vis1.display = 'block';
+		vis2.display = 'none';
+		vis3.display = 'none';
+		vis4.display = 'none';
+		if (firstLayer == 'mobileForm') {
+			ele = document.getElementById('subjectDiv');
+			ele.style.display = 'none';
+		} else {
+			ele.style.display = 'block';
+		}
+	}
+</script>
+<style type="text/css">
+<
+{
+font-family:Lucida Grande,Helvetica;
+font-size:12px;
+}
+a {
+	text-decoration: none;
+}
+
+hr {
+	border: none;
+	height: 2px;
+	border-top: 1px solid #b34644;
+	border-bottom: 1px solid #b34644;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.main {
+	margin-left: auto;
+	margin-right: auto;
+	width: 730px;
+}
+
+h1 {
+	font-size: 18px;
+	color: #333333;
+	border-bottom: 1px solid #b34644;
+}
+
+.header {
+	font-size: 18px;
+	color: #333333;
+	font-weight: bold;
+}
+
+textarea {
+	font-family: Monaco, Courier, Courier New;
+	padding: 2px;
+	margin: 0px;
+	width: 730px;
+	min-width: 600px;
+	max-width: 730px;
+	border: 1px solid #b34644;
+	-webkit-border-radius: 5px;
+}
+
+input[type=text] {
+	font-size: 11px;
+	margin: 0px;
+	padding: 1px;
+	height: 14px;
+	border: 1px solid #b34644;
+	-webkit-border-radius: 3px;
+}
+
+.submitButton {
+	float: right;
+	margin: 5px;
+	font-size: 18px;
+}
+
+.select {
+	width: 125px;
+	margin: 0px;
+}
+
+.label {
+	color: #666666;
+	font-size: 10px;
+	line-height: 18px;
+	border: 0px solid black;
+	text-align: right;
+}
+
+.label.version {
+	float: left;
+}
+
+.label.float {
+	float: left;
+	margin-right: 5px;
+}
+
+.label.section {
+	text-align: left;
+	padding-left: 3px;
+}
+
+.statusIcon {
+	width: 16px;
+	height: 16px;
+	float: left;
+	margin: 2px;
+}
+
+.statusIcon.success {
+	background: url("i/status green 16.png");
+}
+
+.statusIcon.failure {
+	background: url("i/status red 16.png");
+}
+
+.box {
+	border: 1px solid #b34644;
+	-webkit-border-radius: 5px;
+	background-color: #FCFCFC;
+	padding: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-right: 5px;
+	margin-left: 20px;
+	margin-bottom: 15px;
+	white-space: nowrap;
+}
+
+.tabs {
+	float: right;
+	margin-right: 15px;
+	white-space: nowrap;
+}
+
+.tabs a {
+	width: 50px;
+	min-width: 50px;
+	border: 1px solid #b34644;
+	-webkit-border-radius: 5px;
+	padding-top: 4px;
+	padding-bottom: 10px;
+	padding-left: 8px;
+	padding-right: 8px;
+	cursor: pointer;
+	font-weight: bold;
+	color: #666666;
+	background-color: #CCCCCC;
+}
+
+.tabs a:hover {
+	text-decoration: underline;
+}
+
+.tabs a.selected {
+	color: #333333;
+	background-color: #DDEEFF;
+	text-decoration: underline;
+}
+
+div#htmlForm {
+	margin: 0px 0px 0px 0px;
+	display: block;
+}
+
+div#watchHtmlForm {
+	background-image: url('images/watchImage.png');
+	background-size: 213px 350px;
+	background-repeat: no-repeat;
+	width: 213px;
+	height:350px;
+	margin-left: auto;
+	margin-right: auto;
+	display: none;
+	position: relative;
+}
+div#watchHtmlForm img{
+max-width:100%;
+min-width:1px;
+}
+div#outerWatchContent {
+	width: 129px;
+	height:185px;
+	overflow: auto;
+	font-size:13px;
+	text-align:left;
+	word-break:break-all; 
+	color:#FFFFFF;
+	position: absolute;
+	top:84px;
+	background-color:#1A1A1A;
+	margin-left:40px;
+	padding-left:3px;
+}
+
+div#watchSubject {
+	padding-top: 20px;
+	padding-bottom: 3px;
+	color:#FFFFFF;
+	word-break:break-all; 
+	overflow: auto;
+}
+
+div#watchTime {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	color:#808080;
+}
+div#seperator {
+ 	height: 1px;
+	margin-bottom: 10px;
+   background: linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2));
+}
+div#watchContent {
+	color:#FFFFFF;
+	word-break:break-all; 
+	overflow: auto;
+	height:120px;
+	font-size:15px
+	padding-left:35px;
+	padding-right:20px;
+}
+div#watchDisclaimer {
+	padding-top: 350px;
+	color:#666666 !important; 
+	font-size: 11px; 
+	line-height:14px;
+}
+div#textForm {
+	width: 730px;
+	margin-left: auto;
+	margin-right: auto;
+	display: none;
+}
+
+div#attachmentForm {
+	width: 730px;
+	height: 730px;
+	margin-left: auto;
+	margin-right: auto;
+	display: none;
+}
+
+
+      #modalScreen
+       {
+           display: none;
+           position: fixed;
+           top: 0px;
+           bottom: 0px;
+           left: 0px;
+           right: 0px;
+           background-color: rgba(0,0,0,0.5);
+           vertical-align: middle;
+           cursor: default;        
+       }
+       #modalScreen .modalDialog
+       {   
+           display: none;
+           position: relative;
+           color: #111111;
+           background-color: #E8E8E8;
+           border: 1px solid white;
+           -webkit-box-shadow: 0px 8px 32px rgba(0,0,0,0.5);
+           -webkit-border-radius: 5px;
+           -moz-box-shadow: 0px 8px 32px rgba(0,0,0,0.5);
+           -moz-border-radius: 5px;
+           width: 480px;
+           margin: 0px auto;
+           padding: 0px;
+           -webkit-user-select: none;
+           -moz-user-select: none;
+       }
+       #modalScreen .modalDialog .dialog p
+       {
+           font-family: Lucida Grande;
+           font-size: 11px;
+           font-weight: normal;
+           margin: 0px;
+           margin-bottom: 30px;
+       }
+       #modalScreen .modalDialog .icon
+       {
+           position: absolute;
+           top: 20px;
+           width: 64px;
+           height: 64px;
+           margin-left: 20px;
+       }
+           #modalScreen .modalDialog .icon.warning
+           {   background: url("images/icons.png");
+               background-position: -0px -64px;
+           }
+           #modalScreen .modalDialog .icon.question
+           {   background: url("images/icons.png");
+               background-position: -0px -128px;
+           }
+           #modalScreen .modalDialog .icon.application
+           {   background: url("images/icons.png");
+               background-position: -0px -0px;
+           }
+   
+       #modalScreen .modalDialog .dialog
+       {
+           position: relative;
+           padding: 20px 20px 45px 20px;
+           margin-left: 84px;
+       }
+       #modalScreen .modalDialog .dialog h1
+       {
+           font-family: Lucida Grande;
+           font-size: 13px;
+           font-weight: bold;
+           margin: 0px;
+           padding: 0px;
+           padding-bottom: 8px;
+           line-height: 16px;
+       }
+   
+       #modalScreen .modalDialog .dialog .modalActions
+       {
+           position: absolute;
+           text-align: right;
+           bottom: 20px;           
+           right: 20px;
+           left: 20px;
+       }
+       #modalScreen .modalDialog .dialog .modalActions input
+       {
+           font-size: 16px;
+           margin-left: 8px;
+       }
+       #modalScreen .modalDialog .dialog .modalActions .unadvisedAction
+       {
+           float: left;
+           margin: 0px;
+       }
+</style>
+</head>
+<body>
+<div id="modalScreen">
+   <div id="validatePassword" class="modalDialog">
+   <div class="icon application"></div>
+       <div class="dialog">
+       
+        </div>
+    </div>
+</div>
+
+
+
+	<div class="main">
+		
+		<div id="htmlForm">
+			<!DOCTYPE html>
+<html>
+<head>
+<title>Ike Rolader App Development Support</title>
+<meta name="viewport" content="width=device-width" />
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<style type="text/css">
+a,a.aapl-link,a.aapl-link:link {text-decoration:none; color:#0088cc}
+a.aapl-link:hover {text-decoration:underline}
+body {width:100% !important}
+@media only screen and (max-device-width:768px) {
+	#aapl-footer a,a {color:inherit}
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio:1.5),
+       only screen and (min-device-pixel-ratio:1.5) {
+		img {visibility:hidden}
+		*[class=more] {visibility:visible}
+		*[class=logo] {background:url('http://www.ikerolader.xyz/files/theme/email_logo.png') no-repeat 0 0;-webkit-background-size:26px 26px;width:100%;height:26px;background-position:top right}
+		*[class=promo1] {background:url('http://www.apple.com/support/assets/images/external/emails/promo1_2x.gif') no-repeat 0 0;-webkit-background-size:72px 58px;width:100%;height:58px;background-position:center center}
+		*[class=promo2] {background:url('http://www.apple.com/support/assets/images/external/emails/promo2_2x.gif') no-repeat 0 0;-webkit-background-size:72px 58px;width:100%;height:58px;background-position:center center}
+}
+
+/* PHONE STYLES - For clients that support media queries */
+@media only screen and (max-width:700px) {
+	td[class="container"] {padding:5px!important}
+	td[class="content"]{padding-left:20px!important;padding-right:20px!important}
+	table {width:auto!important}
+	table[class='responsive'],
+	table[class='responsive'] tbody,
+	table[class='responsive'] tr,
+	table[class='responsive'] td {display:block}
+	tr[class='promos'] {max-width:700px!important}
+	table[class='promo'] {display:block;width:99.8%!important;margin:0 auto}
+	td[class='promo-container'] {display:block!important;width:100%!important;float:left!important}
+	td[class='promo-spacer'] {display:none}
+	td img {max-width:100%!important; height:auto!important}
+	td[class='copyright'] {-webkit-text-size-adjust:100%!important}
+
+}
+
+</style>
+<!--[if gte mso 9]>
+<style type="text/css">
+table,td,div,p {font-family:Helvetica Neue, Helvetica, Arial, Verdana, sans-serif !important;line-height:normal !important}
+</style>
+<![endif]-->
+<!--[if lte mso 7]>
+<style type="text/css">
+table,td,div,p {font-family:Helvetica Neue, Helvetica, Arial, Verdana, sans-serif !important;line-height:normal}
+</style>
+<![endif]-->
+</head>
+<body bgcolor="#ff8884" style="margin:0;padding:0">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+<tr>
+<td class="container" style="padding:27px 20px 40px 20px;background-color:#ff8884;max-width:700px">
+<!-- BEGIN MAIN CONTENT -->
+	<table width="700" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto">
+		<tr>
+			<td width="100%" style="-webkit-box-shadow:0 8px 6px -7px #b34644;-moz-box-shadow:0 8px 6px -7px #b34644;box-shadow:0 8px 6px -7px #b34644">
+				<table width="100%" border="0" cellspacing="0" cellpadding="0" align="left" style="margin:0 auto;border:1px solid #b34644;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px">
+					<tr>
+						<td bgcolor="#ffffff" width="100%" height="21" style="-webkit-border-top-left-radius:5px;-webkit-border-top-right-radius:5px;-moz-border-radius-topleft:5px;-moz-border-radius-topright:5px;border-top-left-radius:5px;border-top-right-radius:5px"></td>
+					</tr>
+					<tr>
+						<td align="right" bgcolor="#ffffff" style="padding:0 19px 0 21px">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+								<tr>
+									<td class="logo" bgcolor="#ffffff" align="right" height="27" style="display:block;">
+										<!-- TODO: ADD ABSOLUTE PATH OF LOGO -->
+										<img src="http://www.ikerolader.xyz/files/theme/email_logo.png" width="26" height="26" border="0" alt="" />
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor="#ffffff" width="100%" height="12"></td>
+					</tr>
+					<tr>
+						<td class="content" bgcolor="#ffffff" style="padding:0 50px 62px;-webkit-border-bottom-right-radius:5px;-webkit-border-bottom-left-radius:5px;-moz-border-radius-bottomright:5px;-moz-border-radius-bottomleft:5px;border-bottom-right-radius:5px;border-bottom-left-radius:5px">
+							<!-- Nested padding for body -->
+							<table>
+								<tr>
+									<td bgcolor="#ffffff" style="-webkit-border-bottom-right-radius:5px;-webkit-border-bottom-left-radius:5px;-moz-border-radius-bottomright:5px;-moz-border-radius-bottomleft:5px;border-bottom-right-radius:5px;border-bottom-left-radius:5px">
+										<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+											<tr>
+												<td width="100%" valign="top" style="">
+
+<!--BODY COPY-->
+		<table width="100%" border="0" cellspacing="0" cellpadding="0" style="table-layout:fixed;">
+				<tr>
+						<td style="padding:4px 0 19px;margin:0;font-family:Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;color:#2b2b2b;font-size:14px;line-height:1.6em;word-wrap:break-word">
+						<div id="thread" style="white-space: pre-wrap;"><div>Hello """+name+""",</div><div><br></div><div>This is Ike, I'm the main programmer and founder at Ike Rolader App Development. Thank you for talking to me about """+issue+""".</div><div><br></div><div>"""+extraText+"""</div><div><br></div><div>If you have anymore questions or concerns, please feel free to contact me.<span style="font-family: -apple-system-font; font-size: 13px;"> The fastest way to reach me is to respond directly to this email or you can call me directly at:</span></div><div> 
+770-557-5333
+Monday-Friday, 4:00 p.m.- 7:30 p.m. Eastern standard time (EST)</div>
+
+I do take inbound calls throughout the day so if I can’t get to my phone, please leave a voicemail with your name and I’ll call you back as quickly as possible.</div><div><br></div><div>Best regards,
+<br />
+Ike Rolader<br />
+Ike Rolader App Development.</div><div> </div></div>
+
+                                                </td>
+				</tr>
+		</table>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</td>
+</tr>
+</table>
+</body>
+<img src='http://outsideapple.apple.com/img/APPLE_EMAIL_LINK/spacer4.gif?v=2&a=oXrl9D%2Berg8%2FtQcbd5JDpHZYl18UxNVPfjr16QrURHnNaZVz2ItjBCgUrBnn7ihkD3uNX%2BSKUHeTk3i1LrY1briJPjicZwbSavTj3MyGucIJR8AcZLojUQ%2BnQRnKd7aOiezs2bZiGag7tGhmAERZmgMGp%2B8SbWWxSzJkMJXb0s6xocesKZoSzKW2K7qS0av%2BiupYIR%2Bm%2BKf6X31CaE1L8PrrM2JzpWqowWWhSIhqkhg%2BKRkYuPS4MAmijGVhS1hcm92XaHy0VFOuloWnpsXURkvTYfCXf2qvgbUHq%2BsJTs28UYKog9ZAb89w4UzxPMhqICF2C29jmcznLoCfFp0UleJvPbRECUhy4nq5jwm%2B8Li%2BQ5qkkPUy6sIMn8C4%2FcM8'/>
+</html>
+		</div>
+		
+
+
+	
+</body>
+</html>

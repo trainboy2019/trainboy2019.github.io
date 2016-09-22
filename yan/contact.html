@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <base href="/">
+        <meta charset="utf-8">
+        <title>Contact - Yandere Simulator</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/functions.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <meta name="theme-color" content="#ffa2f5">
+        <link rel="icon" href="img/icon.png">
+        <meta http-equiv="content-language" content="en-us">
+        <meta name="DC.Language" content="en-us">
+        <meta name="keywords" content="yandere, simulator, yandere, sim, yanderesim, yansim, yanderedev, yandev, yandere, yandere, game, official, website, contact, contactme">
+        <meta name="robots" content="index, follow">
+        <meta name="DC.Description" content="Learn how to get in touch with YandereDev. But don't waste his time, or Yandere-chan will get angry!">
+        <meta name="description" content="Learn how to get in touch with YandereDev. But don't waste his time, or Yandere-chan will get angry!">
+    </head>
+    
+    <body id="body">
+        <nav class="navbar navbar-default navbar-top">
+            <div class="container">
+                <a href="/">
+                    <img src="img/logo.png" id="logo">
+                </a>
+                <div class="navbar-right">
+                    <img src="img/heart-light.png" id="heart-light" onclick="darkMode()">
+                    <img src="img/heart-dark.png" id="heart-dark" onclick="darkMode()">
+                </div>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="menu">
+                  <ul class="nav navbar-nav">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="about/">About</a></li>
+                    <li><a href="http://yanderedev.wordpress.com">Blog</a></li>
+                    <li><a href="bug-reporting/">Bug Reporting</a></li>
+                    <li><a href="characters/">Characters</a></li>
+                    <li><a href="contact/">Contact</a></li>
+                    <li><a href="donate/">Donate</a></li>
+                    <li><a href="download/">Download</a></li>
+                    <li><a href="volunteer/">Volunteer</a></li>
+                  </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="container-fluid contactform" id="contactform">
+            <div class="row" style="padding:0;margin:0;">
+                <div class="col-sm-6">
+                    <div class="text-center" id="warning">
+                        <br>
+                        <div class="well" style="text-align:left;font-size:1.6em;font-family:Futura;color:#fff;text-shadow:2px 2px 2px #333,0 0 1px #000,0 0 2px #000">
+                        YandereDev gets <a href="https://www.youtube.com/watch?v=NbQkf10LBnA" target="_blank">too much e-mail</a>! Sending YandereDev an e-mail will slow down the game's development!
+                        <br>
+                        DO NOT e-mail YandereDev with:
+                        <ul>
+                            <li>Suggestions</li>
+                            <li>Questions</li>
+                            <li>Requests</li>
+                        </ul>
+                        ONLY e-mail YandereDev if you are:
+                        <ul>
+                            <li>Reporting a bug</li>
+                            <li>Volunteering to help</li>
+                            <li>Making a business inquiry</li>
+                        </ul>
+                        (It's also okay to send fan mail, fan art, and cosplay).
+                        </div>
+                        <br>
+                        <a href="javascript:understand();" class="btn yanbtn btn-block understand-btn">I understand!</a>
+                    </div>
+                    <div class="text-center" id="further" style="display:none;">
+                        <div class="yanderespeak" id="yanderespeak">What do you want to contact YandereDev about?</div>
+                        <br>
+                        <div id="options" class="option">
+                            <a href="javascript:reply(0, 0);" class="btn yanbtn btn-block">I want to report a bug.</a>
+                            <a href="javascript:reply(1, 0);" class="btn yanbtn btn-block">I want to volunteer.</a>
+                            <a href="javascript:goodend('Okay! Here is YandereDev\'s e-mail: yanderedev@mail.com', true);" class="btn yanbtn btn-block">I have a business inquiry/proposition.</a>
+                            <a href="javascript:goodend('Okay! Here is YandereDev\'s e-mail: yanderedev@mail.com<br><br>If you are sending fan art, please put the words \'Fan Art\' in the subject of your e-mail.');" class="btn yanbtn btn-block">I want to send fanmail.</a>
+                            <a href="javascript:dumbend();" class="btn yanbtn btn-block">I want to ask a question.</a>
+                            <a href="javascript:dumbend();" class="btn yanbtn btn-block">I want to make a suggestion.</a>
+                            <a href="javascript:dumbend();" class="btn yanbtn btn-block">I want to make a request.</a>
+                        </div>
+                        <span style="font-family:Futura;color:white;font-size:12em;display:none;text-align:center;line-height:1.2;" class="snap">YOU<br>DIDN'T<br>LISTEN!</span>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="visualnovel"></div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/contact.js"></script>
+    </body>
+</html>

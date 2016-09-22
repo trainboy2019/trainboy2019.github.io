@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		.violator {
+		    font-size: 16px;
+		    line-height: 1.9375;
+		    font-weight: 400;
+		    letter-spacing: 0;
+		    font-family: 'sfns_displaythin', Myriad Set Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+		    background: transparent;
+		    border: 1px solid #999;
+		    border-radius: 4px;
+		    color: #999;
+		    display: inline-block;
+		    padding-left: 15px;
+		    padding-right: 15px;
+		    padding-top: 1px;
+		    text-align: center;
+		    white-space: nowrap
+		}
+		.as-violator-alt {
+		    background: transparent;
+		    border-color: #dc0000;
+		    color: #dc0000
+		}
+	</style>
+</head>
+<body>
+<script>
+	function a(){
+		x=document.getElementById('log');
+		y=x.parentElement.nodeName;
+		x.innerHTML='<button class="violator as-violator-alt" id="tog" type="button" onclick="b()">1!</button>'
+	}
+</script>
+<h2>Lol</h2>
+<h1>My Heading 1</h1>
+<h3>Buddy</h3>
+<button class="violator as-violator-alt" id="log" type="button"
+onclick="a()">
+Click Me!</button>
+
+</body>
+</html>

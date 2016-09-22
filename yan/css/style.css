@@ -1,0 +1,625 @@
+/*
+
+    Stylesheet for Yandere Simulator website
+    minfied and compiled LESS files
+    (c) 2016 krmax44 - https://krmax44.de
+
+*/
+
+@font-face {
+    font-family: Futura;
+    src: url(../fonts/Futura-CondensedMedium.eot?#iefix) format("embedded-opentype"), url(../fonts/Futura-CondensedMedium.woff) format("woff"), url(../fonts/Futura-CondensedMedium.ttf) format("truetype"), url(../fonts/Futura-CondensedMedium.svg#Futura-CondensedMedium) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: fontello;
+    src: url(../fonts/fontello.eot);
+    src: url(../fonts/fontello.eot#iefix) format("embedded-opentype"), url(../fonts/fontello.woff2) format("woff2"), url(../fonts/fontello.woff) format("woff"), url(../fonts/fontello.ttf) format("truetype"), url(../fonts/fontello.svg#fontello) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+[class^="icon-"]:before, [class * =" icon-"]:before {
+    font-family: fontello;
+    font-style: normal;
+    font-weight: 400;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.icon-plus:before {
+    content: "\e800"
+}
+
+.icon-minus:before {
+    content: "\e801"
+}
+
+.icon-twitter:before {
+    content: "\f099"
+}
+
+.icon-youtube-play:before {
+    content: "\f16a"
+}
+
+.icon-twitch:before {
+    content: "\f1e8"
+}
+
+body {
+    background-color: #ffbffe
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 0;
+    margin: 0
+}
+
+a strong {
+    font-weight: 400;
+    text-shadow: none
+}
+
+a:hover strong {
+    text-shadow: 2px 2px 2px #999
+}
+
+.well {
+    background-color: #fcabfb;
+    border-color: #ff9bfd;
+    font-size: none
+}
+
+.navbar-top {
+    background-color: #ffa2f5;
+    border: 0;
+    margin-bottom: 0;
+    border-radius: 0;
+    text-align: center
+}
+
+.navbar-top .container {
+    text-align: center
+}
+
+.navbar-top .navbar-collapse {
+    border-top: 0
+}
+
+.navbar-nav {
+    display: inline-block;
+    left: 0;
+    right: 0;
+    margin: 0;
+    float: none
+}
+
+.navbar-nav li {
+    padding: 0;
+    margin: 0
+}
+
+.navbar-toggle {
+    border-color: #ff72f4 !important
+}
+
+.navbar-toggle:active, .navbar-toggle:focus, .navbar-toggle:hover {
+    background-color: #ff95f7 !important
+}
+
+.icon-bar {
+    background-color: #ff30ef !important
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:focus, .menu-btn-gr {
+    color: #fff;
+    font-family: Futura;
+    font-size: 2em;
+    background-color: transparent;
+    text-shadow: 0 0 10px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .5), 0 0 30px rgba(255, 255, 255, .5);
+    -webkit-animation: navbarhoverout 1s ease-in-out alternate;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation: navbarhoverout 1s ease-in-out alternate;
+    -moz-animation-fill-mode: forwards;
+    animation: navbarhoverout 1s ease-in-out alternate;
+    animation-fill-mode: forwards
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:active {
+    -webkit-animation: navbarhover 1s ease-in-out alternate;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation: navbarhover 1s ease-in-out alternate;
+    -moz-animation-fill-mode: forwards;
+    animation: navbarhover 1s ease-in-out alternate;
+    animation-fill-mode: forwards
+}
+
+@keyframes navbarhover {
+    0% {
+        text-shadow: 0 0 10px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .5), 0 0 30px rgba(255, 255, 255, .5)
+    }
+
+    to {
+        text-shadow: 0 0 10px rgba(255, 255, 255, .9), 0 0 20px rgba(255, 255, 255, .9), 0 0 30px #fff
+    }
+}
+
+@keyframes navbarhoverout {
+    0% {
+        text-shadow: 0 0 10px rgba(255, 255, 255, .9), 0 0 20px rgba(255, 255, 255, .9), 0 0 30px #fff
+    }
+
+    to {
+        text-shadow: 0 0 10px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .5), 0 0 30px rgba(255, 255, 255, .5)
+    }
+}
+
+hr {
+    border-top-color: #fe7df4
+}
+
+.navbar-top img {
+    max-height: 200px
+}
+
+.container-fluid {
+    background: #ffbffe;
+    padding-left: 0;
+    padding-top: 0;
+    width: 100%
+}
+
+.text-container {
+    margin: 0;
+    padding: 5px;
+    font-family: Futura;
+    color: #fff;
+    font-size: 1.3em;
+    text-shadow: 2px 2px 2px #333, 0 0 1px #000, 0 0 2px #000;
+    background-color: #ffbffe
+}
+
+@media(min-width:768px) {
+    .text-container {
+        padding-right: 50px;
+        padding-left: 50px;
+        padding-bottom: 50px
+    }
+
+    .text-container .headline {
+        margin-bottom: 20px;
+        margin-top: 30px
+    }
+}
+
+.text-container p, .text-container li {
+    font-size: 1.3em
+}
+
+.text-container a {
+    color: #1a2154;
+    text-shadow: none;
+    text-decoration: underline
+}
+
+.text-container a:hover, .text-container a:active, .text-container a:focus {
+    text-shadow: 2px 2px 2px #999
+}
+
+.eye-catcher {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+    height: 100%
+}
+
+.eye-catcher .embed-responsive {
+    max-height: 20%
+}
+
+@media(min-width:768px) {
+    .eye-catcher {
+        flex: 1;
+        display: flex;
+        width: 100%
+    }
+
+    .eye-catcher .row {
+        display: flex;
+        flex: 1
+    }
+}
+
+.eye-catcher .col-sm-6 {
+    text-align: center
+}
+
+.eye-catcher .yanderechan {
+    background-image: url(../img/home/dere.png);
+    background-size: contain;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100%;
+    display: flex;
+    flex: 1
+}
+
+.eye-catcher .yanderechan2 {
+    background-image: url(../img/home/yan.png)
+}
+
+@media(max-width:768px) {
+    .container-fluid {
+        background: #ffbffe
+    }
+
+    .eye-catcher .yanderechan {
+        height: 100%
+    }
+}
+
+.mirrored {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH"
+}
+
+h1.headline {
+    font-family: Futura;
+    font-weight: 400;
+    color: #fcfcfc;
+    text-align: center;
+    text-shadow: 2px 2px 2px #333, 0 0 1px #000, 0 0 2px #000;
+    margin: 0
+}
+
+h3.subline {
+    font-family: Futura;
+    font-weight: 400;
+    color: #fcfcfc;
+    text-align: center;
+    text-shadow: 2px 2px 2px #333, 0 0 1px #000, 0 0 2px #000
+}
+
+.contactform {
+    padding: 0;
+    margin: 0;
+    background: url(../img/contact/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    min-height: 100%
+}
+
+.contactform a {
+    color: #fff;
+    text-decoration: underline
+}
+
+.contactform a:hover, .contactform a:active {
+    text-decoration: none
+}
+
+.contactform .yanbtn {
+    background-color: #ff96fc;
+    color: #fff;
+    text-shadow: 2px 2px 2px #333, 0 0 1px #000, 0 0 2px #000;
+    font-family: Futura;
+    font-size: 1.6em;
+    text-decoration: none
+}
+
+.contactform .yanbtn:hover, .contactform .yanbtn:active {
+    background-color: #ff8ffc;
+    color: #fff
+}
+
+.visualnovel {
+    padding: 0;
+    margin: 0;
+    background: url(../img/contact/crossed.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    margin-top: 5px;
+    height: 100%
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%
+}
+
+.yanderespeak {
+    color: #fff;
+    font-family: Futura;
+    font-size: 1.8em;
+    padding: 15px;
+    background-color: rgba(255, 150, 252, .8);
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px 2px #333, 0 0 1px #000, 0 0 2px #000
+}
+
+.yanbtn {
+    background-color: #ffdbfe;
+    border: 0;
+    color: #333;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: Futura;
+    font-size: 1.4em
+}
+
+.yanbtn:hover, .yanbtn:active {
+    color: #334;
+    background-color: #fdd1fc
+}
+
+.option {
+    padding: 25px;
+    background-color: rgba(255, 212, 245, .4)
+}
+
+.panel-default {
+    border: 0
+}
+
+.panel-default .panel-heading {
+    background-color: #fca8f5;
+    border-bottom: 0;
+    font-family: Futura;
+    font-size: 1.3em;
+    cursor: pointer;
+    color: #fff;
+    text-shadow: 2px 2px 2px #333, 0 0 1px #000, 0 0 2px #000
+}
+
+.panel-default .panel-body {
+    background-color: #f8b8f3;
+    display: none;
+    font-family: Futura;
+    font-weight: 200;
+    color: #fff;
+    text-shadow: 2px 2px 2px #333, 0 0 1px #000, 0 0 2px #000
+}
+
+.students img {
+    vertical-align: top;
+    margin-top: 5px;
+    text-align: center
+}
+
+.students .row {
+    width: 100%
+}
+
+.students .character {
+    text-align: center
+}
+
+.students .character img {
+    display: none
+}
+
+.students .character img:nth-of-type(1) {
+    display: inline
+}
+
+.students .big-text {
+    font-family: Futura;
+    font-size: 1.3em;
+    font-weight: 100
+}
+
+.students .col-sm-8 {
+    text-align: justify
+}
+
+@media(min-width:768px) {
+    .students .col-sm-8 {
+        padding: 5%
+    }
+}
+
+.students .col-sm-4 {
+    padding: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.students .headline {
+    font-family: Futura;
+    font-weight: 400
+}
+
+.students table {
+    text-align: center;
+    width: 100%;
+    padding: 0
+}
+
+.students th {
+    font-family: Futura;
+    padding-right: 5px;
+    font-size: 1.1em;
+    font-weight: 400
+}
+
+.character .label {
+    background-color: #fe7df4;
+    cursor: pointer;
+    text-shadow: none
+}
+
+.character .label.active {
+    background-color: #ff95f7
+}
+
+.artist-2 {
+    display: none
+}
+
+.footer {
+    text-align: center;
+    font-family: Futura;
+    color: #fff;
+    text-shadow: 2px 2px 2px #333, 0 0 1px #000, 0 0 2px #000;
+    font-size: 1.4em;
+    border-top: 1px solid #ff8afe;
+    background-color: #fcabfb;
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+
+.footer a {
+    text-shadow: 2px 2px 2px #222, 0 0 1px #000, 0 0 2px #000, 0 0 3px #000;
+    color: #fff;
+    text-decoration: underline
+}
+
+.footer a:hover {
+    text-decoration: none
+}
+
+.footer .yanbtn:hover, .footer .yanbtn:focus {
+    color: #fff
+}
+
+.footer .yanbtn {
+    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 9px
+}
+
+.loader {
+    display: none;
+    background: rgba(0, 0, 0, .5);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0
+}
+
+.loader-inner {
+    width: 128px;
+    height: 128px;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -64px 0 0 -64px;
+    animation-name: loading;
+    animation-duration: 1s;
+    animation-iteration-count: infinite
+}
+
+@keyframes loading {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+body.modal-open {
+    overflow-y: hidden
+}
+
+@keyframes redflash {
+    0% {
+        background-color: #ff8ffc;
+        border-color: #ff8ffc
+    }
+
+    50% {
+        background-color: #8a0707;
+        border-color: #8a0707
+    }
+
+    to {
+        background-color: #ff8ffc;
+        border-color: #ff8ffc
+    }
+}
+
+.red-flash {
+    animation-name: redflash;
+    animation-duration: 1s
+}
+
+body.dark-mode .navbar-top {
+    background-color: #b53ba7
+}
+
+body.dark-mode footer {
+    background-color: #a03193
+}
+
+body.dark-mode .eye-catcher, body.dark-mode .text-container, body.dark-mode {
+    background-color: #5f3b5e
+}
+
+body.dark-mode .well {
+    background-color: #8e348b;
+    border-color: #a8349a
+}
+
+body.dark-mode .yanbtn, body.dark-mode .yanbtn:hover, body.dark-mode .yanbtn:focus {
+    background-color: #b53ba7;
+    color: #fff;
+    text-decoration: none
+}
+
+body.dark-mode .yanderespeak, body.dark-mode .option {
+    background-color: rgba(199, 85, 214, .5)
+}
+
+body.dark-mode .panel-heading {
+    background-color: #c431b3
+}
+
+body.dark-mode .panel-body {
+    background-color: #c458b7
+}
+
+#heart-dark, #heart-light {
+    cursor: pointer;
+    padding-top: 5px
+}
+
+.yanderechan-lg {
+    cursor: pointer;
+}
+
+

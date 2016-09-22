@@ -7,6 +7,38 @@
 		<!--<meta http-equiv="Content-Type" content="text/html; charset=uUTF-8" />-->
 		 <meta name="robots" content="nofollow" />
 		<meta http-equiv="Default-Style" content="Red">
+        <script type="text/javascript">
+            
+            document.body.onload = function() {
+// Ensure that the user can receive Safari Push Notifications.
+if ('safari' in window && 'pushNotification' in window.safari) {
+var permissionData = window.safari.pushNotification.permission('web.com.my-awesome-site');
+checkRemotePermission(permissionData);
+    }
+else {
+// A good time to let a user know they are missing out on a feature or just bail out completely?
+    }
+};
+var checkRemotePermission = function (permissionData) {
+if (permissionData.permission === 'default') {
+// This is a new web service URL and its validity is unknown.
+window.safari.pushNotification.requestPermission(
+'https://ikerolader.xyz/files/theme/', // The web service URL.
+'web.xyz.ikerolader',     // The Website Push ID.
+            {user_id: 4741619481},         // Data used to help you identify the user.
+            checkRemotePermission          // The callback function.
+        );
+    }
+else if (permissionData.permission === 'denied') {
+// The user said no. Talk to your UX expert to see what you can do to entice your
+// users to subscribe to push notifications.
+    }
+else if (permissionData.permission === 'granted') {
+// The web service URL is a valid push provider, and the user said yes.
+// permissionData.deviceToken is now available to use.
+    }
+};
+        </script>
 		<script src="jquery-2.2.1.js" type="text/javascript" charset="utf-8"></script>
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -650,7 +682,7 @@ fclose($handle);
 
 
 	<div class="content"id="8">
-
+    <!-- <button onclick=""">Ay!</button> -->
         <a class="btn-floating btn-large waves-effect waves-light red " id="download-button"><i class="material-icons">add</i></a><br><br>
 
 <div id="div1" style="width:80px;height:80px;display:none;background-color:gold;margin-left:10px;"></div><br>
@@ -706,7 +738,7 @@ fclose($handle);
    			 // Firefox 1.0+
 			var isFirefox = typeof InstallTrigger !== 'undefined';
     		// At least Safari 3+: "[object HTMLElementConstructor]"
-			var isSafari = Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0;
+			var isSafari = navigator.vendor && navigator.vendor.indexOf('Apple') > -1 && navigator.userAgent && !navigator.userAgent.match('CriOS');
     		// Internet Explorer 6-11
 			var isIE = /*@cc_on!@*/false || !!document.documentMode;
     		// Edge 20+
@@ -896,7 +928,7 @@ function aud_play_pause() {
 	<!-- e52d27 -->
 <!-- cd201f -->
 	<div id="footer" class="container">
-        <p style="color: white;">&copy Ike Rolader 2016
+        <p style="color: white;">&#f032; &#f099; &copy Ike Rolader 2016
         <br />
         <a onmouseover="this.style.color='#55acee'" onmouseout="this.style.color='#c41414'" href="https://twitter.com/trainboy2019">Twitter</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>|
         <a onmouseover="this.style.color='#3f729b'" onmouseout="this.style.color='#c41414'"  href="https://www.instagram.com/jrolader2/">Instagram</a> |
@@ -934,29 +966,29 @@ function aud_play_pause() {
 	
 	</body>
 	<!--
-	                                                                                                                                              
-                                                                                  bbbbbbbb                                                    
-         tttt                                               iiii                  b::::::b                                                    
-      ttt:::t                                              i::::i                 b::::::b                                                    
-      t:::::t                                               iiii                  b::::::b                                                    
-      t:::::t                                                                      b:::::b                                                    
-ttttttt:::::ttttttt   rrrrr   rrrrrrrrr   aaaaaaaaaaaaa   iiiiiiinnnn  nnnnnnnn    b:::::bbbbbbbbb       ooooooooooo yyyyyyy           yyyyyyy
-t:::::::::::::::::t   r::::rrr:::::::::r  a::::::::::::a  i:::::in:::nn::::::::nn  b::::::::::::::bb   oo:::::::::::ooy:::::y         y:::::y 
-t:::::::::::::::::t   r:::::::::::::::::r aaaaaaaaa:::::a  i::::in::::::::::::::nn b::::::::::::::::b o:::::::::::::::oy:::::y       y:::::y  
-tttttt:::::::tttttt   rr::::::rrrrr::::::r         a::::a  i::::inn:::::::::::::::nb:::::bbbbb:::::::bo:::::ooooo:::::o y:::::y     y:::::y   
-      t:::::t          r:::::r     r:::::r  aaaaaaa:::::a  i::::i  n:::::nnnn:::::nb:::::b    b::::::bo::::o     o::::o  y:::::y   y:::::y    
-      t:::::t          r:::::r     rrrrrrraa::::::::::::a  i::::i  n::::n    n::::nb:::::b     b:::::bo::::o     o::::o   y:::::y y:::::y     
-      t:::::t          r:::::r           a::::aaaa::::::a  i::::i  n::::n    n::::nb:::::b     b:::::bo::::o     o::::o    y:::::y:::::y      
-      t:::::t    ttttttr:::::r          a::::a    a:::::a  i::::i  n::::n    n::::nb:::::b     b:::::bo::::o     o::::o     y:::::::::y       
-      t::::::tttt:::::tr:::::r          a::::a    a:::::a i::::::i n::::n    n::::nb:::::bbbbbb::::::bo:::::ooooo:::::o      y:::::::y        
-      tt::::::::::::::tr:::::r          a:::::aaaa::::::a i::::::i n::::n    n::::nb::::::::::::::::b o:::::::::::::::o       y:::::y         
-        tt:::::::::::ttr:::::r           a::::::::::aa:::ai::::::i n::::n    n::::nb:::::::::::::::b   oo:::::::::::oo       y:::::y          
-          ttttttttttt  rrrrrrr            aaaaaaaaaa  aaaaiiiiiiii nnnnnn    nnnnnnbbbbbbbbbbbbbbbb      ooooooooooo        y:::::y           
-                                                                                                                           y:::::y            
-                                                                                                                          y:::::y             
-                                                                                                                         y:::::y              
-                                                                                                                        y:::::y               
-                                                                                                                       yyyyyyy                
+	                                                                                                                                               
+                                                                                      bbbbbbbb                                                    
+         tttt                                                  iiii                   b::::::b                                                    
+      ttt:::t                                                 i::::i                  b::::::b                                                    
+      t:::::t                                                  iiii                   b::::::b                                                    
+      t:::::t                                                                          b:::::b                                                    
+ttttttt:::::ttttttt    rrrrr   rrrrrrrrr    aaaaaaaaaaaaa    iiiiiii nnnn  nnnnnnnn     b:::::bbbbbbbbb        ooooooooooo   yyyyyyy           yyyyyyy
+t:::::::::::::::::t    r::::rrr:::::::::r   a::::::::::::a   i:::::i n:::nn::::::::nn   b::::::::::::::bb    oo:::::::::::oo  y:::::y         y:::::y 
+t:::::::::::::::::t    r:::::::::::::::::r  aaaaaaaaa:::::a   i::::i n::::::::::::::nn  b::::::::::::::::b  o:::::::::::::::o  y:::::y       y:::::y  
+tttttt:::::::tttttt    rr::::::rrrrr::::::r          a::::a   i::::i nn:::::::::::::::n b:::::bbbbb:::::::b o:::::ooooo:::::o   y:::::y     y:::::y   
+      t:::::t           r:::::r     r:::::r   aaaaaaa:::::a   i::::i   n:::::nnnn:::::n b:::::b    b::::::b o::::o     o::::o    y:::::y   y:::::y    
+      t:::::t           r:::::r     rrrrrrr aa::::::::::::a   i::::i   n::::n    n::::n b:::::b     b:::::b o::::o     o::::o     y:::::y y:::::y     
+      t:::::t           r:::::r            a::::aaaa::::::a   i::::i   n::::n    n::::n b:::::b     b:::::b o::::o     o::::o      y:::::y:::::y      
+      t:::::t    tttttt r:::::r           a::::a    a:::::a   i::::i   n::::n    n::::n b:::::b     b:::::b o::::o     o::::o       y:::::::::y       
+      t::::::tttt:::::t r:::::r           a::::a    a:::::a  i::::::i  n::::n    n::::n b:::::bbbbbb::::::b o:::::ooooo:::::o        y:::::::y        
+      tt::::::::::::::t r:::::r           a:::::aaaa::::::a  i::::::i  n::::n    n::::n b::::::::::::::::b  o:::::::::::::::o         y:::::y         
+        tt:::::::::::tt r:::::r            a::::::::::aa:::a i::::::i  n::::n    n::::n b:::::::::::::::b    oo:::::::::::oo         y:::::y          
+          ttttttttttt   rrrrrrr             aaaaaaaaaa  aaaa iiiiiiii  nnnnnn    nnnnnn bbbbbbbbbbbbbbbb       ooooooooooo          y:::::y           
+                                                                                                                                   y:::::y            
+                                                                                                                                  y:::::y             
+                                                                                                                                 y:::::y              
+                                                                                                                                y:::::y               
+                                                                                                                               yyyyyyy                
                                                                                                                                               
                                                                                                                                               
 	-->
