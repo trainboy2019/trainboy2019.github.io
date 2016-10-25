@@ -1,14 +1,15 @@
-	// window.addEventListener("load", function(event) {
-	//   if (window.wiiu) {
-	//     setInterval(function() {
-	//       var state = window.wiiu.gamepad.update();
+	window.addEventListener("load", function(event) {
+	  if (window.wiiu) {
+	    setInterval(function() {
+	      var state = window.wiiu.gamepad.update();
 
-	//       // process the current state
-	//     }, 20);
-	//   } else {
-	//     // browser is not a Wii U
-	//   }
-	// }, false);
+	      // process the current state
+	    }, 20);
+	  } else {
+	  	alert("HI");
+	    // browser is not a Wii U
+	  }
+	}, false);
 
 
 
@@ -153,6 +154,7 @@
 				Plus.style.color = "black";
 				Minus.style.color = "black";
 				Home.style.color = "black";
+				document.body.style.backgroundColor = "white";
 				
 
 	}
@@ -276,84 +278,88 @@
 				Minus.style.color = "black";
 				Home.style.color = "black";
 
-			if(wiiu.gamepad.hold == 0x40000000) // LeftStickLeft
-				LeftStickLeft.style.color = "cyan";
-			if(wiiu.gamepad.hold == 0x20000000) // LeftStickRight
-				LeftStickRight.style.color = "cyan";
-				
-			if(wiiu.gamepad.hold == 0x10000000) // LeftStickUp
+			if(wiiu.gamepad.hold == 0x40000000){ // LeftStickLeft
+	LeftStickLeft.style.color = "cyan";
+}
+			if(wiiu.gamepad.hold == 0x20000000){ // LeftStickRight
+	LeftStickRight.style.color = "cyan";
+}
+			if(wiiu.gamepad.hold == 0x10000000) {// LeftStickUp
 	LeftStickUp.style.color = "cyan";
-				
-			if(wiiu.gamepad.hold == 0x08000000) // LeftStickDown
+}
+			if(wiiu.gamepad.hold == 0x08000000) {// LeftStickDown
 	LeftStickDown.style.color = "cyan";
-				
-			if(wiiu.gamepad.hold == 0x04000000) // RightStickLeft
+}				
+			if(wiiu.gamepad.hold == 0x04000000) {// RightStickLeft
 	RightStickLeft.style.color = "cyan";
-				
-			if(wiiu.gamepad.hold == 0x02000000) // RightStickRight
+}				
+			if(wiiu.gamepad.hold == 0x02000000) {// RightStickRight
 	RightStickRight.style.color = "cyan";
-				
-			if(wiiu.gamepad.hold == 0x01000000) // RightStickUp
+}				
+			if(wiiu.gamepad.hold == 0x01000000) {// RightStickUp
 	RightStickUp.style.color = "cyan";
-				
-			if(wiiu.gamepad.hold == 0x00800000) // RightStickDown
+}				
+			if(wiiu.gamepad.hold == 0x00800000) {// RightStickDown
 	RightStickDown.style.color = "cyan";
-				
-			if(wiiu.gamepad.hold == 0x00400000) // LeftStickClick
+}				
+			if(wiiu.gamepad.hold == 0x00040000) {// LeftStickClick
 	LeftStickClick.style.color = "cyan";
-				
-			if(wiiu.gamepad.hold == 0x00200000) // RightStickClick
+}				
+			if(wiiu.gamepad.hold == 0x00020000) {// RightStickClick
 	RightStickClick.style.color = "cyan";
-				
-			if(wiiu.gamepad.hold == 0x00100000) // TV
+}				
+			if(wiiu.gamepad.hold == 0x00100000) {// TV
 	TV.style.color = "cyan";
-				
-			if(wiiu.gamepad.hold == 0x00080000) // A
+}				
+			if(wiiu.gamepad.hold == 0x00008000) {// A
 	A.style.color = "cyan";
-				
-			if(wiiu.gamepad.hold == 0x00040000) // B
+}				
+			if(wiiu.gamepad.hold == 0x00004000) {// B
 	B.style.color = "cyan";
-				
-			if(wiiu.gamepad.hold == 0x00020000) // X
+}				
+			if(wiiu.gamepad.hold == 0x00002000) {// X
 	X.style.color = "cyan";
-				
-			if(wiiu.gamepad.hold == 0x00010000) // Y
+}				
+			if(wiiu.gamepad.hold == 0x00001000) {// Y
 	Y.style.color = "cyan";
-				
-			if(wiiu.gamepad.hold == 0x00008000) // Left
+}				
+			if(wiiu.gamepad.hold == 0x00000800) {// Left
 	Left.style.color = "cyan";
-				
-			if(wiiu.gamepad.hold == 0x00004000) // Right
+}				
+			if(wiiu.gamepad.hold == 0x00000400) {// Right
 	Right.style.color = "cyan";
-				
-			if(wiiu.gamepad.hold == 0x00002000) // Up
+}				
+			if(wiiu.gamepad.hold == 0x00000200) {// Up
 	Up.style.color = "cyan";
-				
-			if(wiiu.gamepad.hold == 0x00001000) // Down
+}				
+			if(wiiu.gamepad.hold == 0x00000100) {// Down
 	Down.style.color = "cyan";
-				
-			if(wiiu.gamepad.hold == 0x00000800) // ZL
+}				
+			if(wiiu.gamepad.hold == 0x00000080) {// ZL
 	ZL.style.color = "cyan";
-				
-			if(wiiu.gamepad.hold == 0x00000400) // ZR
+}				
+			if(wiiu.gamepad.hold == 0x00000040) {// ZR
 	ZR.style.color = "cyan";
-				
-			if(wiiu.gamepad.hold == 0x00000200) // L
+}				
+			if(wiiu.gamepad.hold == 0x00000020) {// L
 	L.style.color = "cyan";
-				
-			if(wiiu.gamepad.hold == 0x00000100) // R
+}				
+			if(wiiu.gamepad.hold == 0x00000010){ // R
 	R.style.color = "cyan";
-				
-			if(wiiu.gamepad.hold == 0x00000080) // Plus
+}				
+			if(wiiu.gamepad.hold == 0x00000008){ // Plus
 	Plus.style.color = "cyan";
-				
-			if(wiiu.gamepad.hold == 0x00000040) // Minus
+}				
+			if(wiiu.gamepad.hold == 0x00000004) {// Minus
 	Minus.style.color = "cyan";
-				
-			if(wiiu.gamepad.hold == 0x00000020) // Home
+}				
+			if(wiiu.gamepad.hold == 0x00000020){ // Home
 	Home.style.color = "cyan";
-			if(wiiu.gamepad.tpTouch == 1) // TouchOn
-				document.body.style.backgroundColor = "yellow";
-			if(wiiu.gamepad.tpTouch == 0) // TouchOff
-				document.body.style.backgroundColor = "white";
-		}
+}
+			if(wiiu.gamepad.tpTouch == 1){ // TouchOn
+	document.body.style.backgroundColor = "yellow";
+}
+			if(wiiu.gamepad.tpTouch == 0){ // TouchOff
+	document.body.style.backgroundColor = "white";
+}
+}
