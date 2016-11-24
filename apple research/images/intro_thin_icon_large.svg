@@ -1,0 +1,21 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="705" height="840" viewBox="0 0 51 56">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #231f20;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.869px;
+      }
+    </style>
+  </defs>
+  <title>a</title>
+  <g>
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <polyline id="_Path_" data-name="&lt;Path&gt;" class="cls-1" points="31.109 13.051 25.5 19.905 19.891 13.051"/>
+      <polyline id="_Path_2" data-name="&lt;Path&gt;" class="cls-1" points="19.891 42.949 25.5 36.095 31.109 42.949"/>
+    </g>
+    <line id="_Path_3" data-name="&lt;Path&gt;" class="cls-1" x1="1" y1="28" x2="50" y2="28"/>
+  </g>
+</svg>

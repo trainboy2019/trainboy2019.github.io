@@ -1,203 +1,169 @@
 <html>
-	<head>
-		<meta http-equiv="Default-Style" content="Red">
-		<link id="pagestyle" rel="stylesheet" type="text/css" href="stylesheet.css" title="Red">
-		<script>
-			function delay (URL) {
-    			setTimeout( function() { window.location = URL }, 300 );
-			}
 
-		</script>
+<head>
+    <meta http-equiv="Default-Style" content="Red">
+    <link id="pagestyle" rel="stylesheet" type="text/css" href="stylesheet.css" title="Red">
+    <script>
+        function delay(URL) {
+            setTimeout(function () {
+                window.location = URL
+            }, 300);
+        }
+    </script>
+    <link rel="shortcut icon" href="./favicon.png">
+    <script type="text/javascript" src="jquery.cre-animate.js"></script>
+    <script src="velocity.js"></script>
+    <script src="velocity.min.js"></script>
+    <script src="velocity.ui.js"></script>
+    <script src="velocity.ui.min.js"></script>
+    <!-- <script src="https://code.getmdl.io/1.2.1/material.min.js"></script> -->
+    <!-- <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css"> -->
+    <!-- Material Design icon font -->
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
+    <link rel="stylesheet" href="./mdl/material.css">
+    <script src="./mdl/material.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript">
+        $('#button').mouseup(function () {
+            $(this).addClass('released');
+        });
+    </script>
+    <script>
+        var t = 50;
+        $(document).ready(function () {
+            $("#1").animate({
+                'opacity': '1'
+            }, t);
+            $("#2").delay(t).animate({
+                'opacity': '1'
+            }, t);
+            $("#3").delay(t * 2).animate({
+                'opacity': '1'
+            }, t);
+            $("#4").delay(t * 3).animate({
+                'opacity': '1'
+            }, t);
+            $("#5").delay(t * 4).animate({
+                'opacity': '1'
+            }, t);
+            $("#6").delay(t * 5).animate({
+                'opacity': '1'
+            }, t);
+            $("#7").delay(t * 6).animate({
+                'opacity': '1'
+            }, t);
+            $("#8").delay(t * 7).animate({
+                'opacity': '1'
+            }, t);
+            // $("#9").delay(t*8).animate({ 
+            //     'opacity': '1'
+            // },t);
+            // $("#10").delay(t*9).animate({ 
+            //     'opacity': '1'
+            // },t);
+            // $("#11").delay(t*10).animate({ 
+            //     'opacity': '1'
+            // },t);
+            // $("#12").delay(t*11).animate({ 
+            //     'opacity': '1'
+            // },t);
+            // $("#13").delay(t*12).animate({ 
+            //     'opacity': '1'
+            // },t);
+            // $("#14").delay(t*13).animate({ 
+            //     'opacity': '1'
+            // },t);
+            // $("#15").delay(t*14).animate({ 
+            //     'opacity': '1'
+            // },t);
+            // $("#16").delay(t*15).animate({ 
+            //     'opacity': '1'
+            // },t);
+            // $("#17").delay(t*16).animate({ 
+            //     'opacity': '1'
+            // },t);
+            // $("#18").delay(t*17).animate({ 
+            //     'opacity': '1'
+            // },t);
+            // $("#19").delay(t*18).animate({ 
+            //     'opacity': '1'
+            // },t);
+            // $("#20").delay(t*19).animate({ 
+            //     'opacity': '1'
+            // },t);
+            // $("#21").delay(t*20).animate({ 
+            //     'opacity': '1'
+            // },t);
+            // $("#22").delay(t*21).animate({ 
+            //     'opacity': '1'
+            // },t);
+            // $("#23").delay(t*22).animate({ 
+            //     'opacity': '1'
+            // },t);
+            // $("#24").delay(t*23).animate({ 
+            //     'opacity': '1'
+            // },t);
+            // $("#25").delay(t*24).animate({ 
+            //     'opacity': '1'
+            // },t);
+            // $("#26").delay(t*25).animate({ 
+            //     'opacity': '1'
+            // },t);
+            // $("#27").delay(t*26).animate({ 
+            //     'opacity': '1'
+            // },t);
+            // $("#28").delay(t*27.animate({ 
+            //     'opacity': '1'
+            // },t);
+            // $("#29").delay(t*28).animate({ 
+            //     'opacity': '1'
+            // },t);
+            // $("#30").delay(t*29).animate({ 
+            //     'opacity': '1'
+            // },t);
+            // $("#31").delay(t*30).animate({ 
+            //     'opacity': '1'
+            // },t);
+            // $("#32").delay(t*31).animate({ 
+            //     'opacity': '1'
+            // },t);
+            // $("#33").delay(t*32).animate({ 
+            //     'opacity': '1'
+            // },t);
+            // $("#34").delay(t*33).animate({ 
+            //     'opacity': '1'
+            // },t);
+            // $("#35").delay(t*34).animate({ 
+            //     'opacity': '1'
+            // },t);
+            // $("#36").delay(t*35).animate({ 
+            //     'opacity': '1'
+            // },t);
+            // $("#37").delay(t*36).animate({ 
+            //     'opacity': '1'
+            // },t);
+            // $("#38").delay(t*37).animate({ 
+            //     'opacity': '1'
+            // },t);
+            // $("#39").delay(t*38).animate({ 
+            //     'opacity': '1'
+            // },t);
+            // $("#40").delay(t*39).animate({ 
+            //     'opacity': '1'
+            // },t);
+            // $("#41").delay(t*40).animate({ 
+            //     'opacity': '1'
+            // },t);
+            // $("#19").delay(t*18).animate({ 
+            //     'opacity': '1'
+            // },t);
+        });
+    </script>
+</head>
 
-		<script type="text/javascript" src = "jquery.cre-animate.js"></script>
-
-<script src="velocity.js"></script>
-<script src="velocity.min.js"></script>
-<script src="velocity.ui.js"></script>
-<script src="velocity.ui.min.js"></script>
-
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-		<script type="text/javascript">
-			$('#button').mouseup(function(){
-				$(this).addClass('released');
-			});
-		</script>
-		<script>
-		var t = 50;
-		$(document).ready(function(){
-		    $("#1").animate({ 
-		   
-		       'opacity': '1'
-		    },t);
-		    $("#2").delay(t).animate({ 
-		   
-		        'opacity': '1'
-		    },t);
-		    $("#3").delay(t*2).animate({ 
-		   
-		        'opacity': '1'
-		    },t);
-		    $("#4").delay(t*3).animate({ 
-		   
-		        'opacity': '1'
-		    },t);
-		    $("#5").delay(t*4).animate({ 
-		   
-		        'opacity': '1'
-		    },t);
-		    $("#6").delay(t*5).animate({ 
-		   
-		        'opacity': '1'
-		    },t);
-		    $("#7").delay(t*6).animate({ 
-		   
-		        'opacity': '1'
-		    },t);
-		    $("#8").delay(t*7).animate({ 
-		   
-		        'opacity': '1'
-		    },t);
-		    // $("#9").delay(t*8).animate({ 
-		   
-		    //     'opacity': '1'
-		    // },t);
-		    // $("#10").delay(t*9).animate({ 
-		   
-		    //     'opacity': '1'
-		    // },t);
-		    // $("#11").delay(t*10).animate({ 
-		   
-		    //     'opacity': '1'
-		    // },t);
-		    // $("#12").delay(t*11).animate({ 
-		   
-		    //     'opacity': '1'
-		    // },t);
-		    // $("#13").delay(t*12).animate({ 
-		   
-		    //     'opacity': '1'
-		    // },t);
-		    // $("#14").delay(t*13).animate({ 
-		   
-		    //     'opacity': '1'
-		    // },t);
-		    // $("#15").delay(t*14).animate({ 
-		   
-		    //     'opacity': '1'
-		    // },t);
-		    // $("#16").delay(t*15).animate({ 
-		   
-		    //     'opacity': '1'
-		    // },t);
-		    // $("#17").delay(t*16).animate({ 
-		   
-		    //     'opacity': '1'
-		    // },t);
-		    // $("#18").delay(t*17).animate({ 
-		   
-		    //     'opacity': '1'
-		    // },t);
-		    // $("#19").delay(t*18).animate({ 
-		   
-		    //     'opacity': '1'
-		    // },t);
-		    // $("#20").delay(t*19).animate({ 
-		   
-		    //     'opacity': '1'
-		    // },t);
-		    // $("#21").delay(t*20).animate({ 
-		   
-		    //     'opacity': '1'
-		    // },t);
-		    // $("#22").delay(t*21).animate({ 
-		   
-		    //     'opacity': '1'
-		    // },t);
-		    // $("#23").delay(t*22).animate({ 
-		   
-		    //     'opacity': '1'
-		    // },t);
-		    // $("#24").delay(t*23).animate({ 
-		   
-		    //     'opacity': '1'
-		    // },t);
-		    // $("#25").delay(t*24).animate({ 
-		   
-		    //     'opacity': '1'
-		    // },t);
-		    // $("#26").delay(t*25).animate({ 
-		   
-		    //     'opacity': '1'
-		    // },t);
-		    // $("#27").delay(t*26).animate({ 
-		   
-		    //     'opacity': '1'
-		    // },t);
-		    // $("#28").delay(t*27.animate({ 
-		   
-		    //     'opacity': '1'
-		    // },t);
-		    // $("#29").delay(t*28).animate({ 
-		   
-		    //     'opacity': '1'
-		    // },t);
-		    // $("#30").delay(t*29).animate({ 
-		   
-		    //     'opacity': '1'
-		    // },t);
-		    // $("#31").delay(t*30).animate({ 
-		   
-		    //     'opacity': '1'
-		    // },t);
-		    // $("#32").delay(t*31).animate({ 
-		   
-		    //     'opacity': '1'
-		    // },t);
-		    // $("#33").delay(t*32).animate({ 
-		   
-		    //     'opacity': '1'
-		    // },t);
-		    // $("#34").delay(t*33).animate({ 
-		   
-		    //     'opacity': '1'
-		    // },t);
-		    // $("#35").delay(t*34).animate({ 
-		   
-		    //     'opacity': '1'
-		    // },t);
-		    // $("#36").delay(t*35).animate({ 
-		   
-		    //     'opacity': '1'
-		    // },t);
-		    // $("#37").delay(t*36).animate({ 
-		   
-		    //     'opacity': '1'
-		    // },t);
-		    // $("#38").delay(t*37).animate({ 
-		   
-		    //     'opacity': '1'
-		    // },t);
-		    // $("#39").delay(t*38).animate({ 
-		   
-		    //     'opacity': '1'
-		    // },t);
-		    // $("#40").delay(t*39).animate({ 
-		   
-		    //     'opacity': '1'
-		    // },t);
-		    // $("#41").delay(t*40).animate({ 
-		   
-		    //     'opacity': '1'
-		    // },t);
-		    // $("#19").delay(t*18).animate({ 
-		   
-		    //     'opacity': '1'
-		    // },t);
-		});
-		</script>
-	</head>
-	<body>
-		<!-- <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+<body>
+    <!-- <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
           <a class="btn-floating btn-large red">
             <i class="material-icons">mode_edit</i>
           </a>
@@ -208,120 +174,350 @@
             <li><a class="btn-floating blue" style="transform: scaleY(0.4) scaleX(0.4) translateY(40px) translateX(0px); opacity: 0;"><i class="material-icons">attach_file</i></a></li>
           </ul>
         </div> -->
-        <div class = "header">
+    <!-- Wide card with share menu button -->
+    <!-- <div class = "header">
+
+
         <p> </p>
         	<h3 class = "header-title">Hello</h3>
         	<br />
+        </div> -->
+    <!-- Uses a transparent header that draws on top of the layout's background -->
+    <style>
+        .demo-layout-transparent {
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.8);
+            background: #009688 center / cover;
+            position: absolute;
+            height: 65px;
+            /*background: url('../assets/demos/transparent.jpg') center / cover;*/
+        }
+        
+        .demo-layout-transparent .mdl-layout__header,
+        .demo-layout-transparent .mdl-layout__drawer-button {
+            /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+            color: black;
+            position: absolute;
+        }
+        
+        .is-visible {
+            height: 100%;
+            position: absolute;
+        }
+        
+        .material-icons {
+            margin-top: 12px;
+        }
+        
+        .buddy {
+            margin-top: 0px;
+        }
+    </style>
+    <div class="demo-layout-transparent mdl-layout mdl-js-layout" style="position: absolute;">
+        <header class="mdl-layout__header mdl-layout__header--transparent">
+            <div class="mdl-layout__header-row">
+                <!-- Title --><span class="mdl-layout-title">Title</span>
+                <!-- Add spacer, to align navigation to the right -->
+                <div class="mdl-layout-spacer"></div>
+                <!-- Navigation -->
+                <nav class="mdl-navigation"> <a class="mdl-navigation__link" href="">Link</a> <a class="mdl-navigation__link" href="">Link</a> <a class="mdl-navigation__link" href="">Link</a> <a class="mdl-navigation__link" href="">Link</a> </nav>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer"> <span class="mdl-layout-title">Title</span>
+            <nav class="mdl-navigation"> <a class="mdl-navigation__link" href="">Link</a> <a class="mdl-navigation__link" href="">Link</a> <a class="mdl-navigation__link" href="">Link</a> <a class="mdl-navigation__link" href="">Link</a> </nav>
         </div>
+        <main class="mdl-layout__content"> </main>
+    </div>
+    <br />
+    <br />
+    <div class="tools_wrap">
+        <div class="tool_list clearfix">
+            <div class="tool" id="1">
+                <div class="tool_card">
+                    <a id="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                        <div class="t_cover"> <img width="100%" height="225" alt="Flat UI Colors" src="img/flat-colors-thumb.png"> </div>
+                        <div class="t_info">
+                            <h2>Flat UI Colors</h2>
+                            <p>Click-To-Copy color palette of very popular Flat UI Colors.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="tool" id="2">
+                <div class="tool_card">
+                    <a id="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                        <div class="t_cover"> <img width="100%" height="225" alt="Flat UI Colors" src="img/FlatUi.png"> </div>
+                        <div class="t_info">
+                            <h2>Flat UI Colors</h2>
+                            <p>Click-To-Copy color palette of very popular Flat UI Colors.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="tool" id="3">
+                <div class="tool_card">
+                    <a id="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                        <div class="t_cover"> <img width="100%" height="225" alt="Flat UI Colors" src="img/flat.png"> </div>
+                        <div class="t_info">
+                            <h2>Flat UI Colors</h2>
+                            <p>Click-To-Copy color palette of very popular Flat UI Colors.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="tool" id="4">
+                <div class="tool_card">
+                    <a id="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                        <div class="t_cover"> <img width="100%" height="225" alt="Flat UI Colors" src="img/flatPro.png"> </div>
+                        <div class="t_info">
+                            <h2>Flat UI Colors</h2>
+                            <p>Click-To-Copy color palette of very popular Flat UI Colors.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="tool" id="5">
+                <div class="tool_card">
+                    <a id="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                        <div class="t_cover"> <img width="100%" height="225" alt="Flat UI Colors" src="img/flat-colors-thumb.png"> </div>
+                        <div class="t_info">
+                            <h2>Flat UI Colors</h2>
+                            <p>Click-To-Copy color palette of very popular Flat UI Colors.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="tool" id="6">
+                <div class="tool_card">
+                    <a id="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                        <div class="t_cover"> <img width="100%" height="225" alt="Flat UI Colors" src="img/flat-colors-thumb.png"> </div>
+                        <div class="t_info">
+                            <h2>Flat UI Colors</h2>
+                            <p>Click-To-Copy color palette of very popular Flat UI Colors.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="tool" id="7">
+                <div class="tool_card">
+                    <a id="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                        <div class="t_cover"> <img width="100%" height="225" alt="Flat UI Colors" src="img/flat-colors-thumb.png"> </div>
+                        <div class="t_info">
+                            <h2>Flat UI Colors</h2>
+                            <p>Click-To-Copy color palette of very popular Flat UI Colors.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="tool" id="8">
+                <div class="tool_card">
+                    <a href="javascript:delay('http://www.materialui.co/flatuicolors')" id="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                        <div class="t_cover"> <img width="100%" height="225" alt="Flat UI Colors" src="img/flat-colors-thumb.png"> </div>
+                        <div class="t_info">
+                            <h2>Flat UI Colors</h2>
+                            <p>Click-To-Copy color palette of very popular Flat UI Colors.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="test">
+        <!-- Number badge on icon -->
+        <div class="material-icons buddy mdl-badge mdl-badge--overlap" data-badge="1">account_box</div>
+        <div class="material-icons buddy mdl-badge mdl-badge--overlap" data-badge="♥">account_box</div>
+        <button id="demo-show-snackbar" class="mdl-button mdl-js-button mdl-button--raised" type="button">Show Snackbar</button>
+        <div id="demo-snackbar-example" class="mdl-js-snackbar mdl-snackbar">
+            <div class="mdl-snackbar__text"></div>
+            <button class="mdl-snackbar__action" type="button"></button>
+        </div>
+        <script>
+            (function () {
+                'use strict';
+                var snackbarContainer = document.querySelector('#demo-snackbar-example');
+                var showSnackbarButton = document.querySelector('#demo-show-snackbar');
+                var handler = function (event) {
+                    showSnackbarButton.style.backgroundColor = '';
+                };
+                showSnackbarButton.addEventListener('click', function () {
+                    'use strict';
+                    showSnackbarButton.style.backgroundColor = '#' + Math.floor(Math.random() * 0xFFFFFF).toString(16);
+                    var data = {
+                        message: 'Button color changed.'
+                        , timeout: 2000
+                        , actionHandler: handler
+                        , actionText: 'Undo'
+                    };
+                    snackbarContainer.MaterialSnackbar.showSnackbar(data);
+                });
+            }());
+        </script>
+        <!-- Colored FAB button -->
+        <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"> <i class="material-icons buddy">add</i> </button>
+        <!-- Colored FAB button with ripple -->
+        <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored"> <i class="material-icons buddy">add</i> </button>
+        <!-- MDL Spinner Component -->
+        <div class="mdl-spinner mdl-js-spinner is-active"></div>
+        <!-- MDL Spinner Component with Single Color -->
+        <div class="mdl-spinner mdl-spinner--single-color mdl-js-spinner is-active"></div>
+        <!-- Simple MDL Progress Bar -->
+        <div id="p1" class="mdl-progress mdl-js-progress"></div>
+        <br />
+        <script>
+            document.querySelector('#p1').addEventListener('mdl-componentupgraded', function () {
+                this.MaterialProgress.setProgress(44);
+            });
+        </script>
+        <!-- MDL Progress Bar with Indeterminate Progress -->
+        <div id="p2" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>
+        <br />
+        <!-- MDL Progress Bar with Buffering -->
+        <div id="p3" class="mdl-progress mdl-js-progress"></div>
+        <br />
+        <script>
+            document.querySelector('#p3').addEventListener('mdl-componentupgraded', function () {
+                this.MaterialProgress.setProgress(33);
+                this.MaterialProgress.setBuffer(87);
+            });
+        </script>
+        <!-- Default Slider -->
+        <input class="mdl-slider mdl-js-slider" type="range" min="0" max="100" value="0" tabindex="0">
+        <!-- Slider with Starting Value -->
+        <input class="mdl-slider mdl-js-slider" type="range" min="0" max="100" value="25" tabindex="0">
+        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
+            <input type="checkbox" id="checkbox-1" class="mdl-checkbox__input" checked> <span class="mdl-checkbox__label">Checkbox</span> </label>
+        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
+            <input type="checkbox" id="checkbox-2" class="mdl-checkbox__input"> <span class="mdl-checkbox__label">Checkbox</span> </label>
+        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+            <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked> <span class="mdl-radio__label">First</span> </label>
+        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
+            <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2"> <span class="mdl-radio__label">Second</span> </label>
+        <label class="mdl-icon-toggle mdl-js-icon-toggle mdl-js-ripple-effect" for="icon-toggle-1">
+            <input type="checkbox" id="icon-toggle-1" class="mdl-icon-toggle__input" checked> <i class="mdl-icon-toggle__label material-icons buddy">format_bold</i> </label>
+        <label class="mdl-icon-toggle mdl-js-icon-toggle mdl-js-ripple-effect" for="icon-toggle-2">
+            <input type="checkbox" id="icon-toggle-2" class="mdl-icon-toggle__input"> <i class="mdl-icon-toggle__label material-icons buddy">format_italic</i> </label>
+        <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-1">
+            <input type="checkbox" id="switch-1" class="mdl-switch__input" checked> <span class="mdl-switch__label"></span> </label>
+        <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-2">
+            <input type="checkbox" id="switch-2" class="mdl-switch__input"> <span class="mdl-switch__label"></span> </label>
+        <br />
+        <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
+            <thead>
+                <tr>
+                    <th class="mdl-data-table__cell--non-numeric">Material</th>
+                    <th>Quantity</th>
+                    <th>Unit price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Acrylic (Transparent)</td>
+                    <td>25</td>
+                    <td>$2.90</td>
+                </tr>
+                <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Plywood (Birch)</td>
+                    <td>50</td>
+                    <td>$1.25</td>
+                </tr>
+                <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Laminate (Gold on Blue)</td>
+                    <td>10</td>
+                    <td>$2.35</td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+        <!-- Textfield with Floating Label -->
+        <form action="#">
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input class="mdl-textfield__input" type="text" id="sample3">
+                <label class="mdl-textfield__label" for="sample3">Text...</label>
+            </div>
+        </form>
+        <!-- Numeric Textfield with Floating Label -->
+        <form action="#">
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample4">
+                <label class="mdl-textfield__label" for="sample4">Number...</label> <span class="mdl-textfield__error">Input is not a number!</span> </div>
+        </form>
+        <!-- Floating Multiline Textfield -->
+        <form action="#">
+            <div class="mdl-textfield mdl-js-textfield">
+                <textarea class="mdl-textfield__input" type="text" rows="3" id="sample5"></textarea>
+                <label class="mdl-textfield__label" for="sample5">Text lines...</label>
+            </div>
+        </form>
+        <!-- Expandable Textfield -->
+        <form action="#">
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+                <label class="mdl-button mdl-js-button mdl-button--icon" for="sample6"> <i class="material-icons buddy">search</i> </label>
+                <div class="mdl-textfield__expandable-holder">
+                    <input class="mdl-textfield__input" type="text" id="sample6">
+                    <label class="mdl-textfield__label" for="sample-expandable">Expandable Input</label>
+                </div>
+            </div>
+        </form>
+        <!-- Simple Tooltip -->
+        <div id="tt1" class="icon material-icons buddy">add</div>
+        <div class="mdl-tooltip" data-mdl-for="tt1"> Follow </div>
+        <!-- Large Tooltip -->
+        <div id="tt2" class="icon material-icons buddy">print</div>
+        <div class="mdl-tooltip mdl-tooltip--large" for="tt2"> Print </div>
+        <!-- Rich Tooltip -->
+        <div id="tt3" class="icon material-icons buddy">cloud_upload</div>
+        <div class="mdl-tooltip" data-mdl-for="tt3"> Upload <strong>file.zip</strong> </div>
+        <!-- Multiline Tooltip -->
+        <div id="tt4" class="icon material-icons buddy">share</div>
+        <div class="mdl-tooltip" for="tt4"> Share your content
+            <br>via social media </div>
+        <!-- Simple Textfield -->
+        <form action="#">
+            <div class="mdl-textfield mdl-js-textfield">
+                <input class="mdl-textfield__input" type="text" id="sample1">
+                <label class="mdl-textfield__label" for="sample1">Text...</label>
+            </div>
+        </form>
+        <!-- Numeric Textfield -->
+        <form action="#">
+            <div class="mdl-textfield mdl-js-textfield">
+                <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2">
+                <label class="mdl-textfield__label" for="sample2">Number...</label> <span class="mdl-textfield__error">Input is not a number!</span> </div>
+        </form>
         <br />
         <br />
-		<div class="tools_wrap">
-			<div class="tool_list clearfix">
-				<div class="tool" id="1">
-					<div class="tool_card">
-						<a href="javascript:delay('https://www.materialui.co/flatuicolors')" id = "button">
-							<div class="t_cover">
-								<img width="100%" height="225" alt="Flat UI Colors" src="img/flat-colors-thumb.png">
-							</div>
-							<div class="t_info">
-								<h2>Flat UI Colors</h2>
-								<p>Click-To-Copy color palette of very popular Flat UI Colors.</p>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="tool" id="2">
-					<div class="tool_card">
-						<a href="javascript:delay('https://www.materialui.co/flatuicolors')" id = "button">
-							<div class="t_cover">
-								<img width="100%" height="225" alt="Flat UI Colors" src="img/FlatUi.png">
-							</div>
-							<div class="t_info">
-								<h2>Flat UI Colors</h2>
-								<p>Click-To-Copy color palette of very popular Flat UI Colors.</p>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="tool" id="3">
-					<div class="tool_card">
-						<a href="javascript:delay('https://www.materialui.co/flatuicolors')" id = "button">
-							<div class="t_cover">
-								<img width="100%" height="225" alt="Flat UI Colors" src="img/flat.png">
-							</div>
-							<div class="t_info">
-								<h2>Flat UI Colors</h2>
-								<p>Click-To-Copy color palette of very popular Flat UI Colors.</p>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="tool" id="4">
-					<div class="tool_card">
-						<a href="javascript:delay('https://www.materialui.co/flatuicolors')" id = "button">
-							<div class="t_cover">
-								<img width="100%" height="225" alt="Flat UI Colors" src="img/flatPro.png">
-							</div>
-							<div class="t_info">
-								<h2>Flat UI Colors</h2>
-								<p>Click-To-Copy color palette of very popular Flat UI Colors.</p>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="tool" id="5">
-					<div class="tool_card">
-						<a href="javascript:delay('https://www.materialui.co/flatuicolors')" id = "button">
-							<div class="t_cover">
-								<img width="100%" height="225" alt="Flat UI Colors" src="img/flat-colors-thumb.png">
-							</div>
-							<div class="t_info">
-								<h2>Flat UI Colors</h2>
-								<p>Click-To-Copy color palette of very popular Flat UI Colors.</p>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="tool" id="6">
-					<div class="tool_card">
-						<a href="javascript:delay('https://www.materialui.co/flatuicolors')" id = "button">
-							<div class="t_cover">
-								<img width="100%" height="225" alt="Flat UI Colors" src="img/flat-colors-thumb.png">
-							</div>
-							<div class="t_info">
-								<h2>Flat UI Colors</h2>
-								<p>Click-To-Copy color palette of very popular Flat UI Colors.</p>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="tool" id="7">
-					<div class="tool_card">
-						<a href="javascript:delay('https://www.materialui.co/flatuicolors')" id = "button">
-							<div class="t_cover">
-								<img width="100%" height="225" alt="Flat UI Colors" src="img/flat-colors-thumb.png">
-							</div>
-							<div class="t_info">
-								<h2>Flat UI Colors</h2>
-								<p>Click-To-Copy color palette of very popular Flat UI Colors.</p>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="tool" id="8">
-					<div class="tool_card">
-						<a href="javascript:delay('https://www.materialui.co/flatuicolors')" id = "button">
-							<div class="t_cover">
-								<img width="100%" height="225" alt="Flat UI Colors" src="img/flat-colors-thumb.png">
-							</div>
-							<div class="t_info">
-								<h2>Flat UI Colors</h2>
-								<p>Click-To-Copy color palette of very popular Flat UI Colors.</p>
-							</div>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</body>
+        <!-- Wide card with share menu button -->
+        <style>
+            .mld-card {}
+            
+            .demo-card-wide.mdl-card {
+                width: 512px;
+                display: block;
+                margin: auto;
+            }
+            
+            .demo-card-wide > .mdl-card__title {
+                color: #fff;
+                height: 176px;
+                background: url('./welcome_card.jpg') center / cover;
+            }
+            
+            .demo-card-wide > .mdl-card__menu {
+                color: #fff;
+            }
+        </style>
+        <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title">
+                <h2 class="mdl-card__title-text">Welcome</h2> </div>
+            <div class="mdl-card__supporting-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis pellentesque lacus eleifend lacinia... </div>
+            <div class="mdl-card__actions mdl-card--border"> <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+      Get Started
+    </a> </div>
+            <div class="mdl-card__menu">
+                <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"> <i class="material-icons buddy">share</i> </button>
+            </div>
+        </div>
+        <br /> </div>
+</body>
+
 </html>
