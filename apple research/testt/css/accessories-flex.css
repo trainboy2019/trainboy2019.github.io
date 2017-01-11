@@ -8225,7 +8225,7 @@ html.oldie .as-video-transcripttitle {
     -webkit-transform-origin: top;
     -ms-transform-origin: top;
     transform-origin: top;
-    background-color: #6d4c41;
+    background-color: #895857;
     height: 14px;
     bottom: -14px;
     width: 100%;
@@ -8248,7 +8248,7 @@ html.oldie .as-video-transcripttitle {
     -webkit-transform-origin: top;
     -ms-transform-origin: top;
     transform-origin: top;
-    background-color: #895857;
+    background-color: #6d4c41;
     width: 14px;
     top: 7px;
     right: -14px;
@@ -8821,6 +8821,384 @@ html.oldie .as-video-transcripttitle {
 
 @media only screen and (max-width:736px) and (max-device-width:768px) {
     .as-pinwheel12 .as-pinwheel-tile.pw-twitter-theme::before {
+        width: 10px;
+        top: 5px;
+        right: -10px
+    }
+}
+
+.as-pinwheel12 .as-pinwheel-tile.pw-jet-theme::after {
+    content: '';
+    position: absolute;
+    -webkit-transform: skew(45deg);
+    -ms-transform: skew(45deg);
+    transform: skew(45deg);
+    -webkit-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+    background-color: #8508ff;
+    height: 14px;
+    bottom: -14px;
+    width: 100%;
+    left: 0
+}
+
+@media only screen and (max-width:736px) and (max-device-width:768px) {
+    .as-pinwheel12 .as-pinwheel-tile.pw-jet-theme::after {
+        height: 10px;
+        bottom: -10px
+    }
+}
+
+.as-pinwheel12 .as-pinwheel-tile.pw-jet-theme::before {
+    content: '';
+    position: absolute;
+    -webkit-transform: skewY(45deg);
+    -ms-transform: skewY(45deg);
+    transform: skewY(45deg);
+    -webkit-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+    background-color: #6f01da;
+    width: 14px;
+    top: 7px;
+    right: -14px;
+    height: 100%
+}
+
+@media only screen and (max-width:736px) and (max-device-width:768px) {
+    .as-pinwheel12 .as-pinwheel-tile.pw-jet-theme::before {
+        width: 10px;
+        top: 5px;
+        right: -10px
+    }
+}
+
+.as-pinwheel12 .as-pinwheel-tile.pw-shazam-theme::after {
+    content: '';
+    position: absolute;
+    -webkit-transform: skew(45deg);
+    -ms-transform: skew(45deg);
+    transform: skew(45deg);
+    -webkit-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+    background-color: #078bff;
+    height: 14px;
+    bottom: -14px;
+    width: 100%;
+    left: 0
+}
+
+@media only screen and (max-width:736px) and (max-device-width:768px) {
+    .as-pinwheel12 .as-pinwheel-tile.pw-shazam-theme::after {
+        height: 10px;
+        bottom: -10px
+    }
+}
+
+.as-pinwheel12 .as-pinwheel-tile.pw-shazam-theme::before {
+    content: '';
+    position: absolute;
+    -webkit-transform: skewY(45deg);
+    -ms-transform: skewY(45deg);
+    transform: skewY(45deg);
+    -webkit-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+    background-color: #0074da;
+    width: 14px;
+    top: 7px;
+    right: -14px;
+    height: 100%
+}
+
+@media only screen and (max-width:736px) and (max-device-width:768px) {
+    .as-pinwheel12 .as-pinwheel-tile.pw-shazam-theme::before {
+        width: 10px;
+        top: 5px;
+        right: -10px
+    }
+}
+
+.as-pinwheel12 .as-pinwheel-tile.pw-music-theme::after {
+    content: '';
+    position: absolute;
+    -webkit-transform: skew(45deg);
+    -ms-transform: skew(45deg);
+    transform: skew(45deg);
+    -webkit-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+    background-color: #D7A2D0;
+    height: 14px;
+    bottom: -14px;
+    width: 100%;
+    left: 0
+}
+
+@media only screen and (max-width:736px) and (max-device-width:768px) {
+    .as-pinwheel12 .as-pinwheel-tile.pw-music-theme::after {
+        height: 10px;
+        bottom: -10px
+    }
+}
+
+.as-pinwheel12 .as-pinwheel-tile.pw-music-theme::before {
+    content: '';
+    position: absolute;
+    -webkit-transform: skewY(45deg);
+    -ms-transform: skewY(45deg);
+    transform: skewY(45deg);
+    -webkit-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+    background-color: #A27CA5;
+    width: 14px;
+    top: 7px;
+    right: -14px;
+    height: 100%
+}
+
+@media only screen and (max-width:736px) and (max-device-width:768px) {
+    .as-pinwheel12 .as-pinwheel-tile.pw-music-theme::before {
+        width: 10px;
+        top: 5px;
+        right: -10px
+    }
+}
+
+.as-pinwheel12 .as-pinwheel-tile.pw-apple-theme::after {
+    content: '';
+    position: absolute;
+    -webkit-transform: skew(45deg);
+    -ms-transform: skew(45deg);
+    transform: skew(45deg);
+    -webkit-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+    background-color: #C9655D;
+    height: 14px;
+    bottom: -14px;
+    width: 100%;
+    left: 0
+}
+
+@media only screen and (max-width:736px) and (max-device-width:768px) {
+    .as-pinwheel12 .as-pinwheel-tile.pw-apple-theme::after {
+        height: 10px;
+        bottom: -10px
+    }
+}
+
+.as-pinwheel12 .as-pinwheel-tile.pw-apple-theme::before {
+    content: '';
+    position: absolute;
+    -webkit-transform: skewY(45deg);
+    -ms-transform: skewY(45deg);
+    transform: skewY(45deg);
+    -webkit-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+    background-color: #B13C33;
+    width: 14px;
+    top: 7px;
+    right: -14px;
+    height: 100%
+}
+
+@media only screen and (max-width:736px) and (max-device-width:768px) {
+    .as-pinwheel12 .as-pinwheel-tile.pw-apple-theme::before {
+        width: 10px;
+        top: 5px;
+        right: -10px
+    }
+}
+
+.as-pinwheel12 .as-pinwheel-tile.pw-photo-theme::after {
+    content: '';
+    position: absolute;
+    -webkit-transform: skew(45deg);
+    -ms-transform: skew(45deg);
+    transform: skew(45deg);
+    -webkit-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+    background-color: #83BAD8;
+    height: 14px;
+    bottom: -14px;
+    width: 100%;
+    left: 0
+}
+
+@media only screen and (max-width:736px) and (max-device-width:768px) {
+    .as-pinwheel12 .as-pinwheel-tile.pw-photo-theme::after {
+        height: 10px;
+        bottom: -10px
+    }
+}
+
+.as-pinwheel12 .as-pinwheel-tile.pw-photo-theme::before {
+    content: '';
+    position: absolute;
+    -webkit-transform: skewY(45deg);
+    -ms-transform: skewY(45deg);
+    transform: skewY(45deg);
+    -webkit-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+    background-color: #5B86AE;
+    width: 14px;
+    top: 7px;
+    right: -14px;
+    height: 100%
+}
+
+@media only screen and (max-width:736px) and (max-device-width:768px) {
+    .as-pinwheel12 .as-pinwheel-tile.pw-photo-theme::before {
+        width: 10px;
+        top: 5px;
+        right: -10px
+    }
+}
+
+.as-pinwheel12 .as-pinwheel-tile.pw-play-theme::after {
+    content: '';
+    position: absolute;
+    -webkit-transform: skew(45deg);
+    -ms-transform: skew(45deg);
+    transform: skew(45deg);
+    -webkit-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+    /*    background-color: #F8B1C4;*/
+    background-color: #DD839C;
+    height: 14px;
+    bottom: -14px;
+    width: 100%;
+    left: 0
+}
+
+@media only screen and (max-width:736px) and (max-device-width:768px) {
+    .as-pinwheel12 .as-pinwheel-tile.pw-play-theme::after {
+        height: 10px;
+        bottom: -10px
+    }
+}
+
+.as-pinwheel12 .as-pinwheel-tile.pw-play-theme::before {
+    content: '';
+    position: absolute;
+    -webkit-transform: skewY(45deg);
+    -ms-transform: skewY(45deg);
+    transform: skewY(45deg);
+    -webkit-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+    /*    background-color: #E288A4;*/
+    background-color: #CC5D80;
+    width: 14px;
+    top: 7px;
+    right: -14px;
+    height: 100%
+}
+
+@media only screen and (max-width:736px) and (max-device-width:768px) {
+    .as-pinwheel12 .as-pinwheel-tile.pw-play-theme::before {
+        width: 10px;
+        top: 5px;
+        right: -10px
+    }
+}
+
+.as-pinwheel12 .as-pinwheel-tile.pw-last-theme::after {
+    content: '';
+    position: absolute;
+    -webkit-transform: skew(45deg);
+    -ms-transform: skew(45deg);
+    transform: skew(45deg);
+    -webkit-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+    background-color: #51BA95;
+    height: 14px;
+    bottom: -14px;
+    width: 100%;
+    left: 0
+}
+
+@media only screen and (max-width:736px) and (max-device-width:768px) {
+    .as-pinwheel12 .as-pinwheel-tile.pw-last-theme::after {
+        height: 10px;
+        bottom: -10px
+    }
+}
+
+.as-pinwheel12 .as-pinwheel-tile.pw-last-theme::before {
+    content: '';
+    position: absolute;
+    -webkit-transform: skewY(45deg);
+    -ms-transform: skewY(45deg);
+    transform: skewY(45deg);
+    -webkit-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+    background-color: #3B8C88;
+    width: 14px;
+    top: 7px;
+    right: -14px;
+    height: 100%
+}
+
+@media only screen and (max-width:736px) and (max-device-width:768px) {
+    .as-pinwheel12 .as-pinwheel-tile.pw-last-theme::before {
+        width: 10px;
+        top: 5px;
+        right: -10px
+    }
+}
+
+.as-pinwheel12 .as-pinwheel-tile.pw-gold-theme::after {
+    content: '';
+    position: absolute;
+    -webkit-transform: skew(45deg);
+    -ms-transform: skew(45deg);
+    transform: skew(45deg);
+    -webkit-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+    background-color: #E7D5C0;
+    height: 14px;
+    bottom: -14px;
+    width: 100%;
+    left: 0
+}
+
+@media only screen and (max-width:736px) and (max-device-width:768px) {
+    .as-pinwheel12 .as-pinwheel-tile.pw-gold-theme::after {
+        height: 10px;
+        bottom: -10px
+    }
+}
+
+.as-pinwheel12 .as-pinwheel-tile.pw-gold-theme::before {
+    content: '';
+    position: absolute;
+    -webkit-transform: skewY(45deg);
+    -ms-transform: skewY(45deg);
+    transform: skewY(45deg);
+    -webkit-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+    background-color: #D6BFA7;
+    width: 14px;
+    top: 7px;
+    right: -14px;
+    height: 100%
+}
+
+@media only screen and (max-width:736px) and (max-device-width:768px) {
+    .as-pinwheel12 .as-pinwheel-tile.pw-gold-theme::before {
         width: 10px;
         top: 5px;
         right: -10px
