@@ -9204,3 +9204,50 @@ html.oldie .as-video-transcripttitle {
         right: -10px
     }
 }
+
+.as-pinwheel12 .as-pinwheel-tile.pw-valentine-theme::after {
+    content: '';
+    position: absolute;
+    -webkit-transform: skew(45deg);
+    -ms-transform: skew(45deg);
+    transform: skew(45deg);
+    -webkit-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+    background-color: #ffccdc;
+    height: 14px;
+    bottom: -14px;
+    width: 100%;
+    left: 0
+}
+
+@media only screen and (max-width:736px) and (max-device-width:768px) {
+    .as-pinwheel12 .as-pinwheel-tile.pw-valentine-theme::after {
+        height: 10px;
+        bottom: -10px
+    }
+}
+
+.as-pinwheel12 .as-pinwheel-tile.pw-valentine-theme::before {
+    content: '';
+    position: absolute;
+    -webkit-transform: skewY(45deg);
+    -ms-transform: skewY(45deg);
+    transform: skewY(45deg);
+    -webkit-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+    background-color: #daaebb;
+    width: 14px;
+    top: 7px;
+    right: -14px;
+    height: 100%
+}
+
+@media only screen and (max-width:736px) and (max-device-width:768px) {
+    .as-pinwheel12 .as-pinwheel-tile.pw-valentine-theme::before {
+        width: 10px;
+        top: 5px;
+        right: -10px
+    }
+}

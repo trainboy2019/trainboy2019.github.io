@@ -1,0 +1,50 @@
+<html>
+	<head>
+	<style type="text/css">
+		html {
+    font-family: "Myriad Set Pro","Helvetica Neue",sans-serif;
+    font-size: 62.5%;
+    font-synthesis: none;
+}
+	</style>
+	<link rel="stylesheet" href="https://www.apple.com/wss/fonts?family=Myriad+Set+Pro&v=1" type="text/css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+	</head>
+	<body>
+  <h2>Try out <code>setCustomValidity()</code></h2>
+  <p>Type <code>puppy</code> into the input. Check the <a href="view-source:http://udacity.github.io/course-web-forms/lesson2/setCustomValidity/index.html" target="_blank">page's source</a> to see how this form works.</p>
+  <form action="passed.html">
+    <label><code><code>puppy</code></code> input:
+      <input id="puppy-input" type="text" placeholder="type here" autofocus>
+    </label>
+    <input id="submit" type="submit">
+  </form>
+  <script>
+    var puppyInput = document.querySelector('#puppy-input');
+    var submit = document.querySelector('#submit');
+
+    submit.onclick = function () {
+      if (puppyInput.value !== "puppy") {
+        puppyInput.setCustomValidity("The input should say 'puppy'. You typed: '" + puppyInput.value + "'");
+      } else {
+        puppyInput.setCustomValidity("");
+      }
+    };
+
+    function RandomWord() {
+        var requestStr = "http://randomword.setgetgo.com/get.php";
+
+        $.ajax({
+            type: "GET",
+            url: requestStr,
+            dataType: "jsonp",
+            jsonpCallback: 'RandomWordComplete'
+        });
+    }
+    function RandomWordComplete(data) {
+        alert(data.Word);
+    }
+    RandomWordComplete(RandomWord());
+  </script>
+</body>
+</html>
