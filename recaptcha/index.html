@@ -1,0 +1,35 @@
+<!-- <html>
+	<head>
+	<script type="text/javascript">
+      var onloadCallback = function() {
+        grecaptcha.render('html_element', {
+          'sitekey' : 'your_site_key'
+        });
+      };
+    </script>
+	</head>
+	<body>
+	<form action="https://www.google.com/recaptcha/api/siteverify" method="post">
+	<div id="html_element"></div>
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+		<input type="hidden" name="secret" value="6LcNVRUUAAAAAHcv0A9ku1Id04xEsGjKm9YI8QmA">
+		<input type="hidden" name="response" value="6LcNVRUUAAAAAHcv0A9ku1Id04xEsGjKm9YI8QmA">
+		<div class="g-recaptcha" data-sitekey="6LcNVRUUAAAAAHKHR8K4GTUP5vfH-GLZqbizh5c2"></div>
+		</form>
+	</body>
+</html> -->
+
+
+<html>
+  <head>
+    <title>reCAPTCHA demo: Simple page</title>
+     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
+  <body>
+    <form action="?" method="POST">
+      <div class="g-recaptcha" data-sitekey="6LcNVRUUAAAAAHKHR8K4GTUP5vfH-GLZqbizh5c2"></div>
+      <br/>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
