@@ -1,0 +1,70 @@
+<html>
+	<head>
+		<script src="keypress.js"></script>
+	</head>
+	<body>
+		<script type="text/javascript">
+			function main(){
+				var my_defaults = {
+				    is_unordered    : true,
+				    prevent_repeat  : false  
+				};
+				var listener = new window.keypress.Listener(document.getElementById("lol"),my_defaults);
+				var my_scope = this;
+				var my_combos = listener.register_many([
+				    {
+				        "keys"          : "s",
+				        "is_exclusive"  : true,
+				        "on_keydown"    : function() {
+				            
+				            return document.write("You pressed s.");
+				        },
+				        "on_keyup"      : function(e) {
+				        	return document.write("lol");
+				        },
+				        "this"          : my_scope
+				    },
+				    {
+				        "keys"          : "e",
+				        "is_exclusive"  : true,
+				        "on_keydown"	: function(){
+				        	return document.write("E");
+				        },
+				        "on_keyup"      : function(event) {
+				            // Normally because we have a keyup event handler,
+				            // event.preventDefault() would automatically be called.
+				            // But because we're returning true in this handler,
+				            // event.preventDefault() will not be called.
+				            return true;
+				        },
+				        "this"          : my_scope
+				    }
+				]);
+
+				// listener.simple_combo("shift", function() {
+				//     console.log("You pressed shift");
+				//     document.write("Pressed");
+				// });
+
+				// // There are also a few other shortcut methods:
+
+				// // If we want to register a counting combo
+				// listener.counting_combo("tab space", function(e, count) {
+				//     console.log("You've pressed this " + count + " times.");
+				// });
+
+				// // If you want to register a sequence combo
+				// listener.sequence_combo("up up down down left right left right b a enter", function() {
+				//     lives = 30;
+				//     console.log(lives);
+				//     document.write("LOL");
+				// }, true);
+			}
+			main();
+
+		</script>
+		<p id="lol" onkeypress="main()">
+			
+		</p>
+	</body>
+</html>
