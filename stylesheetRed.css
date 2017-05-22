@@ -1236,6 +1236,7 @@ only screen and (min-resolution: 144dpi) {
     /*    backdrop-filter: blur(5 px); */
     width: 100%;
     -webkit-filter: blur(25px);
+    border-radius: 50px;
 }
 
 div.overlay {
