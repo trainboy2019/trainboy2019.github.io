@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://expirebox.com/files/a427b60b320489ca2a058118023b95b0.ipa</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>url</key>
+					<string>http://is5.mzstatic.com/image/thumb/Purple127/v4/42/62/dc/4262dccd-4b33-bbe2-717f-945b7e1aee46/source/100x100bb.jpg</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>url</key>
+					<string>http://is5.mzstatic.com/image/thumb/Purple127/v4/42/62/dc/4262dccd-4b33-bbe2-717f-945b7e1aee46/source/512x512bb.jpg</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.burbn.instagram.install</string>
+				<key>bundle-version</key>
+				<string>1.0</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>title</key>
+				<string>Instagram ++</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
