@@ -20,15 +20,18 @@ console.log(navigator);
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_8") != -1) OSName="Mac OS X Mountain Lion";
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_9") != -1) OSName="Mac OS X Mavericks";
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_12") != -1) OSName="macOS Sierra";
+		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_13") != -1) OSName="macOS High Sierra";
 
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_10") != -1) OSName="Mac OS X Yosemite";
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_12") != -1) OSName="macOS Sierra";
+		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_13") != -1) OSName="macOS High Sierra";
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10_11") != -1) OSName="Mac OS X El Capitan";
 		
 
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10.10") != -1) OSName="Mac OS X Yosemite";
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10.11") != -1) OSName="Mac OS X El Capitan";
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10.12") != -1) OSName="macOS Sierra";
+		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10.13") != -1) OSName="macOS High Sierra";
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10.0") != -1) OSName="Mac OS X Cheetah";
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10.1") != -1) OSName="Mac OS X Puma";
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10.2") != -1) OSName="Mac OS X Jaguar";
@@ -42,6 +45,7 @@ console.log(navigator);
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10.10") != -1) OSName="Mac OS X Yosemite";
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10.11") != -1) OSName="Mac OS X El Capitan";
 		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10.12") != -1) OSName="macOS Sierra";
+		if (window.navigator.userAgent.indexOf("Macintosh; Intel Mac OS X 10.13") != -1) OSName="macOS High Sierra";
 
 
 		// if( ua.indexOf("Android") >= 0 )
@@ -9383,6 +9387,144 @@ if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".
 
 
 iOS1="10";
+iOS2="0";
+
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+" like macOS") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2;
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".0 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".0";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".1 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".1";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".2 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".2";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".3 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".3";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".4 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".4";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".5 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".5";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".6 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".6";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".7 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".7";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".8 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".8";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".9 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".9";
+
+iOS2="1";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+" like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2;
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".0 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".0";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".1 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".1";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".2 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".2";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".3 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".3";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".4 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".4";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".5 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".5";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".6 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".6";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".7 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".7";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".8 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".8";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".9 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".9";
+
+iOS2="2";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+" like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2;
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".0 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".0";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".1 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".1";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".2 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".2";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".3 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".3";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".4 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".4";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".5 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".5";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".6 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".6";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".7 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".7";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".8 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".8";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".9 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".9";
+
+iOS2="3";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+" like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2;
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".0 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".0";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".1 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".1";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".2 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".2";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".3 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".3";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".4 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".4";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".5 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".5";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".6 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".6";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".7 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".7";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".8 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".8";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".9 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".9";
+
+
+iOS2="4";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+" like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2;
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".0 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".0";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".1 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".1";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".2 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".2";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".3 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".3";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".4 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".4";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".5 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".5";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".6 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".6";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".7 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".7";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".8 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".8";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".9 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".9";
+
+iOS2="5";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+" like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2;
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".0 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".0";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".1 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".1";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".2 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".2";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".3 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".3";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".4 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".4";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".5 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".5";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".6 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".6";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".7 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".7";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".8 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".8";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".9 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".9";
+
+
+iOS2="6";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+" like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2;
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".0 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".0";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".1 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".1";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".2 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".2";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".3 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".3";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".4 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".4";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".5 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".5";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".6 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".6";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".7 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".7";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".8 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".8";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".9 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".9";
+
+iOS2="7";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+" like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2;
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".0 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".0";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".1 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".1";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".2 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".2";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".3 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".3";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".4 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".4";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".5 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".5";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".6 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".6";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".7 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".7";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".8 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".8";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".9 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".9";
+
+iOS2="8";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+" like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2;
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".0 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".0";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".1 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".1";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".2 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".2";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".3 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".3";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".4 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".4";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".5 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".5";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".6 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".6";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".7 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".7";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".8 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".8";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".9 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".9";
+
+iOS2="9";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+" like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2;
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".0 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".0";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".1 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".1";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".2 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".2";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".3 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".3";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".4 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".4";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".5 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".5";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".6 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".6";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".7 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".7";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".8 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".8";
+if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+".9 like Mac OS X") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2+".9";
+
+
+
+
+
+iOS1="11";
 iOS2="0";
 
 if (window.navigator.userAgent.indexOf("iPhone; CPU iPhone OS "+iOS1+"."+iOS2+" like macOS") != -1) OSName="iPhone iOS "+iOS1+"."+iOS2;

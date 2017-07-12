@@ -1,0 +1,8 @@
+consumer_key = 'xxxxxxxxxxxxxxxxxxxxxxxxx'
+consumer_secret = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+access_token = 'xxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+access_token_secret = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+fromaddr = 'xxxxxxxx@xxx.xxx'
+username = 'xxxxxxxx@xxx.xxx'
+password = 'xxxxxx'
+smtpserver = 'smtp.xxx.com:***'

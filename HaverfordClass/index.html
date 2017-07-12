@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+var t = 50;
+$(document).ready(function(){
+    $("#1").animate({ 
+   
+       'opacity': '1'
+    },t);
+    $("#2").delay(t*2).animate({ 
+   
+        'opacity': '1'
+    },t);
+    $("#3").delay(t*3).animate({ 
+   
+        'opacity': '1'
+    },t);
+    $("#4").delay(t*4).animate({ 
+   
+        'opacity': '1'
+    },t);
+});
+</script>
+		<!-- <link href="http://trainboy2019.github.io/stylesheetRed.css" rel="stylesheet"> -->
+		<link href="http://trainboy2019.github.io/stylesheetBlue.css" rel="stylesheet">
+	</head>
+	<body>
+		<br />
+		<div class="content" id="1">
+			<h1>Information about me:</h1>
+			<ul>
+				<li>
+					1
+				</li>
+				<li>
+					2
+				</li>
+				<li>
+					3
+				</li>
+			</ul>
+		</div>
+		<div class="content" id="2">
+			<p>
+			Your OS is: 
+				<script src="http://trainboy2019.github.io/OSDisplay.js"></script>
+			</p>
+		</div>
+		<div class="content"id="3">
+		<p>
+		<script type="text/javascript">
+		    // Opera 8.0+
+			var isOpera = (!!window.opr && !!opr.addons) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
+   			 // Firefox 1.0+
+			var isFirefox = typeof InstallTrigger !== 'undefined';
+    		// At least Safari 3+: "[object HTMLElementConstructor]"
+			var isSafari = navigator.vendor && navigator.vendor.indexOf('Apple') > -1 && navigator.userAgent && !navigator.userAgent.match('CriOS');
+    		// Internet Explorer 6-11
+			var isIE = /*@cc_on!@*/false || !!document.documentMode;
+    		// Edge 20+
+			var isEdge = !isIE && !!window.StyleMedia;
+    		// Chrome 1+
+			var isChrome = !!window.chrome && !!window.chrome.webstore;
+    		// Blink engine detection
+			var isBlink = (isChrome || isOpera) && !!window.CSS;
+
+
+			var output = 'Let me guess what browser you are using. <br>' + '<br>';
+			if (isFirefox) {output += 'Firefox' + '<br>' + '<br>';}
+			else if (isChrome) {output += 'Google Chrome' + '<br>' + '<br>';}
+			else if (isSafari) {output += 'Safari' + '<br>' + '<br>';}
+			else if (isOpera) {output += 'Opera' + '<br>' + '<br>';}
+			else if (isIE) {output += 'Internet Explorer' + '<br>' + '<br>';}
+			else if (isEdge) {output += 'Microsoft Edge' + '<br>' + '<br>';}
+			document.write(output);
+		</script>	
+		</p>
+	</div>
+		<div class="content"id="4">
+	<span class="yt-badge-ad">Shameless Plug</span>
+	<br />
+	<p>
+	</p>
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+			">
+			<input type="image" src="http://trainboy2019.github.io/images/Donate.png"  width="75%" height="50%" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+			
+		</form>
+	</div>
+		<br />
+	</body>
+</html>
