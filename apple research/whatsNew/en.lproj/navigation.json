@@ -1,0 +1,116 @@
+{
+  "build_date": "2017-09-27T20:27:23.739Z",
+  "build_id": "59cc0834094622b46235b975",
+  "axis": "horizontal",
+  "persistentBackgrounds": true,
+  "locale": "en",
+  "landing": "intro",
+  "toc": [
+    "photos-live",
+    "photos-edit",
+    "photos-organize",
+    "safari-autoplay",
+    "safari-tracking",
+    "icloud-drive",
+    "notes",
+    "spotlight",
+    "facetime",
+    "mail",
+    "family-sharing",
+    "outro"
+  ],
+  "topics": {
+    "intro": {
+      "name": "Welcome",
+      "href": "intro.html",
+      "duration": 5300
+    },
+    "photos-live": {
+      "name": "Live Photos",
+      "href": "photos-live.html",
+      "duration": 16750
+    },
+    "photos-edit": {
+      "name": "Photo Editing",
+      "href": "photos-edit.html",
+      "duration": 14750
+    },
+    "photos-organize": {
+      "name": "Organize Photos",
+      "href": "photos-organize.html",
+      "duration": 13750
+    },
+    "safari-autoplay": {
+      "name": "Safari Auto-Play",
+      "href": "safari-autoplay.html",
+      "duration": 9750
+    },
+    "safari-tracking": {
+      "name": "Safari Tracking",
+      "href": "safari-tracking.html",
+      "duration": 9750
+    },
+    "icloud-drive": {
+      "name": "iCloud Drive",
+      "href": "icloud-drive.html",
+      "duration": 13750
+    },
+    "notes": {
+      "name": "Notes",
+      "href": "notes.html",
+      "duration": 10750
+    },
+    "spotlight": {
+      "name": "Spotlight",
+      "href": "spotlight.html",
+      "duration": 9750
+    },
+    "facetime": {
+      "name": "FaceTime",
+      "href": "facetime.html",
+      "duration": 13750
+    },
+    "mail": {
+      "name": "Mail",
+      "href": "mail.html",
+      "duration": 12750
+    },
+    "family-sharing": {
+      "name": "Family Sharing",
+      "href": "family-sharing.html",
+      "duration": 10750
+    },
+    "outro": {
+      "name": "Start Exploring",
+      "href": "outro.html",
+      "duration": 8750
+    }
+  },
+  "framework": "albatross-2.6.13",
+  "source_schema": "albatross",
+  "enable_tracking": true,
+  "icon": "",
+  "sections": {},
+  "urls": {},
+  "copyright": "",
+  "design": "custom",
+  "birdseed_version": 4,
+  "title": "What's New in macOS High Sierra",
+  "copyright_text": "Copyright © 2017 Apple Inc. All rights reserved. Some features may not be available for all countries or all areas.",
+  "notificationTitle": "Welcome to macOS High Sierra",
+  "notificationText": "Take a quick tour to see what’s new.",
+  "finderMenuText": "See What’s New in macOS",
+  "notificationActionButtonTitle": "Show",
+  "notificationCloseButtonTitle": "Later",
+  "notificationLaterButtonTitle": "Later",
+  "notificationRemindMeLaterTitles": [
+    "Remind Me Tomorrow"
+  ],
+  "notificationNeverRemindMeTitle": "Don’t Remind Me",
+  "product": "whats-new",
+  "platform": "mac",
+  "version": "high-sierra",
+  "resizeImages": true,
+  "css": "whats-new.css",
+  "slides": []
+}

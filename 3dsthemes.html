@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<script type="text/javascript">
+			function httpGetAsync(theUrl, callback)
+			{
+			    var xmlHttp = new XMLHttpRequest();
+			    xmlHttp.onreadystatechange = function() { 
+			        if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+			            callback(xmlHttp.responseText);
+			    }
+			    xmlHttp.open("GET", theUrl, true); // true for asynchronous 
+			    xmlHttp.send(null);
+			}
+// 			$.getJSON('http://anyorigin.com/go?url=https://3dsthem.es/_/themes/1/Preview.png&callback=?', function(data){
+// 	$('#output').src(data.contents);
+// });
+
+		</script>
+		<img src="https://3dsthem.es/_/themes/1/Preview.png">
+	</body>
+</html>
