@@ -1,47 +1,88 @@
-<svg viewBox="0 0 230 130" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g viewBox="0 0 230 130" class="style-scope yt-icon">
+<svg viewBox="0 0 230 130" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;">
+    <g viewBox="0 0 230 130" class="style-scope yt-icon">
         <defs class="style-scope yt-icon">
-          <style class="style-scope yt-icon">.cls-1{fill:none;}.cls-2{fill:#ffc100;}.cls-3{clip-path:url("#b");}.cls-4{fill:#ffd61d;}.cls-5{fill:#4620ae;}.cls-6{fill:#6f38d4;}.cls-7{fill:#282828;}.cls-8{fill:#f86500;}.cls-9{fill:#fff;}.cls-10{fill:#eee;}</style>
-          <clipPath id="b" class="style-scope yt-icon">
-            <path class="cls-1 style-scope yt-icon" d="M3.43,126.34H227a29.17,29.17,0,0,0-5.06-24c-4.42-6.11-10-12.51-9.71-28.73s-.4-59.23-20.9-67.3c-28.87-11.37-53.18,18.05-71.57,19s-32.31-9.34-45.87-4.5S62.26,37.49,55.72,40.64s-20.58.73-25.18,13.8S34.06,77.8,25,83.73C16.18,89.48-2.62,93.05,3.43,126.34Z"></path>
-          </clipPath>
+            <style class="style-scope yt-icon">
+                .cls-1 {
+                    fill: none;
+                }
+                
+                .cls-2 {
+                    fill: #ffc100;
+                }
+                
+                .cls-3 {
+                    clip-path: url("#b");
+                }
+                
+                .cls-4 {
+                    fill: #ffd61d;
+                }
+                
+                .cls-5 {
+                    fill: #4620ae;
+                }
+                
+                .cls-6 {
+                    fill: #6f38d4;
+                }
+                
+                .cls-7 {
+                    fill: #282828;
+                }
+                
+                .cls-8 {
+                    fill: #f86500;
+                }
+                
+                .cls-9 {
+                    fill: #fff;
+                }
+                
+                .cls-10 {
+                    fill: #eee;
+                }
+            </style>
+            <clipPath id="b" class="style-scope yt-icon">
+                <path class="cls-1 style-scope yt-icon" d="M3.43,126.34H227a29.17,29.17,0,0,0-5.06-24c-4.42-6.11-10-12.51-9.71-28.73s-.4-59.23-20.9-67.3c-28.87-11.37-53.18,18.05-71.57,19s-32.31-9.34-45.87-4.5S62.26,37.49,55.72,40.64s-20.58.73-25.18,13.8S34.06,77.8,25,83.73C16.18,89.48-2.62,93.05,3.43,126.34Z"></path>
+            </clipPath>
         </defs>
         <path class="cls-2 style-scope yt-icon" d="M3.43,126.34H227a29.17,29.17,0,0,0-5.06-24c-4.42-6.11-10-12.51-9.71-28.73s-.4-59.23-20.9-67.3c-28.87-11.37-53.18,18.05-71.57,19s-32.31-9.34-45.87-4.5S62.26,37.49,55.72,40.64s-20.58.73-25.18,13.8S34.06,77.8,25,83.73C16.18,89.48-2.62,93.05,3.43,126.34Z"></path>
         <g class="cls-3 style-scope yt-icon">
-          <path class="cls-4 style-scope yt-icon" d="M103,87a6,6,0,0,1,6-5.78,5.79,5.79,0,1,1,0,11.57A6,6,0,0,1,103,87Z"></path>
-          <path class="cls-4 style-scope yt-icon" d="M10.84,118.41a6,6,0,0,1,6-5.78,5.79,5.79,0,0,1,0,11.57A6,6,0,0,1,10.84,118.41Z"></path>
-          <path class="cls-4 style-scope yt-icon" d="M25.14,76.47c0-5,4.34-8.8,9.31-9s9,4.33,9,9a9,9,0,0,1-9,9A9.32,9.32,0,0,1,25.14,76.47Z"></path>
-          <path class="cls-4 style-scope yt-icon" d="M154.27,63.88H166V75.41H154.27c-.69,0-1.25-.69-1.25-1.81V65.34A1.43,1.43,0,0,1,154.27,63.88Z"></path>
-          <path class="cls-4 style-scope yt-icon" d="M103,111.22c0-4.73,4.12-8.37,8.85-8.55s8.56,4.11,8.56,8.56a8.56,8.56,0,0,1-8.56,8.56A8.86,8.86,0,0,1,103,111.22Z"></path>
-          <path class="cls-2 style-scope yt-icon" d="M111.73,113.07a1.9,1.9,0,0,1-1.82-1.88,1.82,1.82,0,1,1,3.64,0A1.88,1.88,0,0,1,111.73,113.07Z"></path>
-          <path class="cls-4 style-scope yt-icon" d="M176.68,27.32c0-4.26,3.72-7.54,8-7.71s7.71,3.71,7.71,7.71A7.71,7.71,0,0,1,184.65,35,8,8,0,0,1,176.68,27.32Z"></path>
-          <path class="cls-2 style-scope yt-icon" d="M184.52,31.19a4,4,0,0,1-3.81-3.94,3.81,3.81,0,1,1,7.62,0A3.94,3.94,0,0,1,184.52,31.19Z"></path>
-          <path class="cls-4 style-scope yt-icon" d="M24.59,56.92A5.47,5.47,0,0,1,30,51.68a5.24,5.24,0,0,1,0,10.48A5.43,5.43,0,0,1,24.59,56.92Z"></path>
-          <path class="cls-2 style-scope yt-icon" d="M29.92,59.55a2.7,2.7,0,0,1-2.59-2.68,2.59,2.59,0,1,1,5.18,0A2.68,2.68,0,0,1,29.92,59.55Z"></path>
-          <path class="cls-4 style-scope yt-icon" d="M40,53.15a5.47,5.47,0,0,1,7.53.13,5.24,5.24,0,0,1-7.41,7.41A5.43,5.43,0,0,1,40,53.15Z"></path>
-          <path class="cls-2 style-scope yt-icon" d="M41.87,58.78a2.7,2.7,0,0,1,.06-3.72,2.59,2.59,0,0,1,3.66,3.66A2.68,2.68,0,0,1,41.87,58.78Z"></path>
-          <path class="cls-4 style-scope yt-icon" d="M52.78,56.92a5.47,5.47,0,0,1,5.42-5.24,5.24,5.24,0,0,1,0,10.48A5.43,5.43,0,0,1,52.78,56.92Z"></path>
-          <path class="cls-2 style-scope yt-icon" d="M58.11,59.55a2.7,2.7,0,0,1-2.59-2.68,2.59,2.59,0,1,1,5.18,0A2.68,2.68,0,0,1,58.11,59.55Z"></path>
-          <path class="cls-4 style-scope yt-icon" d="M211,110.72c0-5.23,4.57-9.27,9.8-9.47s9.48,4.56,9.48,9.48a9.48,9.48,0,0,1-9.48,9.48A9.82,9.82,0,0,1,211,110.72Z"></path>
-          <path class="cls-2 style-scope yt-icon" d="M220.66,113.7a3.06,3.06,0,0,1-2.93-3,2.93,2.93,0,1,1,5.86,0A3,3,0,0,1,220.66,113.7Z"></path>
-          <path class="cls-4 style-scope yt-icon" d="M104.28,108.46a.5.5,0,0,1-.45-.73L113.4,88.8a.5.5,0,1,1,.89.45l-9.57,18.94A.5.5,0,0,1,104.28,108.46Z"></path>
-          <path class="cls-4 style-scope yt-icon" d="M200.65,121.43l-3.35-5.08a1.75,1.75,0,0,1-.1-1.75l3.45-6.84-3.45-6a1.75,1.75,0,0,1,0-1.64l3.5-7-3.38-5.57a1.75,1.75,0,0,1,0-1.76l3.42-6.13h5l-3.91,7,3.41,5.61a1.75,1.75,0,0,1,.07,1.68l-3.48,7,3.44,6a1.75,1.75,0,0,1,0,1.65l-3.49,6.91,3.91,5.93Z"></path>
-          <path class="cls-4 style-scope yt-icon" d="M53,32.24l5.08-3.35a1.75,1.75,0,0,1,1.75-.1l6.84,3.45,6-3.45a1.75,1.75,0,0,1,1.64,0l7,3.5,5.57-3.38a1.75,1.75,0,0,1,1.76,0l6.13,3.42v5l-7-3.91-5.61,3.41a1.75,1.75,0,0,1-1.68.07l-7-3.48-6,3.44a1.75,1.75,0,0,1-1.65,0l-6.91-3.49L53,37.23Z"></path>
-          <rect class="cls-4 style-scope yt-icon" x="153.02" y="54.34" width="5.88" height="5.88" rx="1.4" ry="1.4"></rect>
-          <rect class="cls-4 style-scope yt-icon" x="153.02" y="44.21" width="5.88" height="5.88" rx="1.4" ry="1.4" transform="translate(108.82 203.11) rotate(-90)"></rect>
-          <rect class="cls-4 style-scope yt-icon" x="95.08" y="47.15" width="11.9" height="11.9" rx="2.82" ry="2.82" transform="translate(47.93 154.13) rotate(-90)"></rect>
-          <rect class="cls-4 style-scope yt-icon" x="178.75" y="78.83" width="8.54" height="16.87" rx="2.85" ry="2.85"></rect>
-          <rect class="cls-4 style-scope yt-icon" x="138.51" y="6.23" width="32.52" height="29.92" rx="2.39" ry="2.39"></rect>
-          <rect class="cls-4 style-scope yt-icon" x="49.06" y="69.72" width="17.55" height="13.74" rx="1.22" ry="1.22"></rect>
-          <rect class="cls-4 style-scope yt-icon" x="154.77" y="107.68" width="32.52" height="13.74" rx="1.62" ry="1.62"></rect>
-          <rect class="cls-2 style-scope yt-icon" x="157.43" y="110.27" width="27.2" height="8.57"></rect>
-          <polygon class="cls-4 style-scope yt-icon" points="157.43 118.84 164.48 114.06 167.35 116.53 175.43 112.14 177.41 114.56 184.63 110.27 185.59 119.74 157.43 118.84"></polygon>
-          <rect class="cls-2 style-scope yt-icon" x="144.34" y="12.19" width="20.87" height="17.99"></rect>
-          <path class="cls-4 style-scope yt-icon" d="M183-.79s-4.66,5.26-2,10.91c2.45,5.21,10.84,2.5,13.62,6.25s1.56,7.23,5.6,8.44c6.75,2,13.46-3.5,13.46-3.5Z"></path>
-          <path class="cls-4 style-scope yt-icon" d="M60.93,126.34s3.33-20.47,14.31-20.12,9,14,12.92,15.21,4.88-3.1,9.4-.75c2.61,1.35,3.43,5.66,3.43,5.66Z"></path>
-          <path class="cls-2 style-scope yt-icon" d="M65.82,126.34s1-5.89,5.46-5.89c3.42,0,6,5.89,6,5.89Z"></path>
-          <rect class="cls-4 style-scope yt-icon" x="-7.73" y="82.16" width="32.52" height="18.05" rx="1.86" ry="1.86" transform="translate(99.71 82.65) rotate(90)"></rect>
-          <rect class="cls-2 style-scope yt-icon" x="7.73" y="98.12" width="5.88" height="5.88" rx="1.4" ry="1.4" transform="translate(-90.39 111.73) rotate(-90)"></rect>
-          <rect class="cls-2 style-scope yt-icon" x="7.73" y="89.74" width="5.88" height="5.88" rx="1.4" ry="1.4" transform="translate(-82 103.35) rotate(-90)"></rect>
+            <path class="cls-4 style-scope yt-icon" d="M103,87a6,6,0,0,1,6-5.78,5.79,5.79,0,1,1,0,11.57A6,6,0,0,1,103,87Z"></path>
+            <path class="cls-4 style-scope yt-icon" d="M10.84,118.41a6,6,0,0,1,6-5.78,5.79,5.79,0,0,1,0,11.57A6,6,0,0,1,10.84,118.41Z"></path>
+            <path class="cls-4 style-scope yt-icon" d="M25.14,76.47c0-5,4.34-8.8,9.31-9s9,4.33,9,9a9,9,0,0,1-9,9A9.32,9.32,0,0,1,25.14,76.47Z"></path>
+            <path class="cls-4 style-scope yt-icon" d="M154.27,63.88H166V75.41H154.27c-.69,0-1.25-.69-1.25-1.81V65.34A1.43,1.43,0,0,1,154.27,63.88Z"></path>
+            <path class="cls-4 style-scope yt-icon" d="M103,111.22c0-4.73,4.12-8.37,8.85-8.55s8.56,4.11,8.56,8.56a8.56,8.56,0,0,1-8.56,8.56A8.86,8.86,0,0,1,103,111.22Z"></path>
+            <path class="cls-2 style-scope yt-icon" d="M111.73,113.07a1.9,1.9,0,0,1-1.82-1.88,1.82,1.82,0,1,1,3.64,0A1.88,1.88,0,0,1,111.73,113.07Z"></path>
+            <path class="cls-4 style-scope yt-icon" d="M176.68,27.32c0-4.26,3.72-7.54,8-7.71s7.71,3.71,7.71,7.71A7.71,7.71,0,0,1,184.65,35,8,8,0,0,1,176.68,27.32Z"></path>
+            <path class="cls-2 style-scope yt-icon" d="M184.52,31.19a4,4,0,0,1-3.81-3.94,3.81,3.81,0,1,1,7.62,0A3.94,3.94,0,0,1,184.52,31.19Z"></path>
+            <path class="cls-4 style-scope yt-icon" d="M24.59,56.92A5.47,5.47,0,0,1,30,51.68a5.24,5.24,0,0,1,0,10.48A5.43,5.43,0,0,1,24.59,56.92Z"></path>
+            <path class="cls-2 style-scope yt-icon" d="M29.92,59.55a2.7,2.7,0,0,1-2.59-2.68,2.59,2.59,0,1,1,5.18,0A2.68,2.68,0,0,1,29.92,59.55Z"></path>
+            <path class="cls-4 style-scope yt-icon" d="M40,53.15a5.47,5.47,0,0,1,7.53.13,5.24,5.24,0,0,1-7.41,7.41A5.43,5.43,0,0,1,40,53.15Z"></path>
+            <path class="cls-2 style-scope yt-icon" d="M41.87,58.78a2.7,2.7,0,0,1,.06-3.72,2.59,2.59,0,0,1,3.66,3.66A2.68,2.68,0,0,1,41.87,58.78Z"></path>
+            <path class="cls-4 style-scope yt-icon" d="M52.78,56.92a5.47,5.47,0,0,1,5.42-5.24,5.24,5.24,0,0,1,0,10.48A5.43,5.43,0,0,1,52.78,56.92Z"></path>
+            <path class="cls-2 style-scope yt-icon" d="M58.11,59.55a2.7,2.7,0,0,1-2.59-2.68,2.59,2.59,0,1,1,5.18,0A2.68,2.68,0,0,1,58.11,59.55Z"></path>
+            <path class="cls-4 style-scope yt-icon" d="M211,110.72c0-5.23,4.57-9.27,9.8-9.47s9.48,4.56,9.48,9.48a9.48,9.48,0,0,1-9.48,9.48A9.82,9.82,0,0,1,211,110.72Z"></path>
+            <path class="cls-2 style-scope yt-icon" d="M220.66,113.7a3.06,3.06,0,0,1-2.93-3,2.93,2.93,0,1,1,5.86,0A3,3,0,0,1,220.66,113.7Z"></path>
+            <path class="cls-4 style-scope yt-icon" d="M104.28,108.46a.5.5,0,0,1-.45-.73L113.4,88.8a.5.5,0,1,1,.89.45l-9.57,18.94A.5.5,0,0,1,104.28,108.46Z"></path>
+            <path class="cls-4 style-scope yt-icon" d="M200.65,121.43l-3.35-5.08a1.75,1.75,0,0,1-.1-1.75l3.45-6.84-3.45-6a1.75,1.75,0,0,1,0-1.64l3.5-7-3.38-5.57a1.75,1.75,0,0,1,0-1.76l3.42-6.13h5l-3.91,7,3.41,5.61a1.75,1.75,0,0,1,.07,1.68l-3.48,7,3.44,6a1.75,1.75,0,0,1,0,1.65l-3.49,6.91,3.91,5.93Z"></path>
+            <path class="cls-4 style-scope yt-icon" d="M53,32.24l5.08-3.35a1.75,1.75,0,0,1,1.75-.1l6.84,3.45,6-3.45a1.75,1.75,0,0,1,1.64,0l7,3.5,5.57-3.38a1.75,1.75,0,0,1,1.76,0l6.13,3.42v5l-7-3.91-5.61,3.41a1.75,1.75,0,0,1-1.68.07l-7-3.48-6,3.44a1.75,1.75,0,0,1-1.65,0l-6.91-3.49L53,37.23Z"></path>
+            <rect class="cls-4 style-scope yt-icon" x="153.02" y="54.34" width="5.88" height="5.88" rx="1.4" ry="1.4"></rect>
+            <rect class="cls-4 style-scope yt-icon" x="153.02" y="44.21" width="5.88" height="5.88" rx="1.4" ry="1.4" transform="translate(108.82 203.11) rotate(-90)"></rect>
+            <rect class="cls-4 style-scope yt-icon" x="95.08" y="47.15" width="11.9" height="11.9" rx="2.82" ry="2.82" transform="translate(47.93 154.13) rotate(-90)"></rect>
+            <rect class="cls-4 style-scope yt-icon" x="178.75" y="78.83" width="8.54" height="16.87" rx="2.85" ry="2.85"></rect>
+            <rect class="cls-4 style-scope yt-icon" x="138.51" y="6.23" width="32.52" height="29.92" rx="2.39" ry="2.39"></rect>
+            <rect class="cls-4 style-scope yt-icon" x="49.06" y="69.72" width="17.55" height="13.74" rx="1.22" ry="1.22"></rect>
+            <rect class="cls-4 style-scope yt-icon" x="154.77" y="107.68" width="32.52" height="13.74" rx="1.62" ry="1.62"></rect>
+            <rect class="cls-2 style-scope yt-icon" x="157.43" y="110.27" width="27.2" height="8.57"></rect>
+            <polygon class="cls-4 style-scope yt-icon" points="157.43 118.84 164.48 114.06 167.35 116.53 175.43 112.14 177.41 114.56 184.63 110.27 185.59 119.74 157.43 118.84"></polygon>
+            <rect class="cls-2 style-scope yt-icon" x="144.34" y="12.19" width="20.87" height="17.99"></rect>
+            <path class="cls-4 style-scope yt-icon" d="M183-.79s-4.66,5.26-2,10.91c2.45,5.21,10.84,2.5,13.62,6.25s1.56,7.23,5.6,8.44c6.75,2,13.46-3.5,13.46-3.5Z"></path>
+            <path class="cls-4 style-scope yt-icon" d="M60.93,126.34s3.33-20.47,14.31-20.12,9,14,12.92,15.21,4.88-3.1,9.4-.75c2.61,1.35,3.43,5.66,3.43,5.66Z"></path>
+            <path class="cls-2 style-scope yt-icon" d="M65.82,126.34s1-5.89,5.46-5.89c3.42,0,6,5.89,6,5.89Z"></path>
+            <rect class="cls-4 style-scope yt-icon" x="-7.73" y="82.16" width="32.52" height="18.05" rx="1.86" ry="1.86" transform="translate(99.71 82.65) rotate(90)"></rect>
+            <rect class="cls-2 style-scope yt-icon" x="7.73" y="98.12" width="5.88" height="5.88" rx="1.4" ry="1.4" transform="translate(-90.39 111.73) rotate(-90)"></rect>
+            <rect class="cls-2 style-scope yt-icon" x="7.73" y="89.74" width="5.88" height="5.88" rx="1.4" ry="1.4" transform="translate(-82 103.35) rotate(-90)"></rect>
         </g>
         <path class="cls-5 style-scope yt-icon" d="M59.72,102H77.27V47.78H85c1.45,0,2.42,1.33,2.3,3.87s3.64,54,3.4,55.56-1.94,1.57-3.39,1.57H59.72Z"></path>
         <path class="cls-6 style-scope yt-icon" d="M77.27,47.78H62c-1.09,0-2.3.61-2.3,1.69V73.73a2.64,2.64,0,0,0,2.91,2.74H77.27V65.94H70.62c-.85,0-1.34-.44-1.34-1.21V58.4c0-.48,0-1,.77-1h7.22Z"></path>
@@ -81,4 +122,5 @@
         <path class="cls-10 style-scope yt-icon" d="M45.29,100.58H43c0,1.15,1.27,4.18-.73,4.62a1,1,0,0,1-.63-.1h0C46,107.39,46.46,102.87,45.29,100.58Z"></path>
         <rect class="cls-6 style-scope yt-icon" x="47.35" y="90.19" width="1.72" height="3.17"></rect>
         <path class="cls-5 style-scope yt-icon" d="M45.63,90.19h5.17s.2-1.47-.57-1.48-.7.54-1.07.59-.32-.58-1-.59-.49.59-.86.59-.55-.58-1-.59C45.69,88.7,45.48,89.71,45.63,90.19Z"></path>
-      </g></svg>
+    </g>
+</svg>

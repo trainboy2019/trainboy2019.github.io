@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Type "byokugen" for an easter egg :)-->
+
+<head>
+    <title>freeShop - Troubleshooting</title>
+    <meta name="robots" content="nofollow" />
+    <meta http-equiv="Default-Style" content="Red">
+    <script src="jquery-2.2.1.js" type="text/javascript" charset="utf-8"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <script type="text/javascript" src="jquery.cre-animate.js"></script>
+    <script src="velocity.js"></script>
+    <script src="velocity.min.js"></script>
+    <script src="velocity.ui.js"></script>
+    <script src="velocity.ui.min.js"></script>
+    <script>
+    var t = 50;
+    $(document).ready(function() {
+        $("#2").delay(0).animate({
+            'opacity': '1'
+        }, t);
+        $("#image-button").delay(t).fadeIn(200);
+        $("#div1").delay(t * 2).fadeIn(200);
+        $("#div2").delay(t * 3).fadeIn(200);
+        $("#div3").delay(t * 4).fadeIn(200);
+        $("#div4").delay(t * 5).fadeIn(200);
+        $("#div5").delay(t * 6).fadeIn(200);
+        $("#div6").delay(t * 7).fadeIn(200);
+        $("#div7").delay(t * 8).fadeIn(200);
+        $("#div8").delay(t * 9).fadeIn(200);
+        $("#div9").delay(t * 10).fadeIn(200);
+        $("#div10").delay(t * 11).fadeIn(200);
+        $("#div11").delay(t * 12).fadeIn(200);
+        $("#div12").delay(t * 13).fadeIn(200);
+    });
+    </script>
+    <link id="pagestyle" rel="stylesheet" type="text/css" href="stylesheetFree.css" title="Red">
+    <link rel="shortcut icon" href="images/Dorp.png">
+    <script type="text/javascript" src="ua-parser.js"></script>
+    <style>
+    div.fixed {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 40px;
+        height: 40px;
+    }
+    </style>
+    <style>
+    .papa {
+        width: 500px;
+    }
+
+    .mama {
+        width: 333px;
+    }
+
+    .baby {
+        width: 166px;
+    }
+    </style>
+</head>
+
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="arrow200.js"></script>
+    <script type="text/javascript" src="keypress-2.1.4.min.js"></script>
+    <script type="text/javascript">
+    var listener = new window.keypress.Listener();
+    listener.sequence_combo("b y o k u g e n", function() {
+        $("html").css("-webkit-filter", "hue-rotate(130deg)")
+    }, true);
+    </script>
+    <script>
+    console.log(1234567890 * 9876543210);
+    </script>
+    <div class="globalheader">
+        <div style="text-align:center;padding:0px;">
+            <h1>freeShop Community Editon
+                </h1>
+        </div>
+    </div>
+    <div class="orange-cover">
+        <br />
+        <br />
+        <br />
+        <br />
+    </div>
+    <div class="fake-shadow"></div>
+    <div class="stickyL" style="color: white;">
+        <br />
+        <h2 style="color: white;">Troubleshooting</h2>
+        <br />
+    </div>
+    <div class="fake-shadow"></div>
+    <br />
+
+    <div class="content" id="2">
+        <a class="btn-floating btn-large waves-effect waves-light grey darken-3 " href="index.html"><i class="material-icons">home</i></a>
+        <br />
+        <br />
+        <div id="div2" style="display:none"><b>I keep getting "Failed to install seed" errors.</b>
+            <p>You likely have a FW version
+                < 9.6 and therefore cannot play newer games that utilize crypto seeds. You can fix this with a FW update.</p>
+        <br />
+        </div>
+        <div id="div3" style="display:none"><b>I keep getting "Wrong title key" errors.</b>
+            <p>You're probably not using correct encrypted keys (encTitleKeys.bin). Decrypted keys will give this error.</p>
+            <br />
+        </div>
+        <div id="div4" style="display:none"><b>I keep getting "Failed to finalize TMD install: 0xC86044D2".</b>
+            <p>The system is reporting that you don't have enough space on your SD card to install the game. If it's a DSiWare game, then it's your NAND that doesn't have the space.</p>
+            <br />
+        </div>
+        <div id="div5" style="display:none"><b>I keep getting "Failed to finalize content install: 0xD8E08025".</b>
+            <p>There are many possible reasons for this. But one known diagnosis is a possible SD card problem. For example, a fake SD card who is reporting space available while it's actually full will often give this error. Double-check your SD card.</p>
+            <br />
+        </div>
+        <div id="div6" style="display:none"><b>I get error code 0xD8A08004</b>
+            <p>This happens with the installation state gets screwed up. You have to reboot the console to get rid of it. If you consistently get this, report how so the bug can be fixed.</p>
+            <br />
+        </div>
+        <div id="div7" style="display:none"><b>Some games icons are missing/glitched</b>
+            <p>Refresh your cache via the freeShop's settings > Update > Refresh Cache button.</p>
+            <br />
+        </div>
+        <div id="div8" style="display:none"><b>I keep getting Ticket Error with all games I want to download</b>
+            <p>Install and launch <a href="https://github.com/DanTheMan827/tikSweep/releases">tikSweep</a>, then reboot your console, this may fix your problem.</p>
+            <br />
+        </div>
+        <div id="div9" style="display:none"><b>I don't get any sound when I'm on the freeShop</b>
+            <p>Please <a href="https://gbatemp.net/threads/dsp1-a-new-dsp-dumper-cia-for-better-stability.469461/">dump your DSP</a> and launch the eShop.</p>
+            <br />
+        </div>
+        <div id="div10" style="display:none"><b>freeShop is crashing when I try press Start to Exit</b>
+            <p>Please uninstall freeShop and delete the "SD:/3ds/freeShop" Folder, then reinstall the latest cia from <a href="https://notabug.org/evi/freeShop/releases">https://notabug.org/evi/freeShop/releases</a></p>
+            <br />
+        </div>
+        <div id="div11" style="display:none"><b>freeShop keeps saying suspended when downloading certain DLCs</b>
+            <p>The most likely cause is that game has unreleased DLC. You must wait until all DLC is released.</p>
+            <br />
+        </div>
+        <div id="div12" style="display:none"><b>My question is not listed here</b>
+            <p>Ask <a href="https://discord.gg/Nn7XRJn">here</a>.</p>
+        </div>
+    </div>
+
+    <br />
+
+    <div id="footer" class="container">
+        <p style="color: white;">
+            <br />
+            <a onmouseover="this.style.color='#7692AA'" onmouseout="this.style.color='#c41414'" href="https://gbatemp.net/threads/release-community-freeshop-fork-open-source-eshop-alternative.483159/">GBAtemp</a> |
+            <a onmouseover="this.style.color='#7289DA'" onmouseout="this.style.color='#c41414'" href="https://discord.gg/Nn7XRJn">Discord</a> |
+            <a onmouseover="this.style.color='#468CC8'" onmouseout="this.style.color='#c41414'" href="https://notabug.org/evi/freeShop/">Source Code</a>
+    </div>
+</body>
+
+</html>

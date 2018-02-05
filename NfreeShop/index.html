@@ -1,0 +1,688 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>freeShop</title>
+    <meta name="robots" content="nofollow" />
+    <meta http-equiv="Default-Style" content="Red">
+    <script src="jquery-2.2.1.js" type="text/javascript" charset="utf-8"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <script type="text/javascript" src="jquery.cre-animate.js"></script>
+    <script src="velocity.js"></script>
+    <script src="velocity.min.js"></script>
+    <script src="velocity.ui.js"></script>
+    <script src="velocity.ui.min.js"></script>
+    <script>
+    // var t = 50;
+    // $(document).ready(function() {
+    //     $("#1").animate({
+
+    //         'opacity': '1'
+    //     }, t);
+    //     $("#2").delay(t).animate({
+
+    //         'opacity': '1'
+    //     }, t);
+        // $("#3").delay(t * 2).animate({
+
+        //     'opacity': '1'
+        // }, t);
+        // $("#4").delay(t * 3).animate({
+
+        //     'opacity': '1'
+        // }, t);
+        // $("#5").delay(t * 4).animate({
+
+        //     'opacity': '1'
+        // }, t);
+        // $("#6").delay(t * 5).animate({
+
+        //     'opacity': '1'
+        // }, t);
+        // $("#7").delay(t * 6).animate({
+
+        //     'opacity': '1'
+        // }, t);
+        // $("#8").delay(t * 7).animate({
+
+        //     'opacity': '1'
+        // }, t);
+        // $("#9").delay(t * 8).animate({
+
+        //     'opacity': '1'
+        // }, t);
+        // $("#10").delay(t * 9).animate({
+
+        //     'opacity': '1'
+        // }, t);
+        // $("#11").delay(t * 10).animate({
+
+        //     'opacity': '1'
+        // }, t);
+        // $("#12").delay(t * 11).animate({
+
+        //     'opacity': '1'
+        // }, t);
+        // $("#13").delay(t * 12).animate({
+
+        //     'opacity': '1'
+        // }, t);
+        // $("#14").delay(t * 13).animate({
+
+        //     'opacity': '1'
+        // }, t);
+        // $("#15").delay(t * 14).animate({
+
+        //     'opacity': '1'
+        // }, t);
+        // $("#16").delay(t * 15).animate({
+
+        //     'opacity': '1'
+        // }, t);
+        // $("#17").delay(t * 16).animate({
+
+        //     'opacity': '1'
+        // }, t);
+        // $("#18").delay(t * 17).animate({
+
+        //     'opacity': '1'
+        // }, t);
+        // $("#19").delay(t * 18).animate({
+
+        //     'opacity': '1'
+        // }, t);
+        // $("#20").delay(t * 19).animate({
+
+        //     'opacity': '1'
+        // }, t);
+        // $("#21").delay(t * 20).animate({
+
+        //     'opacity': '1'
+        // }, t);
+        // $("#22").delay(t * 21).animate({
+
+        //     'opacity': '1'
+        // }, t);
+    // });
+    </script>
+    <link id="pagestyle" rel="stylesheet" type="text/css" href="stylesheetRed.css" title="Red">
+    <script>
+    function swapStyleSheet(sheet) {
+        document.getElementById('pagestyle').setAttribute('href', sheet);
+    }
+    </script>
+    <link rel="shortcut icon" href="images/Dorp.png">
+    <script type="text/javascript" src="ua-parser.js"></script>
+    <style>
+    div.fixed {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 40px;
+        height: 40px;
+    }
+    </style>
+    <style>
+    .papa {
+        width: 500px;
+    }
+
+    .mama {
+        width: 333px;
+    }
+
+    .baby {
+        width: 166px;
+    }
+    </style>
+</head> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<!--"-->
+    <head>
+        
+        <title>Hello World</title>
+        <!--<meta http-equiv="Content-Type" content="text/html; charset=uUTF-8" />-->
+         <meta name="robots" content="nofollow" />
+        <meta http-equiv="Default-Style" content="Red">
+        <script type="text/javascript">
+            
+            document.body.onload = function() {
+// Ensure that the user can receive Safari Push Notifications.
+if ('safari' in window && 'pushNotification' in window.safari) {
+var permissionData = window.safari.pushNotification.permission('web.com.my-awesome-site');
+checkRemotePermission(permissionData);
+    }
+else {
+// A good time to let a user know they are missing out on a feature or just bail out completely?
+    }
+};
+var checkRemotePermission = function (permissionData) {
+if (permissionData.permission === 'default') {
+// This is a new web service URL and its validity is unknown.
+window.safari.pushNotification.requestPermission(
+'https://ikerolader.xyz/files/theme/', // The web service URL.
+'web.xyz.ikerolader',     // The Website Push ID.
+            {user_id: 4741619481},         // Data used to help you identify the user.
+            checkRemotePermission          // The callback function.
+        );
+    }
+else if (permissionData.permission === 'denied') {
+// The user said no. Talk to your UX expert to see what you can do to entice your
+// users to subscribe to push notifications.
+    }
+else if (permissionData.permission === 'granted') {
+// The web service URL is a valid push provider, and the user said yes.
+// permissionData.deviceToken is now available to use.
+    }
+};
+        </script>
+        <script src="jquery-2.2.1.js" type="text/javascript" charset="utf-8"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <!--<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js" type="text/javascript" charset="utf-8"></script>-->
+        <script type="text/javascript" src = "jquery.cre-animate.js"></script>
+        <!-- <script type="text/javascript" src = "sticky.js"></script> -->
+        <script type="text/javascript">function discord() {
+    var Discordie = require("discordie");
+    var Events = Discordie.Events;
+
+    var client = new Discordie();
+
+    client.connect({ token: "werwe" });
+
+    client.Dispatcher.on(Events.GATEWAY_READY, e => {
+      console.log("Connected as: " + client.User.username);
+    });
+
+    client.Dispatcher.on(Events.MESSAGE_CREATE, e => {
+      if (e.message.content == "ping")
+        e.message.channel.sendMessage("pong");
+    });
+}</script>
+
+
+        <!-- This is what you need -->
+  <script src="sweetalert-dev.js"></script>
+  <script type="text/javascript" src="discord.js"></script>
+  <link rel="stylesheet" href="sweetalert.css">
+  <!--.......................-->
+        
+
+<script>
+$(document).ready(function(){
+    $("#download-button").click(function(){
+        $("#div1").fadeToggle("fast");
+        $("#div2").fadeToggle();
+        $("#div3").fadeToggle("slow");
+
+    });
+});
+</script>
+
+<script>
+$(document).ready(function () {
+
+    // if user clicked on button, the overlay layer or the dialogbox, close the dialog  
+    $('a.btn-ok, #dialog-overlay, #dialog-box').click(function () {     
+        $('#dialog-overlay, #dialog-box').hide();       
+        return false;
+    });
+    
+    // if user resize the window, call the same function again
+    // to make sure the overlay fills the screen and dialogbox aligned to center    
+    $(window).resize(function () {
+        
+        //only do it if the dialog box is not hidden
+        if (!$('#dialog-box').is(':hidden')) popup();       
+    }); 
+    
+    
+});
+
+//Popup dialog
+function popup(message) {
+        
+    // get the screen height and width  
+    var maskHeight = $(document).height();  
+    var maskWidth = $(window).width();
+    
+    // calculate the values for center alignment
+    var dialogTop =  (maskHeight/3) - ($('#dialog-box').height());  
+    var dialogLeft = (maskWidth/2) - ($('#dialog-box').width()/2); 
+    
+    // assign values to the overlay and dialog box
+    $('#dialog-overlay').css({height:maskHeight, width:maskWidth}).show();
+    $('#dialog-box').css({top:dialogTop, left:dialogLeft}).show();
+    
+    // display the message
+    $('#dialog-message').html(message);
+            
+}
+
+</script>
+
+
+<script src="velocity.js"></script>
+<script src="velocity.min.js"></script>
+<script src="velocity.ui.js"></script>
+<script src="velocity.ui.min.js"></script>
+<script>
+var t = 50;
+$(document).ready(function(){
+    $("#1").animate({ 
+   
+       'opacity': '1'
+    },t);
+    $("#2").delay(t).animate({ 
+   
+        'opacity': '1'
+    },t);
+    $("#3").delay(t*2).animate({ 
+   
+        'opacity': '1'
+    },t);
+    $("#4").delay(t*3).animate({ 
+   
+        'opacity': '1'
+    },t);
+    $("#5").delay(t*4).animate({ 
+   
+        'opacity': '1'
+    },t);
+    $("#6").delay(t*5).animate({ 
+   
+        'opacity': '1'
+    },t);
+    $("#7").delay(t*6).animate({ 
+   
+        'opacity': '1'
+    },t);
+    $("#8").delay(t*7).animate({ 
+   
+        'opacity': '1'
+    },t);
+    $("#9").delay(t*8).animate({ 
+   
+        'opacity': '1'
+    },t);
+    $("#10").delay(t*9).animate({ 
+   
+        'opacity': '1'
+    },t);
+    $("#11").delay(t*10).animate({ 
+   
+        'opacity': '1'
+    },t);
+    $("#12").delay(t*11).animate({ 
+   
+        'opacity': '1'
+    },t);
+    $("#13").delay(t*12).animate({ 
+   
+        'opacity': '1'
+    },t);
+    $("#14").delay(t*13).animate({ 
+   
+        'opacity': '1'
+    },t);
+    $("#15").delay(t*14).animate({ 
+   
+        'opacity': '1'
+    },t);
+    $("#16").delay(t*15).animate({ 
+   
+        'opacity': '1'
+    },t);
+    $("#17").delay(t*16).animate({ 
+   
+        'opacity': '1'
+    },t);
+    $("#18").delay(t*17).animate({ 
+   
+        'opacity': '1'
+    },t);
+    $("#19").delay(t*18).animate({ 
+   
+        'opacity': '1'
+    },t);
+    $("#20").delay(t*19).animate({ 
+   
+        'opacity': '1'
+    },t);
+    $("#21").delay(t*20).animate({ 
+   
+        'opacity': '1'
+    },t);
+    $("#22").delay(t*21).animate({ 
+   
+        'opacity': '1'
+    },t);
+    // $("#23").delay(t*22).animate({ 
+   
+    //     'opacity': '1'
+    // },t);
+    // $("#24").delay(t*23).animate({ 
+   
+    //     'opacity': '1'
+    // },t);
+    // $("#25").delay(t*24).animate({ 
+   
+    //     'opacity': '1'
+    // },t);
+    // $("#26").delay(t*25).animate({ 
+   
+    //     'opacity': '1'
+    // },t);
+    // $("#27").delay(t*26).animate({ 
+   
+    //     'opacity': '1'
+    // },t);
+    // $("#28").delay(t*27.animate({ 
+   
+    //     'opacity': '1'
+    // },t);
+    // $("#29").delay(t*28).animate({ 
+   
+    //     'opacity': '1'
+    // },t);
+    // $("#30").delay(t*29).animate({ 
+   
+    //     'opacity': '1'
+    // },t);
+    // $("#31").delay(t*30).animate({ 
+   
+    //     'opacity': '1'
+    // },t);
+    // $("#32").delay(t*31).animate({ 
+   
+    //     'opacity': '1'
+    // },t);
+    // $("#33").delay(t*32).animate({ 
+   
+    //     'opacity': '1'
+    // },t);
+    // $("#34").delay(t*33).animate({ 
+   
+    //     'opacity': '1'
+    // },t);
+    // $("#35").delay(t*34).animate({ 
+   
+    //     'opacity': '1'
+    // },t);
+    // $("#36").delay(t*35).animate({ 
+   
+    //     'opacity': '1'
+    // },t);
+    // $("#37").delay(t*36).animate({ 
+   
+    //     'opacity': '1'
+    // },t);
+    // $("#38").delay(t*37).animate({ 
+   
+    //     'opacity': '1'
+    // },t);
+    // $("#39").delay(t*38).animate({ 
+   
+    //     'opacity': '1'
+    // },t);
+    // $("#40").delay(t*39).animate({ 
+   
+    //     'opacity': '1'
+    // },t);
+    // $("#41").delay(t*40).animate({ 
+   
+    //     'opacity': '1'
+    // },t);
+    // $("#19").delay(t*18).animate({ 
+   
+    //     'opacity': '1'
+    // },t);
+});
+</script>
+
+<!-- <script>
+var t = 500;
+$(document).ready(function(){
+    $("#1").toggleClass("contFix");
+    $("#2").delay(t*1).toggleClass("contFix");
+    $("#3").delay(t*2).toggleClass("contFix");
+    $("#4").delay(t*3).toggleClass("contFix");
+    $("#5").delay(t*4).toggleClass("contFix");
+    $("#6").delay(t*5).toggleClass("contFix");
+    $("#7").delay(t*6).toggleClass("contFix");
+    $("#8").delay(t*7).toggleClass("contFix");
+    $("#9").delay(t*8).toggleClass("contFix");
+    $("#10").delay(t*9).toggleClass("contFix");
+    $("#11").delay(t*10).toggleClass("contFix");
+    $("#12").delay(t*11).toggleClass("contFix");
+    $("#13").delay(t*12).toggleClass("contFix");
+    $("#14").delay(t*13).toggleClass("contFix");
+    $("#15").delay(t*14).toggleClass("contFix");
+    $("#16").delay(t*15).toggleClass("contFix");
+    $("#17").delay(t*16).toggleClass("contFix");
+    $("#18").delay(t*17).toggleClass("contFix");
+    $("#19").delay(t*18).toggleClass("contFix");
+    $("#20").delay(t*19).toggleClass("contFix");
+    $("#21").delay(t*20).toggleClass("contFix");
+    $("#22").delay(t*21).toggleClass("contFix");
+});
+</script> -->
+
+<!--<script>
+$(document).ready(function(){
+    $("*").animate({ 
+        //'font-size' : '36',
+        'opacity': '1'
+    },1125);
+});
+</script>-->
+        <!-- <script src="specimen_files/easytabs.js" type="text/javascript" charset="utf-8"></script> -->
+    <!--    <link rel="stylesheet" href="specimen_files/specimen_stylesheet.css" type="text/css" charset="utf-8" />-->
+        <link id="pagestyle" rel="stylesheet" type="text/css" href="stylesheetRed.css" title="Red">
+        <!--<link rel="alternate stylesheet" type="text/css" media="screen" href="stylesheetBlue" title="Blue" />
+        <link rel="different stylesheet" type="text/css" media="screen" href="stylesheetGreen.css" title="Green">-->
+        <script>
+        function swapStyleSheet(sheet){
+            document.getElementById('pagestyle').setAttribute('href', sheet);
+        }
+        </script>
+        <link rel="shortcut icon" href="images/Dorp.png">
+
+        <!-- <script src="http://whichbrowser.net/lib/detect.js?ua=Mozilla%2F5.0%20(Macintosh%3B%20Intel%20Mac%20OS%20X%2010_9_5)%20AppleWebKit%2F537.78.2%20(KHTML%2C%20like%20Gecko)%20Version%2F7.0.6%20Safari%2F537.78.2&amp;e=16&amp;f=127&amp;r=exp2d6&amp;w=1440&amp;h=900"></script> -->
+
+
+        <script type="text/javascript" src="ua-parser.js"></script>
+<script type="text/javascript">
+
+    var parser = new UAParser();
+
+    // by default it takes ua string from current browser's window.navigator.userAgent
+    console.log(parser.getResult());
+    /*
+        /// this will print an object structured like this:
+        {
+            ua: "",
+            browser: {
+                name: "",
+                version: ""
+            },
+            engine: {
+                name: "",
+                version: ""
+            },
+            os: {
+                name: "",
+                version: ""
+            },
+            device: {
+                model: "",
+                type: "",
+                vendor: ""
+            },
+            cpu: {
+                architecture: ""
+            }
+        }
+    */
+
+
+
+    // let's test a custom user-agent string as an example
+    var uastring = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.2 (KHTML, like Gecko) Ubuntu/11.10 Chromium/15.0.874.106 Chrome/15.0.874.106 Safari/535.2";
+    parser.setUA(uastring);
+
+    var result = parser.getResult();
+    // this will also produce the same result (without instantiation):
+    // var result = UAParser(uastring);
+
+    console.log(result.browser);        // {name: "Chromium", version: "15.0.874.106"}
+    console.log(result.device);         // {model: undefined, type: undefined, vendor: undefined}
+    console.log(result.os);             // {name: "Ubuntu", version: "11.10"}
+    console.log(result.os.version);     // "11.10"
+    console.log(result.engine.name);    // "WebKit"
+    console.log(result.cpu.architecture);   // "amd64"
+
+    // do some other tests
+    var uastring2 = "Mozilla/5.0 (compatible; Konqueror/4.1; OpenBSD) KHTML/4.1.4 (like Gecko)";
+    console.log(parser.setUA(uastring2).getBrowser().name); // "Konqueror"
+    console.log(parser.getOS());                            // {name: "OpenBSD", version: undefined}
+    console.log(parser.getEngine());                        // {name: "KHTML", version: "4.1.4"}
+
+    var uastring3 = 'Mozilla/5.0 (PlayBook; U; RIM Tablet OS 1.0.0; en-US) AppleWebKit/534.11 (KHTML, like Gecko) Version/7.1.0.7 Safari/534.11';
+    console.log(parser.setUA(uastring3).getDevice().model); // "PlayBook"
+    console.log(parser.getOS())                             // {name: "RIM Tablet OS", version: "1.0.0"}
+    console.log(parser.getBrowser().name);                  // "Safari"
+
+</script>
+
+
+<script type="text/javascript">
+    console.log(window.navigator.language);
+</script>
+
+
+
+
+
+        <style>
+div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+}
+</style>
+
+        <style type "text/css">
+        <!--
+        /* @group Blink */
+        .blink {
+            -webkit-animation: blink .75s linear infinite;
+            -moz-animation: blink .75s linear infinite;
+            -ms-animation: blink .75s linear infinite;
+            -o-animation: blink .75s linear infinite;
+             animation: blink .75s linear infinite;
+        }
+        @-webkit-keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 1; }
+            50.01% { opacity: 0; }
+            100% { opacity: 0; }
+        }
+        @-moz-keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 1; }
+            50.01% { opacity: 0; }
+            100% { opacity: 0; }
+        }
+        @-ms-keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 1; }
+            50.01% { opacity: 0; }
+            100% { opacity: 0; }
+        }
+        @-o-keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 1; }
+            50.01% { opacity: 0; }
+            100% { opacity: 0; }
+        }
+        @keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 1; }
+            50.01% { opacity: 0; }
+            100% { opacity: 0; }
+        }
+        /* @end */
+        -->
+        </style>
+
+        <style>
+            .papa {
+              width: 500px;
+            }
+
+            .mama {
+              width: 333px; 
+            }
+
+            .baby {
+              width: 166px; 
+            }
+            </style>
+    
+    </head>
+
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <div class="globalheader">
+        <div style="text-align:center;padding:0px;">
+            <h1>freeShop
+            </h1>
+        </div>
+    </div>
+    <div class="orange-cover">
+        <br />
+        <br />
+        <br />
+        <br />
+    </div>
+    <div class="fake-shadow"></div>
+    <div class="stickyL" style="color: white;">
+        <br />
+        <h2 style="color: white;">An open source eShop alternative</h2>
+        <br />
+    </div>
+    <div class="fake-shadow"></div>
+    <br />
+    <div style="align-content: center; opacity: 0;" class="content" id="1">
+        <img src="https://cdn.discordapp.com/attachments/386478071949295616/386551597372801025/freeshop.png">
+    </div>
+    <div class="content" id="2">
+        <h1>Hello</h1>
+        <div id="blur2">
+            <div id="blur-overlay">
+                <img src="images/Dorp.png" width="100%" height="100%" alt="Dorp" />
+            </div>
+        </div>
+    </div>
+    <div id="footer" class="container">
+        <br />
+        <a onmouseover="this.style.color='#7692AA'" onmouseout="this.style.color='#c41414'" href="https://gbatemp.net/threads/release-community-freeshop-fork-open-source-eshop-alternative.483159/">GBAtemp</a> |
+        <a onmouseover="this.style.color='#7289DA'" onmouseout="this.style.color='#c41414'" href="https://discord.gg/Nn7XRJn">Discord</a> |
+        <a onmouseover="this.style.color='#468CC8'" onmouseout="this.style.color='#c41414'" href="https://notabug.org/evi/freeShop/">Source Code</a>
+    </div>
+</body>
+<div class="force">
+</div>
+<p>
+</p>
+
+</html>

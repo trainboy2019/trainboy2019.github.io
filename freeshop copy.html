@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--"-->
+
+<head>
+    <title>freeShop</title>
+    <!--<meta http-equiv="Content-Type" content="text/html; charset=uUTF-8" />-->
+    <meta name="robots" content="nofollow" />
+    <meta http-equiv="Default-Style" content="Red">
+    <!-- <script type="text/javascript">
+    document.body.onload = function() {
+        // Ensure that the user can receive Safari Push Notifications.
+        if ('safari' in window && 'pushNotification' in window.safari) {
+            var permissionData = window.safari.pushNotification.permission('web.com.my-awesome-site');
+            checkRemotePermission(permissionData);
+        } else {
+            // A good time to let a user know they are missing out on a feature or just bail out completely?
+        }
+    };
+    var checkRemotePermission = function(permissionData) {
+        if (permissionData.permission === 'default') {
+            // This is a new web service URL and its validity is unknown.
+            window.safari.pushNotification.requestPermission(
+                'https://ikerolader.xyz/files/theme/', // The web service URL.
+                'web.xyz.ikerolader', // The Website Push ID.
+                { user_id: 4741619481 }, // Data used to help you identify the user.
+                checkRemotePermission // The callback function.
+            );
+        } else if (permissionData.permission === 'denied') {
+            // The user said no. Talk to your UX expert to see what you can do to entice your
+            // users to subscribe to push notifications.
+        } else if (permissionData.permission === 'granted') {
+            // The web service URL is a valid push provider, and the user said yes.
+            // permissionData.deviceToken is now available to use.
+        }
+    };
+    </script> -->
+    <script src="jquery-2.2.1.js" type="text/javascript" charset="utf-8"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <!--<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js" type="text/javascript" charset="utf-8"></script>-->
+    <script type="text/javascript" src="jquery.cre-animate.js"></script>
+    <!-- <script type="text/javascript" src = "sticky.js"></script> -->
+    <!-- <script type="text/javascript">
+    function discord() {
+        var Discordie = require("discordie");
+        var Events = Discordie.Events;
+
+        var client = new Discordie();
+
+        client.connect({ token: "werwe" });
+
+        client.Dispatcher.on(Events.GATEWAY_READY, e => {
+            console.log("Connected as: " + client.User.username);
+        });
+
+        client.Dispatcher.on(Events.MESSAGE_CREATE, e => {
+            if (e.message.content == "ping")
+                e.message.channel.sendMessage("pong");
+        });
+    }
+    </script> -->
+    <!-- This is what you need -->
+    <!-- <script src="sweetalert-dev.js"></script> -->
+    <!-- <script type="text/javascript" src="discord.js"></script> -->
+    <!-- <link rel="stylesheet" href="sweetalert.css"> -->
+    <!--.......................-->
+    <script>
+    $(document).ready(function() {
+        var fadeInValue = true;
+        $("#download-button").click(function() {
+            if (fadeInValue) {
+                $("#div1").fadeIn(200);
+                $("#div2").fadeIn(250);
+                $("#div3").fadeIn(300);
+                $("#div4").fadeIn(350);
+                $("#div5").fadeIn(400);
+                $("#div6").fadeIn(450);
+                $("#div7").fadeIn(500);
+                $("#div8").fadeIn(550);
+                $("#div9").fadeIn(600);
+                $("#div10").fadeIn(650);
+                $("#div11").fadeIn(700);
+                $("#div12").fadeIn(750);
+                $("#div13").fadeIn(800);
+                $("#div14").fadeIn(850);
+                $("#div15").fadeIn(900);
+                fadeInValue = false;
+            } else {
+                $("#div1").fadeOut(900);
+                $("#div2").fadeOut(850);
+                $("#div3").fadeOut(800);
+                $("#div4").fadeOut(750);
+                $("#div5").fadeOut(700);
+                $("#div6").fadeOut(650);
+                $("#div7").fadeOut(600);
+                $("#div8").fadeOut(550);
+                $("#div9").fadeOut(500);
+                $("#div10").fadeOut(450);
+                $("#div11").fadeOut(400);
+                $("#div12").fadeOut(350);
+                $("#div13").fadeOut(300);
+                $("#div14").fadeOut(250);
+                $("#div15").fadeOut(200);
+                fadeInValue = true;
+
+            }
+
+        });
+    });
+    </script>
+    <script>
+    $(document).ready(function() {
+        var fadeInValue2 = true;
+        $("#trouble-button").click(function() {
+            if (fadeInValue2) {
+                $("#div16").fadeIn(200);
+                $("#div17").fadeIn(250);
+                $("#div18").fadeIn(300);
+                $("#div19").fadeIn(350);
+                $("#div20").fadeIn(400);
+                $("#div21").fadeIn(450);
+                $("#div22").fadeIn(500);
+                $("#div23").fadeIn(550);
+                $("#div24").fadeIn(600);
+                $("#div25").fadeIn(650);
+                $("#div26").fadeIn(700);
+                fadeInValue2 = false;
+            } else {
+                $("#div16").fadeOut(700);
+                $("#div17").fadeOut(650);
+                $("#div18").fadeOut(600);
+                $("#div19").fadeOut(550);
+                $("#div20").fadeOut(500);
+                $("#div21").fadeOut(450);
+                $("#div22").fadeOut(400);
+                $("#div23").fadeOut(350);
+                $("#div24").fadeOut(300);
+                $("#div25").fadeOut(250);
+                $("#div26").fadeOut(200);
+                fadeInValue2 = true;
+            }
+        });
+    });
+    </script>
+    <script>
+    $(document).ready(function() {
+        var fadeInValue3 = true;
+        $("#image-button").click(function() {
+            if (fadeInValue3) {
+                $("#div27").fadeIn(200);
+                $("#div28").fadeIn(250);
+                $("#div29").fadeIn(300);
+                $("#div30").fadeIn(350);
+                $("#div31").fadeIn(400);
+                $("#div32").fadeIn(450);
+                $("#div33").fadeIn(500);
+                $("#div34").fadeIn(550);
+                $("#div35").fadeIn(600);
+                $("#div36").fadeIn(650);
+                $("#div37").fadeIn(700);
+                fadeInValue3 = false;
+            } else {
+                $("#div27").fadeOut(700);
+                $("#div28").fadeOut(650);
+                $("#div29").fadeOut(600);
+                $("#div30").fadeOut(550);
+                $("#div31").fadeOut(500);
+                $("#div32").fadeOut(450);
+                $("#div33").fadeOut(400);
+                $("#div34").fadeOut(350);
+                $("#div35").fadeOut(300);
+                $("#div36").fadeOut(250);
+                $("#div37").fadeOut(200);
+                fadeInValue3 = true;
+            }
+        });
+    });
+    </script>
+    <!-- <script>
+    $(document).ready(function() {
+
+        // if user clicked on button, the overlay layer or the dialogbox, close the dialog  
+        $('a.btn-ok, #dialog-overlay, #dialog-box').click(function() {
+            $('#dialog-overlay, #dialog-box').hide();
+            return false;
+        });
+
+        // if user resize the window, call the same function again
+        // to make sure the overlay fills the screen and dialogbox aligned to center    
+        $(window).resize(function() {
+
+            //only do it if the dialog box is not hidden
+            if (!$('#dialog-box').is(':hidden')) popup();
+        });
+
+
+    });
+
+    //Popup dialog
+    function popup(message) {
+
+        // get the screen height and width  
+        var maskHeight = $(document).height();
+        var maskWidth = $(window).width();
+
+        // calculate the values for center alignment
+        var dialogTop = (maskHeight / 3) - ($('#dialog-box').height());
+        var dialogLeft = (maskWidth / 2) - ($('#dialog-box').width() / 2);
+
+        // assign values to the overlay and dialog box
+        $('#dialog-overlay').css({ height: maskHeight, width: maskWidth }).show();
+        $('#dialog-box').css({ top: dialogTop, left: dialogLeft }).show();
+
+        // display the message
+        $('#dialog-message').html(message);
+
+    }
+    </script> -->
+    <script src="velocity.js"></script>
+    <script src="velocity.min.js"></script>
+    <script src="velocity.ui.js"></script>
+    <script src="velocity.ui.min.js"></script>
+    <script>
+    var t = 50;
+    $(document).ready(function() {
+        $("#1").animate({
+
+            'opacity': '1'
+        }, t);
+        $("#2").delay(t).animate({
+
+            'opacity': '1'
+        }, t);
+        $("#3").delay(t * 2).animate({
+
+            'opacity': '1'
+        }, t);
+        $("#4").delay(t * 3).animate({
+
+            'opacity': '1'
+        }, t);
+        $("#5").delay(t * 4).animate({
+
+            'opacity': '1'
+        }, t);
+        $("#6").delay(t * 5).animate({
+
+            'opacity': '1'
+        }, t);
+        $("#7").delay(t * 6).animate({
+
+            'opacity': '1'
+        }, t);
+        $("#8").delay(t * 7).animate({
+
+            'opacity': '1'
+        }, t);
+        $("#9").delay(t * 8).animate({
+
+            'opacity': '1'
+        }, t);
+    });
+    </script>
+    <link id="pagestyle" rel="stylesheet" type="text/css" href="stylesheetFree.css" title="Red">
+    <!-- <script>
+    function swapStyleSheet(sheet) {
+        document.getElementById('pagestyle').setAttribute('href', sheet);
+    }
+    </script> -->
+    <link rel="shortcut icon" href="images/Dorp.png">
+    <script type="text/javascript" src="ua-parser.js"></script>
+    <style>
+    div.fixed {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 40px;
+        height: 40px;
+    }
+    </style>
+    <style type "text/css">
+    <!--
+    /* @group Blink */
+
+    .blink {
+        -webkit-animation: blink .75s linear infinite;
+        -moz-animation: blink .75s linear infinite;
+        -ms-animation: blink .75s linear infinite;
+        -o-animation: blink .75s linear infinite;
+        animation: blink .75s linear infinite;
+    }
+
+    @-webkit-keyframes blink {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 1;
+        }
+        50.01% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+
+    @-moz-keyframes blink {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 1;
+        }
+        50.01% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+
+    @-ms-keyframes blink {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 1;
+        }
+        50.01% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+
+    @-o-keyframes blink {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 1;
+        }
+        50.01% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+
+    @keyframes blink {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 1;
+        }
+        50.01% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+    /* @end */
+
+    -->
+    </style>
+    <style>
+    .papa {
+        width: 500px;
+    }
+
+    .mama {
+        width: 333px;
+    }
+
+    .baby {
+        width: 166px;
+    }
+    </style>
+</head>
+
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="arrow200.js"></script>
+    <script type="text/javascript" src="keypress-2.1.4.min.js"></script>
+    <script type="text/javascript">
+    var listener = new window.keypress.Listener();
+    listener.sequence_combo("b y o k u g e n", function() {
+        $("html").css("-webkit-filter", "hue-rotate(130deg)")
+    }, true);
+    </script>
+    <script>
+    console.log(1234567890 * 9876543210);
+    </script>
+    <div class="globalheader">
+        <div style="text-align:center;padding:0px;">
+            <h1>freeShop
+            </h1>
+        </div>
+    </div>
+    <div class="orange-cover">
+        <br />
+        <br />
+        <br />
+        <br />
+    </div>
+    <div class="fake-shadow"></div>
+    <div class="stickyL" style="color: white;">
+        <!-- <div class="wwdc-logo"></div> -->
+        <br />
+        <h2 style="color: white;">An open-source eShop alternative</h2>
+        <br />
+    </div>
+    <div class="fake-shadow"></div>
+    <br />
+    <div style="opacity: 0; text-align: center;" id="1">
+        <img src="https://cdn.discordapp.com/attachments/386478071949295616/386551597372801025/freeshop.png">
+    </div>
+    <div class="content" id="2">
+        <a class="waves-effect waves-light btn grey darken-3" href="https://notabug.org/evi/freeShop/releases"><i class="material-icons left">file_download</i>Download</a>
+    </div>
+    <div class="content" id="3">
+        <h2>Scan this with FBI.</h2>
+        <img src="https://cdn.discordapp.com/attachments/349283770689519618/402205981934616597/qr-code.png" style="width: 80%; height:80%; position: relative; text-align: center; align-content: center;">
+    </div>
+    <div class="content" id="4">
+        <h3>What is freeShop?</h3>
+        <p>It's an open-source homebrew eShop alternative for the Nintendo 3DS. It allows you to browse and install titles you own utilizing title keys.</p>
+    </div>
+    <div class="content" id="5">
+        <h3>How to use freeShop</h3>
+        <ol>
+            <li>Install the latest version of this software on your preferred CFW.</li>
+            <li>Put an URL linking to the encTitleKey.bin file on the freeShop's Settings > Update > Auto-update title keys from URL.</li>
+            <li>You can now use freeShop, enjoy !</li>
+        </ol>
+    </div>
+    <div class="content" id="6">
+        <a class="btn-floating btn-large waves-effect waves-light grey darken-3 " id="download-button"><i class="material-icons">help</i></a>
+        <br>
+        <br>
+        <div id="div1" style="display:none">
+            <b>Q: Why is Paul not making this thread?</b>
+            <p>A: He doesn't like making threads, so he asked me.</p>
+            <br />
+        </div>
+        <div id="div2" style="display:none">
+            <b>Q: Do I need a CFW for this?</b>
+            <p>A: Yes.</p>
+            <br />
+        </div>
+        <div id="div3" style="display:none">
+            <b>Q: Is there a 3dsx version?</b>
+            <p>A: Yes, however the cia version is recommended, because the 3dsx can have features missing and bugs.</p>
+            <br />
+        </div>
+        <div id="div4" style="display:none">
+            <b>Q: Why are games missing? They're on the eShop.</b>
+            <p>A: It only shows games for which you have the title key (dumped to encTitleKeys.bin). And even then some games won't show because they're not cached server-side (this will eventually change).</p>
+            <br />
+        </div>
+        <div id="div5" style="display:none">
+            <b>Q: Why does freeShop show DLC as installed when I don't have it?</b>
+            <p>A: All DLC is lumped together with the same title id, so even partial installs will show it as installed. If you're missing DLC, just delete it and reinstall it. If eShop partially installed it, or you previously purchased some DLC through eShop on that console, you may lose the DLC freeShop installs when you revisit eShop. This is currently unavoidable.</p>
+            <br />
+        </div>
+        <div id="div6" style="display:none">
+            <b>Q: Can freeShop download while sleeping?</b>
+            <p>A: Yes, please read the <a href="https://notabug.org/arc13/freeShop/wiki/Sleep+Download">instructions</a>.</p>
+            <br />
+        </div>
+        <div id="div7" style="display:none">
+            <b>Q: Can I download games of any region?</b>
+            <p>A: Depends on your CFW. Most of them allow it, including the popular Luma3DS.</p>
+            <br />
+        </div>
+        <div id="div8" style="display:none"><b>Q: Is this safe? Will I get banned/sued for using this?</b>
+            <p>Even modding your console's software/firmware runs legal risks. But like running freeShop, the risk is minimal. If you make sure to only install games you've purchased, then you remain in a safer legal grey area. And there is no way for Nintendo to know which client IP owns which games. That would requires some analytic guesswork, potentially resulting in many false-positive bans. Not likely to happen and none have been reported.</p>
+            <br />
+        </div>
+        <div id="di9" style="display:none"><b>Q: Why did you do a fork?</b>
+            <p>Because I can. Because TheCruel can't, for some reasons, update it anymore.</p>
+            <br />
+        </div>
+        <div id="div10" style="display:none"><b>Q: Why starting a new thread?</b>
+            <p>The original was... polluted with *what happened to TheCruel*, starting at page 300, and some users requested to open a new thread.</p>
+            <br />
+        </div>
+        <div id="div11" style="display:none"><b>Q: OMG, I know what happened to him, I will say it on this thread!!!!</b>
+            <p>Noooooooooooooooooooooooooo, this thread is for talking about my fork of freeShop, and the Original freeShop, not about what TheCruel did, that's how the original thread went into a complete disaster. If you want to know what happened and discuss about it, do it here: <a href="https://gbatemp.net/threads/former-gbatemp-member-and-suspected-pedophile-gets-20-year-sentence.468679/">http://gbatemp.net/threads/former-g...ected-pedophile-gets-20-year-sentence.468679/</a>
+            </p>
+            <br />
+        </div>
+        <div id="div12" style="display:none"><b>Q: How to I update to this version?</b>
+            <p>Simply scan new QR Code with FBI</p>
+            <br />
+        </div>
+        <div id="div13" style="display:none"><b>Q: How to dump my encTitleKey.bin file?</b>
+            <ul>
+                <li>- First, you'll need to install and launch <a href="https://gbatemp.net/threads/release-godmode9-all-access-file-browser-for-the-3ds.420027/">GodMode9</a>:</li>
+                <li>- If you followed 3ds.guide, you should already have GodMode9, simply hold the START Button and select GodMode9 if asked.</li>
+                <li>- When GodMode9 is started, press the HOME Button</li>
+                <li>- Select the "More..." option</li>
+                <li>- Select the "Build support files" option</li>
+                <li>- Press the A button</li>
+                <li>- Press 2x the B button</li>
+                <li>- Select the "[0:] SDCARD" option</li>
+                <li>- Go to the "gm9out" folder</li>
+                <li>- Hover the "encTitleKeys.bin" file</li>
+                <li>- Press the Y Button</li>
+                <li>- Press the B Button</li>
+                <li>- Go to the "3ds" folder, "freeShop" folder, and then keys folder</li>
+                <li>- Press the Y Button and then the A Button to paste your "encTitleKeys.bin" file.</li>
+            </ul>
+            <br />
+        </div>
+        <div id="div14" style="display:none"><b>Q: Why don't I have any friends?</b>
+            <p>You should get out more.</p>
+            <br />
+        </div>
+        <div id="div15" style="display:none"><b>Q: Hello?</b>
+            <p>No one is here</p>
+        </div>
+    </div>
+    <div class="content" id="7">
+        <button class="btn-floating btn-large waves-effect waves-light grey darken-3" id="trouble-button"><i class="material-icons">build</i></button>
+        <br />
+        <br />
+        <div id="div16" style="display:none"><b>I keep getting "Failed to install seed" errors.</b>
+            <p>You likely have a FW version
+                < 9.6 and therefore cannot play newer games that utilize crypto seeds. You can fix this with a FW update.</p>
+                    <br />
+        </div>
+        <div id="div17" style="display:none"><b>I keep getting "Wrong title key" errors.</b>
+            <p>You're probably not using correct encrypted keys (encTitleKeys.bin). Decrypted keys will give this error.</p>
+            <br />
+        </div>
+        <div id="div18" style="display:none"><b>I keep getting "Failed to finalize TMD install: 0xC86044D2".</b>
+            <p>The system is reporting that you don't have enough space on your SD card to install the game. If it's a DSiWare game, then it's your NAND that doesn't have the space.</p>
+            <br />
+        </div>
+        <div id="div19" style="display:none"><b>I keep getting "Failed to finalize content install: 0xD8E08025".</b>
+            <p>There are many possible reasons for this. But one known diagnosis is a possible SD card problem. For example, a fake SD card who is reporting space available while it's actually full will often give this error. Double-check your SD card.</p>
+            <br />
+        </div>
+        <div id="div20" style="display:none"><b>I get error code 0xD8A08004</b>
+            <p>This happens with the installation state gets screwed up. You have to reboot the console to get rid of it. If you consistently get this, report how so the bug can be fixed.</p>
+            <br />
+        </div>
+        <div id="div21" style="display:none"><b>Some games icons are missing/glitched</b>
+            <p>Refresh your cache via the freeShop's settings > Update > Refresh Cache button.</p>
+            <br />
+        </div>
+        <div id="div22" style="display:none"><b>I keep getting Ticket Error with all games I want to download</b>
+            <p>Install and launch <a href="https://github.com/DanTheMan827/tikSweep/releases">tikSweep</a>, then reboot your console, this may fix your problem.</p>
+            <br />
+        </div>
+        <div id="div23" style="display:none"><b>I don't get any sound when I'm on the freeShop</b>
+            <p>Please <a href="https://gbatemp.net/threads/dsp1-a-new-dsp-dumper-cia-for-better-stability.469461/">dump your DSP</a> and launch the eShop.</p>
+            <br />
+        </div>
+        <div id="div24" style="display:none"><b>freeShop is crashing when I try press Start to Exit</b>
+            <p>Please uninstall freeShop and delete the "SD:/3ds/data/freeShop" Folder, then reinstall the latest cia from <a href="https://notabug.org/evi/freeShop/releases">https://notabug.org/evi/freeShop/releases</a></p>
+            <br />
+        </div>
+        <div id="div25" style="display:none"><b>freeShop keeps saying suspended when downloading certain DLCs</b>
+            <p>The most likely cause is that game has unreleased DLC. You must wait until all DLC is released.</p>
+            <br />
+        </div>
+        <div id="div26" style="display:none"><b>My question is not listed here</b>
+            <p>Ask <a href="https://discord.gg/Nn7XRJn">here</a></p>
+        </div>
+    </div>
+    <div class="content" id="8">
+        <button class="btn-floating btn-large waves-effect waves-light grey darken-3" id="image-button"><i class="material-icons">photo_library</i></button>
+        <br />
+        <br />
+        <div id="div27" style="display:none">
+            <img src="freeShopImages/1.png">
+            <br />
+        </div>
+        <div id="div28" style="display:none">
+            <img src="freeShopImages/2.png">
+            <br />
+        </div>
+        <div id="div29" style="display:none">
+            <img src="freeShopImages/3.png">
+            <br />
+        </div>
+        <div id="div30" style="display:none">
+            <img src="freeShopImages/4.png">
+            <br />
+        </div>
+        <div id="div31" style="display:none">
+            <img src="freeShopImages/5.png">
+            <br />
+        </div>
+        <div id="div32" style="display:none">
+            <img src="freeShopImages/6.png">
+            <br />
+        </div>
+        <div id="div33" style="display:none">
+            <img src="freeShopImages/7.png">
+            <br />
+        </div>
+        <div id="div34" style="display:none">
+            <img src="freeShopImages/8.png">
+            <br />
+        </div>
+        <div id="div35" style="display:none">
+            <img src="freeShopImages/9.png">
+            <br />
+        </div>
+        <div id="div36" style="display:none">
+            <img src="freeShopImages/10.png">
+            <br />
+        </div>
+        <div id="div37" style="display:none">
+            <img src="freeShopImages/11.png">
+            <br />
+        </div>
+    </div>
+    <!-- e52d27 -->
+    <!-- cd201f -->
+    <div id="footer" class="container">
+        <p style="color: white;">
+            <br />
+            <br />
+            <a onmouseover="this.style.color='#7692AA'" onmouseout="this.style.color='#c41414'" href="https://gbatemp.net/threads/release-community-freeshop-fork-open-source-eshop-alternative.483159/">GBAtemp</a> |
+            <a onmouseover="this.style.color='#7289DA'" onmouseout="this.style.color='#c41414'" href="https://discord.gg/Nn7XRJn">Discord</a> |
+            <a onmouseover="this.style.color='#468CC8'" onmouseout="this.style.color='#c41414'" href="https://notabug.org/evi/freeShop/">Source Code</a>
+    </div>
+    <!-- <a class="twitter" href="https://twitter.com/trainboy2019">@trainboy2019</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+        <a class="instagram" href="https://www.instagram.com/jrolader2/">Instagram</a> -->
+    <!-- <div class="fixed">
+        <a href="#top">
+            <img src="images/Arrow.png" width="100%" height="100%" alt="To Top"/>
+        </a>
+    </div> -->
+</body>
+<!--
+                                                                                                                                                   
+                                                                                      bbbbbbbb                                                    
+         tttt                                                  iiii                   b::::::b                                                    
+      ttt:::t                                                 i::::i                  b::::::b                                                    
+      t:::::t                                                  iiii                   b::::::b                                                    
+      t:::::t                                                                          b:::::b                                                    
+ttttttt:::::ttttttt    rrrrr   rrrrrrrrr    aaaaaaaaaaaaa    iiiiiii nnnn  nnnnnnnn     b:::::bbbbbbbbb        ooooooooooo   yyyyyyy           yyyyyyy
+t:::::::::::::::::t    r::::rrr:::::::::r   a::::::::::::a   i:::::i n:::nn::::::::nn   b::::::::::::::bb    oo:::::::::::oo  y:::::y         y:::::y 
+t:::::::::::::::::t    r:::::::::::::::::r  aaaaaaaaa:::::a   i::::i n::::::::::::::nn  b::::::::::::::::b  o:::::::::::::::o  y:::::y       y:::::y  
+tttttt:::::::tttttt    rr::::::rrrrr::::::r          a::::a   i::::i nn:::::::::::::::n b:::::bbbbb:::::::b o:::::ooooo:::::o   y:::::y     y:::::y   
+      t:::::t           r:::::r     r:::::r   aaaaaaa:::::a   i::::i   n:::::nnnn:::::n b:::::b    b::::::b o::::o     o::::o    y:::::y   y:::::y    
+      t:::::t           r:::::r     rrrrrrr aa::::::::::::a   i::::i   n::::n    n::::n b:::::b     b:::::b o::::o     o::::o     y:::::y y:::::y     
+      t:::::t           r:::::r            a::::aaaa::::::a   i::::i   n::::n    n::::n b:::::b     b:::::b o::::o     o::::o      y:::::y:::::y      
+      t:::::t    tttttt r:::::r           a::::a    a:::::a   i::::i   n::::n    n::::n b:::::b     b:::::b o::::o     o::::o       y:::::::::y       
+      t::::::tttt:::::t r:::::r           a::::a    a:::::a  i::::::i  n::::n    n::::n b:::::bbbbbb::::::b o:::::ooooo:::::o        y:::::::y        
+      tt::::::::::::::t r:::::r           a:::::aaaa::::::a  i::::::i  n::::n    n::::n b::::::::::::::::b  o:::::::::::::::o         y:::::y         
+        tt:::::::::::tt r:::::r            a::::::::::aa:::a i::::::i  n::::n    n::::n b:::::::::::::::b    oo:::::::::::oo         y:::::y          
+          ttttttttttt   rrrrrrr             aaaaaaaaaa  aaaa iiiiiiii  nnnnnn    nnnnnn bbbbbbbbbbbbbbbb       ooooooooooo          y:::::y           
+                                                                                                                                   y:::::y            
+                                                                                                                                  y:::::y             
+                                                                                                                                 y:::::y              
+                                                                                                                                y:::::y               
+                                                                                                                               yyyyyyy                
+                                                                                                                                              
+                                                                                                                                              
+    -->
+<div class="force">
+</div>
+<p>
+</p>
+
+</html>
