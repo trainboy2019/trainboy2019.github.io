@@ -246,8 +246,9 @@
 
             function processRequest2(e) {
                 if (xhr.readyState == 4 && xhr.status == 200) {
-                    var news = xhr2.responseText;
-                    document.getElementById("news").innerHTML = "<a class=\"waves-effect waves-light btn grey darken-3\" href=\"https://notabug.org/evi/freeShop/releases\"><span style=\"color:white;\"><i class=\"material-icons left\">file_download</i>Download</span></a><br /><p>" + news + "</p>";
+                    var x = xhr2.responseText;
+                    var news=x.replace(/\n/g,"<br />");
+                    document.getElementById("2").innerHTML = "<a class=\"waves-effect waves-light btn red accent-4\" href=\"https://notabug.org/evi/freeShop/releases\"><span style=\"color:white;\"><i class=\"material-icons left\">file_download</i>Download</span></a><br /><br /><p>" + news + "</p>";
                 }
             }
         }
@@ -279,12 +280,12 @@
     <br />
     <div class="content-holder">
         <div class="content left news" id="2">
-            <a class="waves-effect waves-light btn grey darken-3" href="https://notabug.org/evi/freeShop/releases"><span style="color:white;"><i class="material-icons left">file_download</i>Download</span></a>
+            <a class="waves-effect waves-light btn red accent-4" href="https://notabug.org/evi/freeShop/releases"><span style="color:white;"><i class="material-icons left">file_download</i>Download</span></a>
         </div>
         <div class="content right" id="3">
             <h2>Scan this with FBI.</h2>
             <p>Click for full image.</p>
-            <img class="fancybox" src="https://cdn.discordapp.com/attachments/349283770689519618/402205981934616597/qr-code.png" style="width: 80%; height:80%; position: relative; text-align: center; align-content: center;">
+            <img class="fancybox" src="https://cdn.discordapp.com/attachments/349283770689519618/402205981934616597/qr-code.png" style="max-width:80%; max-height:80%; width: auto; height:auto; position: relative; text-align: center; align-content: center;">
         </div>
         <br />
     </div>
