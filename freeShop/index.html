@@ -11,7 +11,7 @@
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <script type="text/javascript" src="jquery.cre-animate.js"></script>
-  <script type="text/javascript" src="js/jquery.ajax-cross-origin.min.js"></script>
+    <script type="text/javascript" src="js/jquery.ajax-cross-origin.min.js"></script>
     <script>
     $(document).ready(function() {
         var fadeInValue = true;
@@ -238,40 +238,49 @@
     // xhr.setRequestHeader("Content-Type", "application/json");
     // xhr.send();
 
-    function processRequest(e) {
-        if (xhr.readyState == 4 && xhr.status == 200) {
-            var version = xhr.responseText;
-            var xhr2 = new XMLHttpRequest();
-            xhr2.onreadystatechange = processRequest2;
-            xhr2.open('GET', "https://notabug.org/evi/freeShop/raw/master/news/" + version + ".txt", true);
-            xhr2.setRequestHeader("Content-Type", "application/json");
-            xhr2.send();
+    // function processRequest(e) {
+    //     if (xhr.readyState == 4 && xhr.status == 200) {
+    //         var version = xhr.responseText;
+    //         var xhr2 = new XMLHttpRequest();
+    //         xhr2.onreadystatechange = processRequest2;
+    //         xhr2.open('GET', "https://notabug.org/evi/freeShop/raw/master/news/" + version + ".txt", true);
+    //         xhr2.setRequestHeader("Content-Type", "application/json");
+    //         xhr2.send();
 
-            function processRequest2(e) {
-                if (xhr.readyState == 4 && xhr.status == 200) {
-                    var x = xhr2.responseText;
-                    var news=x.replace(/\n/g,"<br />");
-                    document.getElementById("2").innerHTML = "<a class=\"waves-effect waves-light btn red accent-4\" href=\"https://notabug.org/evi/freeShop/releases\"><span style=\"color:white;\"><i class=\"material-icons left\">file_download</i>Download</span></a><br /><br /><p>" + news + "</p>";
-                }
-            }
-        }
-    }
-
-
- //    $.get( "https://pastebin.com/raw/L3ET5F1G", function(version) {
-	//   $.get("https://notabug.org/evi/freeShop/raw/master/news/"+version+".txt", function(newsRaw){
-	//   	var news=newsRaw.replace(/\n/g,"<br />");
-	//   	document.getElementById("2").innerHTML = "<a class=\"waves-effect waves-light btn red accent-4\" href=\"https://notabug.org/evi/freeShop/releases\"><span style=\"color:white;\"><i class=\"material-icons left\">file_download</i>Download</span></a><br /><br /><p>" + news + "</p>";
-	//   })
-	//   alert( "Load was performed." );
-	// });
-
-	</script>
+    //         function processRequest2(e) {
+    //             if (xhr.readyState == 4 && xhr.status == 200) {
+    //                 var x = xhr2.responseText;
+    //                 var news=x.replace(/\n/g,"<br />");
+    //                 document.getElementById("2").innerHTML = "<a class=\"waves-effect waves-light btn red accent-4\" href=\"https://notabug.org/evi/freeShop/releases\"><span style=\"color:white;\"><i class=\"material-icons left\">file_download</i>Download</span></a><br /><br /><p>" + news + "</p>";
+    //             }
+    //         }
+    //     }
+    // }
 
 
-<div id=”queryResultContainer”/>
+    //    $.get( "https://pastebin.com/raw/L3ET5F1G", function(version) {
+    //   $.get("https://notabug.org/evi/freeShop/raw/master/news/"+version+".txt", function(newsRaw){
+    //   	var news=newsRaw.replace(/\n/g,"<br />");
+    //   	document.getElementById("2").innerHTML = "<a class=\"waves-effect waves-light btn red accent-4\" href=\"https://notabug.org/evi/freeShop/releases\"><span style=\"color:white;\"><i class=\"material-icons left\">file_download</i>Download</span></a><br /><br /><p>" + news + "</p>";
+    //   })
+    //   alert( "Load was performed." ); version.contents
+    // });
+    var te = 'https://pastebin.com/raw/L3ET5F1G'
+    $.getJSON('http://www.whateverorigin.org/get?url=' + encodeURIComponent('https://pastebin.com/raw/L3ET5F1G') + '&callback=?', function(data){
+		var version=data.contents;
+		var url="https://notabug.org/evi/freeShop/raw/master/news/"+version+".txt"
+		$.getJSON('http://allorigins.me/get?url='+url+'&callback=?', function(news2){
+			var news=news2.contents.replace(/\n/g,`<br />`);
+			document.getElementById("2").innerHTML = "<a class=\"waves-effect waves-light btn red accent-4\" href=\"https://notabug.org/evi/freeShop/releases\"><span style=\"color:white;\"><i class=\"material-icons left\">file_download</i>Download</span></a><br /><br /><p>" + news + "</p>";
+		});
+	});
+        
+    </script>
+    <script type="text/javascript">
+    	
+    </script>
 
-
+    <div id=”queryResultContainer”/>
     <div class="globalheader">
         <div style="text-align:center;padding:0px;">
             <h1>freeShop Community Edition
