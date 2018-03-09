@@ -1,0 +1,147 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<!-- Mirrored from freeshop.pw/get-started/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 01 Dec 2017 18:05:13 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Paul Skapczyk" />
+    <meta name="description" content="Guide to get started with installing and using freeShop. freeShop is an open-source homebrew eShop alternative for the Nintendo 3DS. It allows you to browse and install titles you own utilizing title keys.">
+    <meta property="og:title" content="Get Started · freeShop" />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="../css/materialize.css"  media="screen,projection"/>
+
+      <link href="../css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+
+    <meta property="og:url" content="index.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="canonical" href="index.html" />
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/png" />
+    <link rel="alternate" type="application/rss+xml" title="freeShop News RSS" href="../feed.xml">
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    <title>Get Started · freeShop</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/bootstrap-anchor.min.css">
+    <link rel="stylesheet" href="../css/featherlight.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+	<!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+	<![endif]-->
+</head>
+<body>
+
+
+<script type="text/javascript" src="../js/materialize.js"></script>
+
+<div id="pages">
+	<div class="text-center">
+		<div id="logo">
+			<a href="../index.html"><img src="../img/freeshop.png" /></a>
+		</div>
+        <br />
+        <br />
+<div style="text-align: center;">
+        <div class="fixed-action-btn horizontal click-to-toggle halign-wrapper" style="display:inline-block; position:relative;">
+        <a class="btn-floating btn-large red waves-effect waves-light">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul>
+          <li><a class="btn-floating red waves-effect waves-light" href="https://notabug.org/evi/freeShop"><i class="material-icons">code</i></a></li>
+          <li><a class="btn-floating green darken-1 waves-effect waves-light" href="https://notabug.org/evi/freeShop/releases"><i class="material-icons">get_app</i></a></li>
+          <li><a class="btn-floating blue waves-effect waves-light" class="btn btn-lg btn-danger" href="img/qr.png" data-featherlight><i class="mdi mdi-qrcode"></i></a></li>
+        </ul>
+      </div>
+    </div>
+	    <div>
+    <ul id="nav" class="nav nav-pills">
+        <li role="presentation" ><a href="../index.html" style="color: #c41414">Home</a></li>
+        <!-- <li role="presentation" ><a href="../news/index.html">News</a></li> -->
+        <li role="presentation" class="active"><a href="index.html" style="color: #9a0000">Get Started</a></li>
+        <!-- <li role="presentation" ><a href="../features/index.html">Features</a></li> -->
+        <li role="presentation" ><a href="../screenshots/index.html" style="color: #c41414">Screenshots</a></li>
+        <li role="presentation" ><a href="../faqs/index.html" style="color: #c41414">FAQs</a></li>
+    </ul>
+</div>
+
+	</div>
+
+	<h1 class="title text-center" style="background-color: #d9534f">Get Started</h1>
+  <br />
+	<div class="container">
+    <div class="version">
+		<h2 style="color: white" id="installation">Installation</h2>
+
+<ol>
+  <li style="color: white">First, make sure your 3DS can install and launch homebrew software with a CFW. If you have a stock system and cannot, follow the guide: <a href style="color: #d32f2f"="https://3ds.guide/">https://3ds.guide/</a></li>
+  <li style="color: white">If you followed the guide, you likely have this software already, but the following 3DS software is recommended for freeShop usage and setup:
+    <ul>
+      <li><a href style="color: #d32f2f"="https://github.com/AuroraWright/Luma3DS/releases">Luma3DS</a></li>
+      <li><a href style="color: #d32f2f"="https://github.com/Steveice10/FBI/releases">FBI</a> for an installer</li>
+      <li><a href style="color: #d32f2f"="https://github.com/mtheall/ftpd/releases">ftpd</a> for transfering files to the SD card</li>
+      <li><a href style="color: #d32f2f"="https://github.com/d0k3/Decrypt9WIP/releases">Decrypt9</a> for dumping and encrypting title keys.</li>
+    </ul>
+  </li>
+  <li style="color: white">Download and install freeShop using one of the following methods:
+    <ul>
+      <li style="color: white">QR Code (recommended)
+        <ul>
+          <li>Using FBI, navigate to <strong>Remote Install &gt; Scan QR Code</strong> and then scan this <a href ="../img/qr.png" data-featherlight="" style="color: #d32f2f">QR. <span class="glyphicon glyphicon-qrcode" aria-hidden="true" style="color: #d32f2f"></span></a></li>
+        </ul>
+      </li>
+      <li>Manual Download
+        <ul>
+          <li>Download the <a href style="color: #d32f2f"="https://get.freeshop.pw/latest">latest CIA file</a>, transfer it to the SD card, and install it using FBI or any other CIA installer.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ol>
+    </div>
+
+<div class="alert alert-danger" role="alert">
+<b>Warning:</b> do not use any DNS or router configurations that block Nintendo's servers. They may interfere with freeShop's ability to access the necessary servers.
+</div>
+
+    <div class="version">
+<h2 id="initial-setup" style="color: white">Initial Setup</h2>
+
+<ol>
+  <li style="color: white">Launching freeShop for first time will create all necessary files and directories on the SD card. It will inform you that no <a href="../img/screenshots/1.png" data-featherlight="" style="color: #d32f2f">keys are found. <span class="glyphicon glyphicon-picture" aria-hidden="true"></span></a></li>
+  <li style="color: white">You need a title key file (commonly named <strong>encTitleKeys.bin</strong>). To generate this file yourself, you can dump the keys of installed tickets on a 3DS console using the following steps:
+    <ol>
+      <li style="color: white">Boot up Decrypt9.</li>
+      <li style="color: white">Go to “Ticket/Titlekey Options”</li>
+      <li style="color: white">Go to “Titlekey Dump” (either SysNAND or EmuNAND, whichever you use)</li>
+      <li style="color: white">Choose a filename. The saved file should be in the <strong>sd:/files9/</strong> directory.</li>
+    </ol>
+  </li>
+  <li style="color: white">You can use your title key file(s) in two different ways:
+    <ul>
+      <li style="color: white">Place the key file(s) in the <strong>sd:/3ds/data/freeShop/keys/</strong> directory.</li>
+      <li style="color: white">Download your file(s) from URL, synchronizing with cloud backups:
+      </li>
+    </ul>
+  </li>
+</ol>
+
+    </div>
+	</div>
+</div>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<script src="../js/bootstrap-anchor.min.js"></script>
+<script src="../js/featherlight.min.js"></script>
+<script src="../js/main.js"></script>
+
+</body>
+
+<!-- Mirrored from freeshop.pw/get-started/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 01 Dec 2017 18:05:13 GMT -->
+</html>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>freeShop</title>
+        <description>freeShop is an open-source homebrew eShop alternative for the Nintendo 3DS. It allows you to browse and install titles you own utilizing title keys.</description>
+        <link>https://freeshop.pw</link>
+        <atom:link href="https://freeshop.pw/feed.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>freeShop BGM Soon™</title>
+            
+            
+            <description>freeShop BGM is in development and almost complete with BCSTM support.</description>
+            
+            <pubDate>Thu, 26 Jan 2017 00:00:00 +0000</pubDate>
+            <link>https://freeshop.pw/freeshop-bgm-soon/</link>
+            <guid isPermaLink="true">https://freeshop.pw/freeshop-bgm-soon/</guid>
+        </item>
+        
+    </channel>
+</rss>
