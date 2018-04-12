@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf8">
+    <title>Welcome to Safari.</title>
+    <style type="text/css">
+        * {
+            box-sizing: border-box
+        }
+        
+        *,
+        html,
+        body {
+            margin: 0;
+            padding: 0
+        }
+        
+        html,
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column nowrap;
+            font-family: -apple-system, -apple-system-font, HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+            font-size: 14px;
+            color: #424242;
+            -webkit-font-smoothing: antialiased;
+            background-color: #fff;
+            width: 100%;
+            min-width: 1140px
+        }
+        
+        html {
+            height: 100%;
+            min-height: 800px
+        }
+        
+        body {
+            text-align: center;
+            opacity: 0
+        }
+        
+        body.active {
+            opacity: 1
+        }
+        
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column nowrap;
+            transform: translateY(calc(100% + 10rem))scale(1);
+            margin-bottom: 2rem
+        }
+        
+        .active header {
+            animation-name: title-entrance;
+            animation-duration: 2s;
+            animation-delay: 0;
+            animation-timing-function: ease-in-out;
+            animation-fill-mode: forwards
+        }
+        
+        header h1 {
+            font-size: 5.8rem;
+            font-weight: 200;
+            margin-bottom: .9rem
+        }
+        
+        header h2 {
+            color: #929292;
+            font-size: 3.5rem;
+            font-weight: 200
+        }
+        
+        main {
+            display: flex;
+            justify-content: center;
+            flex-flow: row nowrap;
+            align-items: stretch
+        }
+        
+        main section {
+            display: flex;
+            align-items: center;
+            flex-flow: column nowrap;
+            justify-content: flex-start;
+            width: 380px
+        }
+        
+        main section:not(.visible) {
+            display: none
+        }
+        
+        main section.one {
+            order: 1
+        }
+        
+        main section.one.visible {
+            opacity: 0
+        }
+        
+        .active main section.one.visible {
+            animation-name: fade-in;
+            animation-duration: .8s;
+            animation-delay: 2.4s;
+            animation-timing-function: ease-in-out;
+            animation-fill-mode: forwards
+        }
+        
+        main section.two {
+            order: 2
+        }
+        
+        main section.two.visible {
+            opacity: 0
+        }
+        
+        .active main section.two.visible {
+            animation-name: fade-in;
+            animation-duration: .8s;
+            animation-delay: 2.6s;
+            animation-timing-function: ease-in-out;
+            animation-fill-mode: forwards
+        }
+        
+        main section.three {
+            order: 3
+        }
+        
+        main section.three.visible {
+            opacity: 0
+        }
+        
+        .active main section.three.visible {
+            animation-name: fade-in;
+            animation-duration: .8s;
+            animation-delay: 2.8s;
+            animation-timing-function: ease-in-out;
+            animation-fill-mode: forwards
+        }
+
+
+        main section.four {
+            order: 4
+        }
+        
+        main section.four.visible {
+            opacity: 0
+        }
+        
+        .active main section.four.visible {
+            animation-name: fade-in;
+            animation-duration: .8s;
+            animation-delay: 3s;
+            animation-timing-function: ease-in-out;
+            animation-fill-mode: forwards
+        }
+        
+        main section .img-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column nowrap;
+            height: 20rem
+        }
+        
+        main section .img-wrapper img {
+            height: auto
+        }
+        
+        main section .text-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column nowrap
+        }
+        
+        main section h3 {
+            font-size: 1.222rem;
+            font-weight: 500;
+            padding-bottom: .5em
+        }
+        
+        main section p {
+            padding: 0 .6rem;
+            white-space: pre-line;
+            line-height: 1.4rem
+        }
+        
+        main section p img {
+            height: 1rem;
+            width: auto;
+            display: inline;
+            margin: 0 .1rem
+        }
+        
+        main section#hero-pay .img-wrapper img {
+            width: 293px
+        }
+        
+        main section#hero-pay.one img {
+            transform: translateY(2px)
+        }
+        
+        main section#hero-pip .img-wrapper img {
+            width: 360px
+        }
+        
+        main section#hero-pip p img {
+            margin-bottom: -.2rem
+        }
+        
+        main section#hero-pinned-sites .img-wrapper img,
+        main section#hero-pin-a-site .img-wrapper img {
+            width: 326px
+        }
+        
+        main section#hero-pinned-sites.one img,
+        main section#hero-pin-a-site.one img {
+            transform: translateY(-4px)
+        }
+        
+        main section#hero-pinned-sites.two img,
+        main section#hero-pin-a-site.two img {
+            transform: translateY(-15px)
+        }
+        
+        main section#hero-pinned-sites.three img,
+        main section#hero-pin-a-site.three img {
+            transform: translateY(-5px)
+        }
+        
+        main section#hero-favorites .img-wrapper img,
+        main section#hero-find-your-favorites .img-wrapper img {
+            width: 333px
+        }
+        
+        main section#hero-share-a-link .img-wrapper img {
+            width: 317px
+        }
+        
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column nowrap;
+            opacity: 0;
+            margin-top: 3.6rem
+        }
+        
+        .active nav {
+            animation-name: fade-in;
+            animation-duration: .8s;
+            animation-delay: 3s;
+            animation-timing-function: ease-in-out;
+            animation-fill-mode: forwards
+        }
+        
+        nav a {
+            padding: 0 1rem
+        }
+        
+        nav a,
+        nav a:hover,
+        nav a:active,
+        nav a:visited {
+            font-weight: 300;
+            color: #2281f7;
+            text-decoration: none
+        }
+        
+        nav a:nth-child(2) {
+            margin-top: 1.2rem
+        }
+        
+        nav a#nav-learn-more {
+            font-size: 1rem
+        }
+        
+        nav a#nav-start {
+            font-size: 1.8rem
+        }
+        
+        @keyframes fade-in {
+            0% {
+                opacity: 0;
+                transform: scale(.9)
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1)
+            }
+        }
+        
+        @keyframes title-entrance {
+            0%,
+            40% {
+                transform: translateY(calc(100% + 10rem))scale(1)
+            }
+            100% {
+                transform: translateY(0)scale(.7)
+            }
+        }
+    </style>
+</head>
+
+<body dir="ltr">
+    <header>
+        <h1>Welcome to freeShop.</h1>
+        <h2>The open source eShop alternative.</h2> </header>
+    <main>
+        <section id="hero-pay">
+            <div class="img-wrapper"> <img src="img//S0104_ApplePay.jpg" alt="Webpage with an item in the shopping cart and a Buy with Apple Pay button." aria-hidden="false"> </div>
+            <div class="text-wrapper">
+                <h3>Apple Pay on the web</h3>
+                <p>When you shop online with Safari, look for the Apple Pay button to make easy and secure payments using the credit and debit cards you’ve added to Wallet.</p>
+            </div>
+        </section>
+        <section id="hero-pip">
+            <div class="img-wrapper"> <img src="img//S0103_PiP.jpg" alt="Web video open above Safari displaying playback controls." aria-hidden="false"> </div>
+            <div class="text-wrapper">
+                <h3>Picture in Picture</h3>
+                <p>Play a video on a supported site, then click <img src="img/IL_PiP.png" alt="Picture in Picture icon" aria-hidden="false"> and it floats above the other windows on your desktop.</p>
+            </div>
+        </section>
+        <section id="hero-favorites">
+            <div class="img-wrapper"> <img src="img//S0100_FindIt.png" alt="Dropdown showing a grid of icons of your Favorite websites." aria-hidden="false"> </div>
+            <div class="text-wrapper">
+                <h3>Favorites</h3>
+                <p>Click the Smart Search field to access your favorite websites. Click a site to go there.</p>
+            </div>
+        </section>
+        <section id="hero-find-your-favorites">
+            <div class="img-wrapper"> <img src="img//S0100_FindIt.png" alt="Dropdown showing a grid of icons of your Favorite websites." aria-hidden="false"> </div>
+            <div class="text-wrapper">
+                <h3>Find your favorites</h3>
+                <p>Click the Smart Search field to access your favorite websites. Click a site to go there.</p>
+            </div>
+        </section>
+        <section id="hero-pinned-sites">
+            <div class="img-wrapper"> <img src="img//S0101_Pinit.jpg" alt="Tab bar showing pinned websites." aria-hidden="false"> </div>
+            <div class="text-wrapper">
+                <h3>Pinned Sites</h3>
+                <p>Drag a tab to the left to pin a site, and it stays put in the tab bar.</p>
+            </div>
+        </section>
+        <section id="hero-pin-a-site">
+            <div class="img-wrapper"> <img src="img//S0101_Pinit.jpg" alt="Tab bar showing pinned websites." aria-hidden="false"> </div>
+            <div class="text-wrapper">
+                <h3>Pin a site</h3>
+                <p>Drag a tab to the left to pin a site, and it stays put in the tab bar.</p>
+            </div>
+        </section>
+        <section id="hero-share-a-link">
+            <div class="img-wrapper"> <img src="img//S0102_ShareIt.jpg" alt="Share menu showing options for sharing a webpage." aria-hidden="false"> </div>
+            <div class="text-wrapper">
+                <h3>Share a link</h3>
+                <p>Click <img src="img/IL_Share.png" alt="Share icon" aria-hidden="false"> to send a webpage to a friend with Mail, Messages, or AirDrop, or share it on Facebook or Twitter.</p>
+            </div>
+        </section>
+    </main>
+    <nav> <a id="nav-learn-more" href="https://www.apple.com/safari/">Discover more features</a> <a id="nav-start" href="startpage://">Start using Safari</a> </nav>
+    <script type="text/javascript">
+        // scope
+        var applePaySupportedLocales = [
+        "CH"
+        , "US"
+        , "AU"
+        , "CA"
+        , "GB"
+        , "SG"
+        , "HK"
+        , "CN"
+        , "FR"
+      ];
+        var locale = document.location.hash.replace(/^\#/, "");
+        var isApplePaySupportedOS = !!window.ApplePaySession;
+        var isApplePaySupportedLocale = applePaySupportedLocales.indexOf(locale) !== -1;
+        // handle test cases
+        // hero elements
+        var $heroPay = document.getElementById("hero-pay");
+        var $heroPiP = document.getElementById("hero-pip");
+        var $heroFavorites = document.getElementById("hero-favorites");
+        var $heroFindYourFavorites = document.getElementById("hero-find-your-favorites");
+        var $heroPinnedSites = document.getElementById("hero-pinned-sites");
+        var $heroPinASite = document.getElementById("hero-pin-a-site");
+        var $heroShareALink = document.getElementById("hero-share-a-link");
+        // manage hero visibility
+        // hero-0
+        if (isApplePaySupportedOS && isApplePaySupportedLocale) {
+            show($heroPay, "one");
+            show($heroPiP, "two");
+            show($heroPinnedSites, "three");
+        }
+        else if (isApplePaySupportedOS && !isApplePaySupportedLocale) {
+            show($heroPinnedSites, "one");
+            show($heroPiP, "two");
+            show($heroFavorites, "three");
+            show($heroPay, "four");
+        }
+        else { // El Capitan
+            show($heroFindYourFavorites, "one");
+            show($heroPinASite, "two");
+            show($heroShareALink, "three");
+        }
+        // start the animations
+        document.body.classList.add("active");
+        // helpers
+        function show(element, className) {
+            element.classList.add("visible", className);
+        }
+    </script>
+</body>
+
+</html>
