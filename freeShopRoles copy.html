@@ -1,0 +1,471 @@
+<html>
+  <head>
+    <title>freeShop Roles</title>
+    <meta http-equiv="Default-Style" content="Red">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <style type="text/css">
+      @font-face {
+    font-family: 'sfns_displayultralight';
+    src: url('system_san_francisco_display_ultralight-webfont.eot');
+    src: url('system_san_francisco_display_ultralight-webfont.eot?#iefix') format('embedded-opentype'), url('system_san_francisco_display_ultralight-webfont.woff2') format('woff2'), url('system_san_francisco_display_ultralight-webfont.woff') format('woff'), url('system_san_francisco_display_ultralight-webfont.ttf') format('truetype'), url('system_san_francisco_display_ultralight-webfont.svg#sfns_displayultralight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sfns_textitalic';
+    src: url('system_san_francisco_text_regularitalic-webfont.eot');
+    src: url('system_san_francisco_text_regularitalic-webfont.eot?#iefix') format('embedded-opentype'), url('system_san_francisco_text_regularitalic-webfont.woff2') format('woff2'), url('system_san_francisco_text_regularitalic-webfont.woff') format('woff'), url('system_san_francisco_text_regularitalic-webfont.ttf') format('truetype'), url('system_san_francisco_text_regularitalic-webfont.svg#sfns_textitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'system_fontregular';
+    src: url('sfnstext-regular-webfont.eot');
+    src: url('sfnstext-regular-webfont.eot?#iefix') format('embedded-opentype'), url('sfnstext-regular-webfont.woff2') format('woff2'), url('sfnstext-regular-webfont.woff') format('woff'), url('sfnstext-regular-webfont.ttf') format('truetype'), url('sfnstext-regular-webfont.svg#system_fontregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'system_fontitalic';
+    src: url('sfnstext-regularitalic-webfont.eot');
+    src: url('sfnstext-regularitalic-webfont.eot?#iefix') format('embedded-opentype'), url('sfnstext-regularitalic-webfont.woff2') format('woff2'), url('sfnstext-regularitalic-webfont.woff') format('woff'), url('sfnstext-regularitalic-webfont.ttf') format('truetype'), url('sfnstext-regularitalic-webfont.svg#system_fontitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'system_fontsemibold';
+    src: url('sfnstext-semibold-webfont.eot');
+    src: url('sfnstext-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('sfnstext-semibold-webfont.woff2') format('woff2'), url('sfnstext-semibold-webfont.woff') format('woff'), url('sfnstext-semibold-webfont.ttf') format('truetype'), url('sfnstext-semibold-webfont.svg#system_fontsemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'system_fontsemibold_italic';
+    src: url('sfnstext-semibolditalic-webfont.eot');
+    src: url('sfnstext-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'), url('sfnstext-semibolditalic-webfont.woff2') format('woff2'), url('sfnstext-semibolditalic-webfont.woff') format('woff'), url('sfnstext-semibolditalic-webfont.ttf') format('truetype'), url('sfnstext-semibolditalic-webfont.svg#system_fontsemibold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sfns_displaybold';
+    src: url('system_san_francisco_display_bold-webfont.eot');
+    src: url('system_san_francisco_display_bold-webfont.eot?#iefix') format('embedded-opentype'), url('system_san_francisco_display_bold-webfont.woff2') format('woff2'), url('system_san_francisco_display_bold-webfont.woff') format('woff'), url('system_san_francisco_display_bold-webfont.ttf') format('truetype'), url('system_san_francisco_display_bold-webfont.svg#sfns_displaybold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sfns_displaythin';
+    src: url('system_san_francisco_display_thin-webfont.eot');
+    src: url('system_san_francisco_display_thin-webfont.eot?#iefix') format('embedded-opentype'), url('system_san_francisco_display_thin-webfont.woff2') format('woff2'), url('system_san_francisco_display_thin-webfont.woff') format('woff'), url('system_san_francisco_display_thin-webfont.ttf') format('truetype'), url('system_san_francisco_display_thin-webfont.svg#sfns_displaythin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sfns_textbold_italic';
+    src: url('system_san_francisco_text_bolditalic-webfont.eot');
+    src: url('system_san_francisco_text_bolditalic-webfont.eot?#iefix') format('embedded-opentype'), url('system_san_francisco_text_bolditalic-webfont.woff2') format('woff2'), url('system_san_francisco_text_bolditalic-webfont.woff') format('woff'), url('system_san_francisco_text_bolditalic-webfont.ttf') format('truetype'), url('system_san_francisco_text_bolditalic-webfont.svg#sfns_textbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sfns_textmediump4';
+    src: url('system_san_francisco_text_medium-webfont.eot');
+    src: url('system_san_francisco_text_medium-webfont.eot?#iefix') format('embedded-opentype'), url('system_san_francisco_text_medium-webfont.woff2') format('woff2'), url('system_san_francisco_text_medium-webfont.woff') format('woff'), url('system_san_francisco_text_medium-webfont.ttf') format('truetype'), url('system_san_francisco_text_medium-webfont.svg#sfns_textmediump4') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sfns_textmedium_italic';
+    src: url('system_san_francisco_text_mediumitalic-webfont.eot');
+    src: url('system_san_francisco_text_mediumitalic-webfont.eot?#iefix') format('embedded-opentype'), url('system_san_francisco_text_mediumitalic-webfont.woff2') format('woff2'), url('system_san_francisco_text_mediumitalic-webfont.woff') format('woff'), url('system_san_francisco_text_mediumitalic-webfont.ttf') format('truetype'), url('system_san_francisco_text_mediumitalic-webfont.svg#sfns_textmedium_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sfns_textitalic';
+    src: url('system_san_francisco_text_regularitalic-webfont.eot');
+    src: url('system_san_francisco_text_regularitalic-webfont.eot?#iefix') format('embedded-opentype'), url('system_san_francisco_text_regularitalic-webfont.woff2') format('woff2'), url('system_san_francisco_text_regularitalic-webfont.woff') format('woff'), url('system_san_francisco_text_regularitalic-webfont.ttf') format('truetype'), url('system_san_francisco_text_regularitalic-webfont.svg#sfns_textitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    background: -webkit-linear-gradient(left, #2c2f33 0%, #2c2f33 50%, #ffffff 50.1%, #ffffff 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #2c2f33 0%, #2c2f33 50%, #ffffff 50.1%, #ffffff 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#2c2f33', endColorstr='#ffffff', GradientType=1);
+    /* IE6-9 */
+}
+
+body {
+    background: -webkit-linear-gradient(left, #2c2f33 0%, #2c2f33 50%, #ffffff 50.1%, #ffffff 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #2c2f33 0%, #2c2f33 50%, #ffffff 50.1%, #ffffff 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#2c2f33', endColorstr='#ffffff', GradientType=1);
+    /* IE6-9 */
+}
+
+p {
+    font-family: 'system_fontregular', Fallback, sans-serif;
+}
+
+.content {
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 600px;
+    padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bestSkiddo {
+    background: #00ff00;
+    background: #25c059;
+    background: -moz-linear-gradient(top, #25c059 50%, #00ff00 50.1%);
+    background: -webkit-linear-gradient(top, #25c059 50%, #00ff00 50.1%);
+    background: linear-gradient(to bottom, #25c059 50%, #00ff00 50.1%);
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 600px;
+    padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.dev {
+    background: #277ecd;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 600px;
+    padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.admin {
+    background: #c41c00;
+    background: #923200;
+    background: -moz-linear-gradient(top, #923200 50%, #c41c00 50.1%);
+    background: -webkit-linear-gradient(top, #923200 50%, #c41c00 50.1%);
+    background: linear-gradient(to bottom, #923200 50%, #c41c00 50.1%);
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 600px;
+    padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.superOP {
+    background: #e91e63;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 600px;
+    padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.verde {
+    background: #25c059;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 600px;
+    padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.supervisor {
+    background: #b756ba;
+    background: #843d86;
+    background: -moz-linear-gradient(top, #843d86 50%, #b756ba 50.1%);
+    background: -webkit-linear-gradient(top, #843d86 50%, #b756ba 50.1%);
+    background: linear-gradient(to bottom, #843d86 50%, #b756ba 50.1%);
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 600px;
+    padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.modMail {
+    background: #28aaff;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 600px;
+    padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.moderator {
+    color: rgb(139, 41, 202);
+    background: #9a4abd;
+    background: #71368a;
+    background: -moz-linear-gradient(top, #71368a 50%, #9a4abd 50.1%);
+    background: -webkit-linear-gradient(top, #71368a 50%, #9a4abd 50.1%);
+    background: linear-gradient(to bottom, #71368a 50%, #9a4abd 50.1%);
+    /*    background: -moz-linear-gradient(top, #71368a 33.2%, #9a4abd 33.3%, #9a4abd 66.5%, #8B29CA 66.6%);*/
+    /*    background: -webkit-linear-gradient(top, #71368a 33.2%, #9a4abd 33.3%, #9a4abd 66.5%, #8B29CA 66.6%);*/
+    /*    background: linear-gradient(to bottom, #71368a 33.2%, #9a4abd 33.3%, #9a4abd 66.5%, #8B29CA 66.6%);*/
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 600px;
+    padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.modEmeritus {
+    background: #1abc9c;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 600px;
+    padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bot {
+    background: #206694;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 600px;
+    padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.themeMaker {
+    background: #e4b400;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 600px;
+    padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.translator {
+    background: #e67e22;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 600px;
+    padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.nightly {
+    background: #4ef84e;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 600px;
+    padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.cache {
+    background: #2ecc71;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 600px;
+    padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.beta {
+    background: #e74c3c;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 600px;
+    padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.muted {
+    background: #818386;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 600px;
+    padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.garnet {
+    background: #2ecc71;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 600px;
+    padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.fefo {
+    background: #546e70;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 600px;
+    padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.devEmeritus {
+    background: #277ecd;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 600px;
+    padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.approved {
+    background: #84aec9;
+    background: #ae6800;
+    background: -moz-linear-gradient(top, #ae6800 50%, #99aab5 50.1%);
+    background: -webkit-linear-gradient(top, #ae6800 50%, #99aab5 50.1%);
+    background: linear-gradient(to bottom, #ae6800 50%, #99aab5 50.1%);
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 600px;
+    padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.warned {
+    background: #F1C40F;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 600px;
+    padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bepis {
+    background: #B7A4E6;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 600px;
+    padding: 20px 10px 20px 20px;
+    border-radius: 75px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+    </style>
+
+  </head>
+  <body>
+    <div class="bestSkiddo">
+      <p>Best Skiddo</p>
+    </div>
+    <div class="dev">
+      <p>Dev</p>
+    </div>
+    <div class="admin">
+      <p>Administrator</p>
+    </div>
+    <div class="superOP">
+      <p>SuperOP</p>
+    </div>
+    <div class="modMail">
+      <p>Mod Mail Color</p>
+    </div>
+    <div class="verde">
+      <p>el Color Verde</p>
+    </div>
+    <div class="supervisor">
+      <p>Supervisor</p>
+    </div>
+    <div class="moderator">
+      <p>Moderator</p>
+    </div>
+    <div class="modEmeritus">
+      <p>Moderator Emeritus</p>
+    </div>
+    <div class="bepis">
+      <p>Bepis</p>
+    </div>
+    <div class="bot">
+      <p>Bot</p>
+    </div>
+    <div class="themeMaker">
+      <p>Theme Maker</p>
+    </div>
+    <div class="translator">
+      <p>Translator</p>
+    </div>
+    <div class="nightly">
+      <p>Nightly Maintaner</p>
+    </div>
+    <div class="cache">
+      <p>Cache Maintaner</p>
+    </div>
+    <div class="beta">
+      <p>Beta Tester</p>
+    </div>
+    <div class="muted">
+      <p>Muted</p>
+    </div>
+    <div class="garnet">
+      <p>Garnet</p>
+    </div>
+    <div class="fefo">
+      <p>FefoSheep</p>
+    </div>
+    <div class="devEmeritus">
+      <p>Dev Emeritus</p>
+    </div>
+    <div class="approved">
+      <p>Approved</p>
+    </div>
+    <div class="warned">
+      <p>Warned</p>
+    </div>
+  </body>
+</html>
